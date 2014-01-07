@@ -1,0 +1,29 @@
+<?php
+namespace Testing\JetBrains;
+
+use Testing\JetBrains\Queue;
+
+class QueueTest extends \PHPUnit_Framework_TestCase {
+    /** @var Queue */
+    protected $_queue;
+
+    public function setUp() {
+        $this->_queue = new Queue();
+    }
+
+    public function testEnqueueIncreasesItemCount() {
+        $this->_queue->enqueue('test');
+        $this->assertEquals(1, $this->_queue->getNumberOfItems());
+    }
+
+    public function testPeekReturnsFalseWhenNoItemsInQueue() {
+        $result = $this->_queue->peek();
+        $this->assertFalse($result);
+    }
+
+    public function testPeekReturnsTrueWhenItemsInQueue() {
+        $this->_queue->enqueue('test');
+        $result = $this->_queue->peek();
+        $this->assertTrue($result);
+    }
+}

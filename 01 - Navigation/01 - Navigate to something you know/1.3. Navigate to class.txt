@@ -1,0 +1,23 @@
+Navigate to Class
+
+Navigate to a class by (partial) class name.
+
+Ctrl+N (Windows/Linux)
+Command+O (Mac OS X)
+
+1. Navigate to class
+   Navigate to the Customer class. Open the file by hitting enter.
+
+2. Use CamelHumps to navigate
+   Navigate to the CustomerRepository class using CamelHumps (type "CR" or "CusR")
+
+3. Use middle matching to navigate
+   Navigate to the DocumentRepository class by searching for "Repo"
+
+4. Use wildcards
+   Navigate to the SettingsRepository by searching for "S*Repo"
+
+5. Filter to only check PHP files by clicking the filter icon.
+
+6. Include non-project classes
+   Check the "Include non-project classes" checkbox and navigate to ArrayObject (PHP SPL library)

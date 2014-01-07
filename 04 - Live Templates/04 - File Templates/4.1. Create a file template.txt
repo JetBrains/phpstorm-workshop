@@ -1,0 +1,20 @@
+Create a file template.
+
+These are applied when creating a new file or generating code. Can contain includes. Customize code generation.
+
+1. Open the IDE settings and navigate to IDE Settings | File and Code Templates
+2. Under includes, edit the PHP File Header include so that it matches your preference. Save the changes.
+3. Create a new file in the current folder. Alt+Insert (Command+N) and generate a new PHP class in the current folder.
+   The header for this file should reflect the chanegs we just made.
+4. Create a new file template for creating Smarty pages:
+
+<?php
+#parse("PHP File Header.php")
+
+require(dirname(__FILE__) . '/../libs/Smarty.class.php');
+
+\$smarty = new Smarty();
+\$smarty->assign('title', '${Title}', true);
+\$smarty->display('${TemplateName}.tpl');
+
+5. Test the new file template. Note that the variables defined in teh template can be provided through the New File dialog.

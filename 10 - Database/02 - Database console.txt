@@ -1,0 +1,44 @@
+Database Console
+
+SQL console with autocompletion, inspections, error highlighting, autocompletion on joins, ...
+
+Ctrl+Shift+F10 (Windows/Linux)
+Command+Shift+F10 (Mac OS X)
+
+1. Open a database console and copy in the contents of the workshop_database.sql file.
+   Make sure the database name at the top is specified correctly and that the connected user can create a new database.
+   In the exercises, we will be using database name "workshop" from now on.
+2. We can execute SQL statements by selecting one or multiple. Select all statements in the console and execute
+   the statement using the button in the toolbar or Ctrl+Enter (Command+Enter).
+3. Synchronize (refresh) the database tool window and see the newly created database "workshop".
+4. Edit the database connection (context menu, properties) and make sure it connects to the "workshop" database
+   from now on. This will force PhpStorm to "know" about the database we are working with.
+5. Open a new console and try typing the following query. Note the autocompletion on typing "person."
+
+SELECT person.name FROM person
+
+6. Execute the query and see the query results.
+7. Type the following query:
+
+SELECT person.name FROM people
+
+8. Notice that just like with code, inspections tell us the table "people" does not exist.
+9. Type the following query:
+
+SELECT person.name, city.name as city, country.name as nationality
+FROM person
+  INNER JOIN city ON person.city_id = city.city_id
+  INNER JOIN country ON
+
+10. Now use smart autocompletion (Ctrl+Shift+Space) and note that the IDE proposes to complete the JOIN statement.
+    Complete the query:
+
+SELECT person.name, city.name as city, country.name as nationality
+FROM person
+  INNER JOIN city ON person.city_id = city.city_id
+  INNER JOIN country ON country.country_id = person.nationality_country_id
+WHERE country.name = ?
+
+11. Execute the statement. The IDE prompts for the parameter which is noted in the query as ? (can also be :country or similar).
+    In the dialog, enter 'Belgium' as the value (including quotes).
+12. Explore the options in the results tool window.

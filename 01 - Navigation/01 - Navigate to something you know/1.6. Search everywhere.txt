@@ -1,0 +1,17 @@
+Search Everywhere
+
+Search classes, file, symbols and menu actions all at once.
+
+Double shift (Windows/Linux/Mac OS X)
+
+1. Just launching Search Everywhere will display recent files.
+
+2. Navigate to the $_name protected variable in Customer.php.
+
+3. Use CamelHumps to navigate
+   Navigate to the CustomerRepository class using CamelHumps (type "CR" or "CusR")
+
+4. Use middle matching to navigate
+   Navigate to the DocumentRepository.php file by searching for "Repo"
+
+5. Find the "About" action and invoke it.

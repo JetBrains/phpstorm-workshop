@@ -1,0 +1,10 @@
+Project Tool Window
+
+Shows all files in project.
+
+Alt+1 (Windows/Linux)
+Command+1 (Mac OS X)
+
+1. Open the Project Tool Window.
+2. Using the arrow keys, navigate to \01 - Navigation\01 - Navigate to something you know\Code\license.txt
+3. Start typing "Bar". Navigate to the next exercise.

@@ -1,0 +1,15 @@
+Run Inspections
+
+Run an inspection profile and get results for the entire project (or scope).
+
+Ctrl+Alt+Up / Down (Windows/Linux)
+Command+Alt+Up / Down (Mac OS X)
+
+
+1. From the Code menu, hit Inspect Code...
+2. Run inspections on the whole project.
+3. Create a custom profile in which only a few inspections are enabled.
+4. Inspect the results in the tool window.
+5. Group items by severity.
+6. Use the keyboard shortcuts to navigate around.
+7. Export inspections to HTML.
