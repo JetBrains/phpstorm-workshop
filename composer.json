@@ -3,6 +3,7 @@
     "description": "Code for the PhpStorm workshop created by Maarten Balliauw, JetBrains.",
     "minimum-stability": "dev",
     "license": "proprietary",
+    "type": "project",
     "authors": [
         {
             "name": "Maarten Balliauw",
