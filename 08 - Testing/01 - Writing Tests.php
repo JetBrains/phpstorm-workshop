@@ -14,6 +14,7 @@ namespace Testing\JetBrains;
 //    Note that another way of creating a test is to use the Go to Test navigation:
 //      - Navigate to the Queue class
 //      - Use the Go to Test navigation to either go to test or create a new test
+//
 // 2. For Fully Qualified name, search for the Queue class.
 //    All other parameters for the unit test class can be kept at their defaults.
 //    Note you can specify the test class name and namespace as well as the directory.
@@ -36,7 +37,7 @@ namespace Testing\JetBrains;
 //       }
 //   }
 //
-// 4. Add a first test, verifying the enqueue() method.
+// 4. Add a first test, verifying the enqueue() method. This can be done using Alt+Insert / Command+N
 //
 //  public function testEnqueueIncreasesItemCount() {
 //      $this->_queue->enqueue('test');
