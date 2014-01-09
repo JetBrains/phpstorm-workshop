@@ -17,4 +17,4 @@ require(dirname(__FILE__) . '/../libs/Smarty.class.php');
 \$smarty->assign('title', '${Title}', true);
 \$smarty->display('${TemplateName}.tpl');
 
-5. Test the new file template. Note that the variables defined in teh template can be provided through the New File dialog.
+5. Test the new file template. Note that the variables defined in the template can be provided through the New File dialog.

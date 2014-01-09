@@ -17,7 +17,7 @@ namespace LiveTemplates1\JetBrains;
 //    We can see the available live templates here or create our own.
 class CodeExpansion {
     // 2. Create a protected function firstFunction().
-    //    Type prof and hit TAB. Enter firstFunction in teh first hotspot and hit TAB again.
+    //    Type prof and hit TAB. Enter firstFunction in the first hotspot and hit TAB again.
     //    We could accept arguments or choose to have none. Hit TAB again to move the caret to the function body.
 
     // prof <TAB>

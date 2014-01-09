@@ -23,7 +23,7 @@ Command+Shift+X (Mac OS X)
 4. Invoke the newly create "hw" tool from the Command Line Tools console: hw to Maarten
 5. To add autocomplete to the custom tool, go to project settings | Command Line Tool Support
    and click the Open Definition in Editor button from the right toolbar. This will open an XML file in which we can add
-   autocompletion information. Replace teh file contents with:
+   autocompletion information. Replace the file contents with:
 
 
 <?xml version="1.0" encoding="UTF-8"?>

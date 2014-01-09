@@ -21,7 +21,7 @@ class $CLASS_NAME$ {
 
 2. Test the newly created live template using "cls".
    The $CLASS_NAME$ variable is a hotspot.
-   The $END$ variable is a special marker telling teh IDE where to locate the cursor after expanding the template.
+   The $END$ variable is a special marker telling the IDE where to locate the cursor after expanding the template.
 */
 
 // cls <TAB>

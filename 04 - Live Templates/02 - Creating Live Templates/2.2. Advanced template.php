@@ -24,7 +24,7 @@ namespace LiveTemplates2\JetBrains;
 
 2. Test the newly created live template using "prop".
    The $CLASS_NAME$ variable is a hotspot.
-   The $END$ variable is a special marker telling teh IDE where to locate the cursor after expanding the template.
+   The $END$ variable is a special marker telling the IDE where to locate the cursor after expanding the template.
 */
 
 class LiveTemplates {
