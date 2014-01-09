@@ -4,13 +4,16 @@
  *
  * Create new file, select PHPUnit test.
  *
- * Alt+Insert (Windows/Linux)
- * Command+N (Mac OS X)
+ * Alt+Insert or Ctrl+Shift+T (Go to Test) (Windows/Linux)
+ * Command+N or Command+Shift+T (Go to Test) (Mac OS X)
  */
 
 namespace Testing\JetBrains;
 
 // 1. Create a new PHPUnit test file. From the navigation bar, create a new file using the PHPUnit template.
+//    Note that another way of creating a test is to use the Go to Test navigation:
+//      - Navigate to the Queue class
+//      - Use the Go to Test navigation to either go to test or create a new test
 // 2. For Fully Qualified name, search for the Queue class.
 //    All other parameters for the unit test class can be kept at their defaults.
 //    Note you can specify the test class name and namespace as well as the directory.
