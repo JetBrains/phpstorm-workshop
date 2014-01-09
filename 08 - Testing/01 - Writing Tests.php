@@ -25,8 +25,11 @@ namespace Testing\JetBrains;
 //
 //    }
 //
-// 3. Add a function called setUp() which sets up a new Queue in a new field called $_queue; This is what the class should look like:
-//    Note the Code | Comment With Line Comment menu may be handy if you are copy/pasting the below code.
+// 3. Add a function called setUp() which sets up a new Queue in a new field called $_queue;
+//    To generate the setUp() function, we can use the Generate | Override method action (Alt+Insert / Command+N).
+//
+//    This is what the class should look like:
+//    (note: the Code | Comment With Line Comment menu may be handy if you are copy/pasting the below code)
 //
 //   class QueueTest extends \PHPUnit_Framework_TestCase {
 //       /** @var Queue */
