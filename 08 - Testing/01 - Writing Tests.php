@@ -46,3 +46,6 @@ namespace Testing\JetBrains;
 //      $this->_queue->enqueue('test');
 //      $this->assertEquals(1, $this->_queue->getNumberOfItems());
 //  }
+//
+// 5. From the test, navigate back to the Queue class using Navigate to Test Subject.
+//    This is the same keyboard shortcut as Go to Test.
