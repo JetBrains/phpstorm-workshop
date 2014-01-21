@@ -9,6 +9,9 @@ namespace Debugging7\JetBrains;
 
 // 1. Visit http://www.jetbrains.com/phpstorm/marklets/ and generate bookmarklets for your debugger (Zend Debugger or Xdebug).
 //    Drag at least the Start Debugger bookmarklet to the bookmarks bar.
+//
+//    If you prefer using a simple browser extension, refer http://confluence.jetbrains.com/display/PhpStorm/Browser+Debugging+Extensions
+//    and install one. For example for Chrome, install https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc.
 // 2. Create a new run configuration for the current script.
 //    Select PHP Built-in Web Server, give the configuration a name.
 //    Set the host to 127.0.0.1, port to 789.

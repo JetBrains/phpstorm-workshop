@@ -14,3 +14,5 @@ $query = "SELECT person.name, city.name as city, country.name as nationality
             FROM person
               INNER JOIN city ON person.city_id = city.city_id
               INNER JOIN country ON ";
+
+// 3. Alt+Enter on the above query and Run it in Console.

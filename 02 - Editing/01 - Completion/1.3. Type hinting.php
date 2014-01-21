@@ -27,4 +27,13 @@ foreach ($people as $person) {
 
     // 3. Place the cursor on $person and hit Ctrl+Q (F1). See quick documentation about the variable.
     // 4. Place the cursor on Person and hit Ctrl+Q (F1). See quick documentation about the type.
+    // 5. Navigate to the Person class and add PHPDoc on the class. Add several @property annotations, for example:
+    //    @property string Address Address of the person
+    //    @property string Country Person country
+    //    While these properties don't actually exist, PhpStorm parses the annotations and will provide Address and Country
+    //    when using the Person class. Try it here, by typing: $person->A
+    //
+    //    Note PhpStorm also supports @method, @type, @property, @deprecated, @global, @name, @param, @static, @since, @link, @mixin, ...
+
+    // $person->A
 }

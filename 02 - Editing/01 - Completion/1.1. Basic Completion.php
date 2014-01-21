@@ -42,6 +42,10 @@ class BasicCompletion {
         //    Type: $this->
         //    Use "vlfn" to find the correct function.
         // $this->
+
+        // 10. Try path completion. Include the "01 - Simple Breakpoint.php" file by placing the caret inside the quotes
+        //     and use he keyboard shortcut.
+        require_once '';
     }
 
     /** @var string */ public $Name;

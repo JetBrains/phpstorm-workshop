@@ -5,7 +5,7 @@
  * Refactor symbol or code fragment in Project View, Structure Tool Window, Editor or UML Class Diagram.
  *
  * Ctrl+Shift+Alt+T (Windows/Linux)
- * Shift+Alt+Command+T (Mac OS X)
+ * Ctrl+T (Mac OS X)
  */
 
 namespace Refactoring1\JetBrains;
