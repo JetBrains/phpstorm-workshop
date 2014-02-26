@@ -5,7 +5,7 @@
  * Extract a constant to make code cleaner and more maintainable.
  *
  * Ctrl+Alt+C (Windows/Linux)
- * Command+Alt+C (Mac OS X)
+ * Alt+Command+C (Mac OS X)
  */
 
 namespace Refactoring4\JetBrains;

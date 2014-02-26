@@ -5,7 +5,7 @@
  * Extracts a block of code into a method, detecting variables.
  *
  * Ctrl+Alt+M (Windows/Linux)
- * Command+Alt+M (Mac OS X)
+ * Alt+Command+M (Mac OS X)
  */
 
 namespace Refactoring7\JetBrains;

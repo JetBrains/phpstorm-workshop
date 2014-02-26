@@ -5,7 +5,7 @@
  * Rearranges entries in code according to settings. Reformats all code according to code style.
  *
  * Ctrl+Alt+L (Windows/Linux)
- * Command+Alt+L (Mac OS X)
+ * Alt+Command+L (Mac OS X)
  */
 
 namespace Editing7\JetBrains;

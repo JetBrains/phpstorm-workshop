@@ -7,7 +7,7 @@
  * Ctrl+Space (Windows/Linux/Mac OS X)
  *
  * Ctrl+Shift+Enter to complete statement (Windows/Linux)
- * Command+Shift+Enter to complete statement (Mac OS X)
+ * Shift+Command+Enter to complete statement (Mac OS X)
  */
 
 namespace Editing1\JetBrains;

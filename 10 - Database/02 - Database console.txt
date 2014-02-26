@@ -3,7 +3,7 @@ Database Console
 SQL console with autocompletion, inspections, error highlighting, autocompletion on joins, ...
 
 Ctrl+Shift+F10 (Windows/Linux)
-Command+Shift+F10 (Mac OS X)
+Shift+Command+F10 (Mac OS X)
 
 1. Open a database console and copy in the contents of the workshop_database.sql file.
    Make sure the database name at the top is specified correctly and that the connected user can create a new database.

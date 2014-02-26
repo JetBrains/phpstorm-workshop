@@ -4,7 +4,8 @@
  *
  * Navigate through execution: Resume, Step Over, Step Into, Smart Step Into, Step out
  *
- * F9 (resume), F8 (step over), F7 (step into) (Windows/Linux/Mac OS X)
+ * F9 (resume), F8 (step over), F7 (step into) (Windows/Linux)
+ * Alt+Command+R (resume), F8 (step over), F7 (step into) (Mac OS X)
  */
 
 namespace Debugging6\JetBrains;

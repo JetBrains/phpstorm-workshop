@@ -5,7 +5,7 @@
  * Returns the caret to the last navigation point.
  *
  * Ctrl+Alt+Left / Right (Windows/Linux)
- * Command+Alt+Left / Right (Mac OS X)
+ * Alt+Command+Left / Right (Mac OS X)
  */
 
 namespace Navigation3\JetBrains;

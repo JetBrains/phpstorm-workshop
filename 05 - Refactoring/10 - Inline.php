@@ -5,7 +5,7 @@
  * Replace redundant variables or functions with the full expression. It is the opposite of Extract Method.
  *
  * Ctrl+Alt+N (Windows/Linux)
- * Command+Alt+N (Mac OS X)
+ * Alt+Command+N (Mac OS X)
  */
 
 namespace Refactoring\JetBrains;

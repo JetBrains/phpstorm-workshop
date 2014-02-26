@@ -5,7 +5,7 @@
  * Toggle column selection. Allows editing multiple lines in one go.
  *
  * Alt+Shift+Insert (Windows/Linux)
- * Command+Shift+Insert Mac OS X)
+ * Shift+Command+Insert Mac OS X)
  */
 
 namespace Editing2\JetBrains;

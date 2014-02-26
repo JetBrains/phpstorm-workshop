@@ -3,7 +3,7 @@ Run Inspections
 Run an inspection profile and get results for the entire project (or scope).
 
 Ctrl+Alt+Up / Down (Windows/Linux)
-Command+Alt+Up / Down (Mac OS X)
+Alt+Command+Up / Down (Mac OS X)
 
 
 1. From the Code menu, hit Inspect Code...

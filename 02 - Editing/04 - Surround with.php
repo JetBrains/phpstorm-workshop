@@ -5,7 +5,7 @@
  * Wraps selected text with new content, e.g. try/catch or if statement.
  *
  * Ctrl+Alt+T (Windows/Linux)
- * Command+Alt+T (Mac OS X)
+ * Alt+Command+T (Mac OS X)
  * Alt+Enter
  */
 
