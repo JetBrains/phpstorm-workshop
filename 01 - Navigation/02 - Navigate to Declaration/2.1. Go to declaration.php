@@ -10,6 +10,7 @@
 
 namespace Navigation2\JetBrains;
 
+use ArrayIterator;
 use Navigation1\JetBrains\Customers\Customer;
 
 $name = 'Hadi';
