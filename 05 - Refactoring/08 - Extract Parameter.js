@@ -4,7 +4,7 @@
  * Adds a new parameter to a function declaration. Determines the default. Can generate JSDoc.
  *
  * Ctrl+Alt+P (Windows/Linux)
- * Command+Alt+P (Mac OS X)
+ * Alt+Command+P (Mac OS X)
  */
 
 (function(namespace) {

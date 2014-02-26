@@ -5,7 +5,7 @@
  * Highlights usages of a given symbol in the current file.
  *
  * Ctrl+Shift+F7 (Windows/Linux)
- * Command+Shift+F7 (Mac OS X)
+ * Shift+Command+F7 (Mac OS X)
  */
 
 namespace Navigation5\JetBrains;

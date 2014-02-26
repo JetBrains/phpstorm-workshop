@@ -5,7 +5,7 @@
  * Puts the result of a selected expression into a variable. The original expression is replaced with the new variable.
  *
  * Ctrl+Alt+V (Windows/Linux)
- * Command+Alt+V (Mac OS X)
+ * Alt+Command+V (Mac OS X)
  */
 
 namespace Refactoring\JetBrains;

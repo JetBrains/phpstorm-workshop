@@ -5,7 +5,7 @@
  * Navigates to the implementation of a given class.
  *
  * Ctrl+Alt+B (Windows/Linux)
- * Command+Alt+B (Mac OS X)
+ * Alt+Command+B (Mac OS X)
  */
 
 use Navigation4\JetBrains\Customers\Customer;

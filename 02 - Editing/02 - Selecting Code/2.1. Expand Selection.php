@@ -5,7 +5,7 @@
  * Various ways of selecting code.
  *
  * Ctrl+W / Ctrl+Shift+W (Windows/Linux)
- * Command+W / Command+Shift+W (Mac OS X)
+ * Alt+Up / Alt+Down (Mac OS X)
  */
 
 namespace Editing2\JetBrains;

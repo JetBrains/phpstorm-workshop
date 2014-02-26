@@ -5,7 +5,7 @@
  * Extract an expression into a field.
  *
  * Ctrl+Alt+F (Windows/Linux)
- * Command+Alt+F (Mac OS X)
+ * Alt+Command+F (Mac OS X)
  */
 
 namespace Refactoring5\JetBrains;

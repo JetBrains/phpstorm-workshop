@@ -13,7 +13,7 @@
  * Mac OS X:
  *   F3 Toggle Bookmark
  *   Alt+F3 Toggle Numbered Bookmark (Bookmark with Mnemonic)
- *   Shift+F3 Show bookmarks
+ *   Command+F3 Show bookmarks
  *   Ctrl+0..9 Navigate to numbered bookmark
  *
  * 1. Navigate to firstFunction() (use Navigate to Symbol or Search Everywhere) and set a bookmark.

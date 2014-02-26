@@ -3,7 +3,7 @@ Navigate to File
 Navigate to a file by (partial) file name.
 
 Ctrl+Shift+N (Windows/Linux)
-Command+Shift+O (Mac OS X)
+Shift+Command+O (Mac OS X)
 
 1. Navigate to file
    Navigate to the customer.php file. Open the file by hitting enter.

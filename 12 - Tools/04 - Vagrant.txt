@@ -4,7 +4,7 @@ Vagrant is a tool which helps us create reproducible development environments by
 Note: this exercise requires Vagrant and a virtualization platform to be installed on your system.
 
 1. Initialize Vargrant in the current project using Tools | Vagrant | Init in Project Root.
-   This creates a Vagrantfile at the root of the project, describing the vrtual machine. It can be customized if needed.
+   This creates a Vagrantfile at the root of the project, describing the virtual machine. It can be customized if needed.
 2. Start the machine using Tools | Vagrant | Up. Diagnostics output is visible from the Run Tool Window.
    Note that the machine will share the project root folder under /vagrant by default.
    When logging into the virtual machine and updating data in /vagrant, the files will be modified in the IDE as well.

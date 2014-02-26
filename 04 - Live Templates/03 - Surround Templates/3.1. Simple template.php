@@ -5,7 +5,7 @@
  * Surround code with a template. A template is only seen as a surround template when the $SELECTION$ variabel is defined.
  *
  * Ctrl+Alt+T or Ctrl+Alt+J (Windows/Linux)
- * Command+Alt+T or Command+Alt+J (Windows/Linux)
+ * Alt+Command+T or Alt+Command+J (Windows/Linux)
  */
 
 namespace LiveTemplates3\JetBrains;
