@@ -2,7 +2,8 @@ Navigation Bar
 
 Navigate through files in project.
 
-Alt+Home (Windows/Linux/Mac OS X)
+Alt+Home (Windows/Linux)
+Command+Up (Mac OS X)
 
 1. Open the Navigation Bar.
 2. Left/Right navigates path. Up/Down opens other node in path.
