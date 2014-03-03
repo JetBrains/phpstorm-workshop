@@ -4,13 +4,13 @@ Code for the [PhpStorm](http://www.jetbrains.com/phpstorm) workshop created by [
 ## Getting the project
 There are a couple of ways to get started with the PhpStorm workshop materials:
 
-* Clone the project using GitHub
-
-    ``git clone https://github.com/JetBrains/phpstorm-workshop.git``
-
 * Create a new project using Composer. Note that you can also create a new project in PhpStorm and use the Composer project type and search for "jetbrains/phpstorm-workshop"
 
     ``php composer.phar create-project jetbrains/phpstorm-workshop -s dev``
+
+* Clone the project using GitHub
+
+    ``git clone https://github.com/JetBrains/phpstorm-workshop.git``
 
 * Download the ZIP
 
