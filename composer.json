@@ -2,7 +2,7 @@
     "name": "jetbrains/phpstorm-workshop",
     "description": "Code for the PhpStorm workshop created by Maarten Balliauw, JetBrains.",
     "minimum-stability": "dev",
-    "license": "proprietary",
+    "license": "Apache-2.0",
     "type": "project",
     "authors": [
         {
