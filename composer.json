@@ -1,8 +1,8 @@
 {
     "name": "jetbrains/phpstorm-workshop",
-    "description": "Code for the PhpStorm workshop created by Maarten Balliauw, JetBrains.",
+    "description": "Materials for the PhpStorm workshop. Check https://github.com/jetbrains/phpstorm-workshop/ for more info.",
     "minimum-stability": "dev",
-    "license": "proprietary",
+    "license": "Apache-2.0",
     "type": "project",
     "authors": [
         {
