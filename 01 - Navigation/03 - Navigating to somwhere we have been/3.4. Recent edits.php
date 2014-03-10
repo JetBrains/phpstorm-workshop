@@ -5,7 +5,7 @@
  * Navigates back to where code was last edited.
  *
  * Ctrl+Shift+Backspace (Windows/Linux)
- * Shift+Command+Backspace (Mac OS X)
+ * Shift+Command+Delete (Mac OS X)
  */
 
 namespace Navigation3\JetBrains;
