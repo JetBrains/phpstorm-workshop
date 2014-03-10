@@ -7,7 +7,7 @@
  * Alt+F7 (Windows/Linux/Mac OS X)
  *
  * Ctrl+Alt+F7 shows a popup instead (Windows/Linux)
- * Alt+Command+F7 shows a popup instead (Windows/Linux)
+ * Alt+Command+F7 shows a popup instead (Mac OS X)
  */
 
 namespace Navigation5\JetBrains;
