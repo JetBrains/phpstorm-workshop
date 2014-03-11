@@ -16,7 +16,7 @@ use Navigation1\JetBrains\Customers\Customer;
 $name = 'Hadi';
 $age = 53;
 
-// 1. Ctrl+Click on the Customer symbol
+// 1. Ctrl+Click (or Command+Click on Mac) on the Customer symbol
 // 2. Use the keyboard shortcut
 // 3. Go to Declaration for the $age variable passed into the below constructor
 $person = new Customer($name, $age);
