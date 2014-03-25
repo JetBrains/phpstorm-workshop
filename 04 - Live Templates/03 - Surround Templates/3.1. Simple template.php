@@ -5,7 +5,7 @@
  * Surround code with a template. A template is only seen as a surround template when the $SELECTION$ variabel is defined.
  *
  * Ctrl+Alt+T or Ctrl+Alt+J (Windows/Linux)
- * Alt+Command+T or Alt+Command+J (Windows/Linux)
+ * Alt+Command+T or Alt+Command+J (Mac OS X)
  */
 
 namespace LiveTemplates3\JetBrains;
@@ -25,7 +25,7 @@ try {
    Set the context for the live template to be available in PHP.
    Reformat according to style should be enabled.
 
-   In the variables dialog, reorder the variables so TYPE si first. Set its expression to complete().
+   In the variables dialog, reorder the variables so TYPE is first. Set its expression to complete().
    Default value for VARIABLENAME can be set to "exception" (including quotes).
 
    Save the live template.
