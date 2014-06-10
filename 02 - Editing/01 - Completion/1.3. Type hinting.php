@@ -19,7 +19,7 @@ foreach ($people as $person) {
     // $person->
 
     // 2. We can solve this!
-    //    Find the $people = array(); and add a PHPDoc comment: /** @var Person[] */ - this tells PhpStorm the array contains Person objects.
+    //    Find the $people = array(); and add a PHPDoc comment: /** @var $people Person[] */ - this tells PhpStorm the array contains Person objects.
     //
     //    Type $person-> and see for yourself that we now have autocompletion.
 
