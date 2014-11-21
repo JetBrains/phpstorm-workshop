@@ -21,7 +21,4 @@ class SurroundWith {
     public function division($items) {
         return $items[0] / $items[1];
     }
-
-    // 3. The following code should be in a function. Use Surround With to create a function.
-    echo 'This should go in a function';
 }
