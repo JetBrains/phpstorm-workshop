@@ -4,7 +4,7 @@ protected $$_$FIELD_NAME$;
 /**
  * Sets the $PROPERTY_NAME$.
  *
- * @param $TYPE$ $$$FIELD_NAME$
+ * @param $$$FIELD_NAME$ $TYPE$
  */
 public function set$PROPERTY_NAME$($$$FIELD_NAME$)
 {

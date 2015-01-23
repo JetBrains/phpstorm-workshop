@@ -19,8 +19,8 @@ foreach ($ITEMS$ as $ITEM$) {
    Reformat according to style should be enabled.
 
    Click the Edit Variables button. We can specify default values or expressions for our template hotspots.
-   Set the expression for ITEMS to: complete()
-   Set the default for ITEM to "$item" (including quotes)
+   Set the expression for ITEMS to: complete().
+   Set the default for ITEM to "$item" (including quotes).
 
    Save the live template.
 
