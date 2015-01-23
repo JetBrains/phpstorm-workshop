@@ -20,7 +20,7 @@ class Customer implements ICustomer
     }
 
     /**
-     * @param double $discount
+     * @param $discount double
      */
     public function setDiscount($discount)
     {
@@ -36,7 +36,7 @@ class Customer implements ICustomer
     }
 
     /**
-     * @param string $name
+     * @param $name string
      */
     public function setName($name)
     {
@@ -50,4 +50,4 @@ class Customer implements ICustomer
     {
         return $this->_name;
     }
-} 
+}

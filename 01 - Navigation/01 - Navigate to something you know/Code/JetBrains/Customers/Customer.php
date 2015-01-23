@@ -20,7 +20,7 @@ class Customer {
     }
 
     /**
-     * @param int $age
+     * @param $age int
      */
     public function setAge($age)
     {
@@ -36,7 +36,7 @@ class Customer {
     }
 
     /**
-     * @param string $name
+     * @param $name string
      */
     public function setName($name)
     {
@@ -57,4 +57,4 @@ class Customer {
     public function celebrateBirthday() {
         echo 'Yay!';
     }
-} 
+}
