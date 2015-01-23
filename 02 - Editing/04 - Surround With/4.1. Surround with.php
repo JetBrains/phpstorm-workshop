@@ -2,7 +2,7 @@
 /**
  * Surround With
  *
- * Wraps selected text with new content, e.g. try/catch or if statement.
+ * Wrap selected text with new content, e.g. try/catch or if statement.
  *
  * Ctrl+Alt+T (Windows/Linux)
  * Alt+Command+T (Mac OS X)

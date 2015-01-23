@@ -21,8 +21,8 @@ class BasicCompletion {
     //    Use the Basic Completion keyboard shortcut. After the equals sign, Basic Completion shows the locally scoped
     //      Basic completion options followed by the wider scope of Basic Completion items.
     // 3. The most frequently used item is usually pre-selected e.g. $this->Age might be the most used.
-    // 4. Dismiss the window with Esc
-    // 5. Space, tab and enter accept the choice
+    // 4. Dismiss the window with Esc.
+    // 5. Space, tab and enter accept the choice.
     // 6. Type: $this->r
     //    Complete the statement using the keyboard shortcut.
     // 7. Type: if (true
