@@ -20,6 +20,6 @@ class Utils {
 class StringUtils {
 }
 
-// 2. Note that calls to Utils::split() have updated to StringUtils::split()
+// 2. Note that calls to Utils::split() have updated to StringUtils::split().
 $myArray = Utils::split('This is a test', ' ');
 $myCsvRecord = Utils::split('Maarten;JetBrains', ';');

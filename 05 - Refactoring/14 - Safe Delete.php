@@ -10,7 +10,7 @@
 
 namespace Refactoring14\JetBrains;
 
-require_once('Code/MoreCode.php');
+require_once 'Code/MoreCode.php';
 
 // 1. Safe Delete the CoolPerson class from the Project Tool Window.
 //    Note that it is not safe to delete the file as it is being used elsewhere.
