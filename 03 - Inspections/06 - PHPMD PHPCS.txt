@@ -6,6 +6,6 @@ Ctrl+Alt+S (Windows/Linux)
 Command+, (Mac OS X)
 
 1. Make sure PHP Code Sniffer is installed through PEAR. See http://pear.php.net/package/PHP_CodeSniffer.
-2. Open the project settings | php | code sniffer and configure the path to phpcs / phpcs.bat
+2. Open the project settings | php | code sniffer and configure the path to phpcs / phpcs.bat.
 3. Apply settings and open project settings | inspections. Enable PHP Code Sniffer and set he code standard to validate against.
 4. Run PHP Code Sniffer inspections on the current project.
