@@ -5,16 +5,16 @@ Navigate to a file by (partial) file name.
 Ctrl+Shift+N (Windows/Linux)
 Shift+Command+O (Mac OS X)
 
-1. Navigate to file
-   Navigate to the customer.php file. Open the file by hitting enter.
+1. Navigate to file.
+   Navigate to the Customer.php file. Open the file by hitting enter.
 
-2. Use CamelHumps to navigate
-   Navigate to the CustomerRepository.php file using CamelHumps (type "CR" or "CusR")
+2. Use CamelHumps to navigate.
+   Navigate to the CustomerRepository.php file using CamelHumps (type "CR" or "CusR").
 
-3. Use middle matching to navigate
-   Navigate to the DocumentRepository.php file by searching for "Repo"
+3. Use middle matching to navigate.
+   Navigate to the DocumentRepository.php file by searching for "Repo".
 
-4. Use wildcards
-   Navigate to the license.txt file by searching for "l*.txt"
+4. Use wildcards.
+   Navigate to the license.txt file by searching for "l*.txt".
 
 5. Filter to only check JavaScript files by clicking the filter icon. Search for Customer.js.

@@ -2,7 +2,7 @@
 /**
  * Go to super class / method
  *
- * Navigates to the super class or method.
+ * Navigate to the super class or method.
  *
  * Ctrl+U (Windows/Linux)
  * Command+U (Mac OS X)
