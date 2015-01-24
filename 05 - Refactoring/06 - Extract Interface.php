@@ -39,7 +39,7 @@ class CustomerRepository {
     /**
      * Get by id.
      *
-     * @param $id int Id
+     * @param int $id ID
      * @return mixed Instance.
      */
     public function get($id) {

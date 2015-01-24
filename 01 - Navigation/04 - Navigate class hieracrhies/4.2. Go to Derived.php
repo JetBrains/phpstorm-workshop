@@ -21,12 +21,12 @@ interface ICustomer
     public function getName();
 
     /**
-     * @param $discount double
+     * @param double $discount
      */
     public function setDiscount($discount);
 
     /**
-     * @param $name string
+     * @param string $name
      */
     public function setName($name);
 }

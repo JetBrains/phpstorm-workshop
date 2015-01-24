@@ -33,7 +33,7 @@ class Entity {
     protected $_id;
 
     /**
-     * @param $id int
+     * @param int $id
      */
     public function setId($id)
     {

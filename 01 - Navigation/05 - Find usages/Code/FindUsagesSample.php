@@ -8,4 +8,4 @@ class FindUsagesSample
         $target->adjust(5, 3);
         $target->adjust(3, 9);
     }
-} 
+}

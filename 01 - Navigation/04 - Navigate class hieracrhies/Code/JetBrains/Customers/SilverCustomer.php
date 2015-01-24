@@ -4,7 +4,7 @@ namespace Navigation4\JetBrains\Customers;
 class SilverCustomer extends Customer
 {
     /**
-     * @param $name string
+     * @param string $name
      */
     function __construct($name)
     {

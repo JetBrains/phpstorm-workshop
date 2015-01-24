@@ -20,7 +20,7 @@ function prep_DB_content()
 /**
  * Creates database tables.
  *
- * @param $databaseConnection mysqli Database connection.
+ * @param mysqli $databaseConnection Database connection.
  */
 function create_tables($databaseConnection)
 {
@@ -41,8 +41,8 @@ function create_tables($databaseConnection)
 /**
  * Create roles.
  *
- * @param $databaseConnection mysqli Database connection.
- * @param $admin_role_id int Role for the administrator user.
+ * @param mysqli $databaseConnection Database connection.
+ * @param int $admin_role_id Role for the administrator user.
  */
 function create_roles($databaseConnection, $admin_role_id)
 {
@@ -60,8 +60,8 @@ function create_roles($databaseConnection, $admin_role_id)
 /**
  * Create administrator.
  *
- * @param $databaseConnection mysqli Database connection.
- * @param $admin_role_id int Role for the administrator user.
+ * @param mysqli $databaseConnection Database connection.
+ * @param int $admin_role_id Role for the administrator user.
  */
 function create_admin($databaseConnection, $admin_role_id)
 {
@@ -93,7 +93,7 @@ function create_admin($databaseConnection, $admin_role_id)
 /**
  * Adds homepage contents to the database.
  *
- * @param $databaseConnection mysqli Database connection.
+ * @param mysqli $databaseConnection Database connection.
  */
 function create_homepage($databaseConnection)
 {

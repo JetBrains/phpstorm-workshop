@@ -10,7 +10,7 @@ $session = new $sessionType($_SESSION);
 /**
  * Is the current user logged on?
  *
- * @param $session Session The session to check.
+ * @param Session $session The session to check.
  * @return bool True if the user is logged on, false otherwise.
  */
 function logged_on($session)
@@ -21,7 +21,7 @@ function logged_on($session)
 /**
  * Ensure the current user is an administrator.
  *
- * @param $session Session The session to check.
+ * @param Session $session The session to check.
  */
 function confirm_is_admin($session)
 {
@@ -39,7 +39,7 @@ function confirm_is_admin($session)
 /**
  * Is the current user an administrator?
  *
- * @param $session Session The session to check.
+ * @param Session $session The session to check.
  * @return bool True if the user is administrator, false if otherwise.
  */
 function is_admin($session)

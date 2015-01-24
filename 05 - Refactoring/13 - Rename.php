@@ -21,7 +21,7 @@ class Person {
 
     // 3. Rename the $name parameter to $string. Note that the PHPDoc block is updated as well.
     /**
-     * @param $name string Name of the person.
+     * @param string $name Name of the person.
      */
     public function greet($name) {
 

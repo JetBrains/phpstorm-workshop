@@ -4,4 +4,4 @@ namespace Navigation1\JetBrains\Customers\Repositories;
 
 abstract class RepositoryBase {
 
-} 
+}

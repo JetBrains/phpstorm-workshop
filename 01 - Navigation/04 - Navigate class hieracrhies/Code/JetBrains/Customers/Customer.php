@@ -10,8 +10,8 @@ class Customer implements ICustomer
     protected $_discount;
 
     /**
-     * @param $name string
-     * @param $discount double
+     * @param string $name
+     * @param double $discount
      */
     function __construct($name, $discount)
     {
@@ -20,7 +20,7 @@ class Customer implements ICustomer
     }
 
     /**
-     * @param $discount double
+     * @param double $discount
      */
     public function setDiscount($discount)
     {
@@ -36,7 +36,7 @@ class Customer implements ICustomer
     }
 
     /**
-     * @param $name string
+     * @param string $name
      */
     public function setName($name)
     {

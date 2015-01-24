@@ -10,8 +10,8 @@ class Customer {
     protected $_age;
 
     /**
-     * @param $name string
-     * @param $age int
+     * @param string $name
+     * @param int $age
      */
     function __construct($name, $age)
     {
@@ -20,7 +20,7 @@ class Customer {
     }
 
     /**
-     * @param $age int
+     * @param int $age
      */
     public function setAge($age)
     {
@@ -36,7 +36,7 @@ class Customer {
     }
 
     /**
-     * @param $name string
+     * @param string $name
      */
     public function setName($name)
     {
