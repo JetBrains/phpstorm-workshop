@@ -1,5 +1,5 @@
 <?php
-include(SITE_PATH . "/includes/closeDB.php");
+include SITE_PATH . '/includes/closeDB.php';
 ?>
 <footer>
     <div class="footer-wrapper">
