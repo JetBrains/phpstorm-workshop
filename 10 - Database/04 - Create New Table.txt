@@ -18,4 +18,4 @@ CREATE TABLE workshop.attendee
 2. In the Database tool window, find the attendee.person_id column and create a foreign key to person.person_id.
    Enter "person" as the table name. The IDE will determine person__id is the column that should be used for the foreign key.
 3. Update the workshop_database.sql file with the current tables that are available in the database.
-   This can be done by selecting the workshop database and using the Copy DDL action (Ctrl+Shift+C / Command+Shift+C)
+   This can be done by selecting the workshop database and using the Copy DDL action (Ctrl+Shift+C / Command+Shift+C).

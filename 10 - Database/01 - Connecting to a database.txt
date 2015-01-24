@@ -2,7 +2,7 @@ Connecting to a database (server)
 
 Connecting to MySQL, DB2, Derby, SQL Server, Oracle, PostgreSQL, Sybase, H2, sqlite, Google, ...
 
-1. Open the Database tool window (use Search Everywhere)
+1. Open the Database tool window (use Search Everywhere).
 2. Create a new database connection. If you have MySQL installed, use MySQL.
 3. Name the connection and connect to the MySQL server. Download MySQL driver files if they are not downloaded yet.
    If you have a database in which to run these exercises, enter the database name as well. Otherwise leave the database
