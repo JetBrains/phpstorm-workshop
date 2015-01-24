@@ -8,8 +8,8 @@
 
 namespace Debugging8\JetBrains;
 
-require_once "./Code/FruitRepository.php";
-require_once "./Code/Person.php";
+require_once 'Code/FruitRepository.php';
+require_once 'Code/Person.php';
 
 use Debugging\JetBrains\FruitRepository;
 use Debugging\JetBrains\Person;
