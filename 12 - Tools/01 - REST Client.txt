@@ -4,7 +4,7 @@ The built-in REST client allows testing web API's. Build requests, inspect respo
 
 1. Use the Tools | Test RESTful Web Service menu to open the REST Client tool window.
 2. Create a request which fetches your user information from GitHub.
-   Specify the HTTP method to be GET, the host will be https://api.github.com, the path /user
+   Specify the HTTP method to be GET, the host will be https://api.github.com, the path /user.
    In the headers section, add an Accept: application/json header.
    Note that you can specify a request body, text, file upload as well.
 3. Run the request. GitHub responds with the fact that authentication is required.
