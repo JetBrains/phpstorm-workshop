@@ -2,7 +2,7 @@
 /**
  * Move
  *
- * Changes the location of a file, directory, class or static member.
+ * Change the location of a file, directory, class or static member.
  *
  * F6 (Windows/Linux/Mac OS X)
  */
@@ -28,6 +28,6 @@ class Logger {
 
 }
 
-// 5. Note that the calls to Utilities::log() have been updated
+// 5. Note that the calls to Utilities::log() have been updated.
 Utilities::log('Almost at the end of the exercise');
 Utilities::log('At the end of the exercise');

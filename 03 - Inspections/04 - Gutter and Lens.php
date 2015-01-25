@@ -10,7 +10,7 @@ namespace Inspections4\JetBrains;
 // 1. On the right-hand side, find the error gutter.
 // 2. Hover over the square at the top and get a summary of the code quality in the file.
 // 3. Hover over a small stripe to see the warning/error information.
-// 4. Hover over a small stripe to see lens mode (only when the code in which the issue occurs is not in viewport)
+// 4. Hover over a small stripe to see lens mode (only when the code in which the issue occurs is not in viewport).
 class Navigation {
     public function errorFunction() {
         echo 'First line'

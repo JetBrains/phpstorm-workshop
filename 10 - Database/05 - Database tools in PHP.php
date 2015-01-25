@@ -3,12 +3,12 @@
  * Database tools in PHP
  */
 
-// 1. Create a new variable $query which holds the query "SELECT * FROM person"
-//    Make sure to manually type the query and note the autocompletion support (use Ctrl+Space right after FROM)
+// 1. Create a new variable $query which holds the query "SELECT * FROM person".
+//    Make sure to manually type the query and note the autocompletion support (use Ctrl+Space right after FROM).
 
 $query = "";
 
-// 2. Make the query a bit more complicated. Remember the JOIN smart completion? Use Ctrl+Shift+Space after the ON
+// 2. Make the query a bit more complicated. Remember the JOIN smart completion? Use Ctrl+Shift+Space after the ON.
 
 $query = "SELECT person.name, city.name as city, country.name as nationality
             FROM person

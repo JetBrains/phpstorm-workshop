@@ -1,7 +1,7 @@
 <?php
-require_once("config.php");
-require_once(SITE_PATH . "/includes/connectDB.php");
-include(SITE_PATH . "/includes/header.php");
+require_once 'config.php';
+require_once SITE_PATH . '/includes/connectDB.php';
+include SITE_PATH . '/includes/header.php';
 ?>
 
     <div id="main">
@@ -30,5 +30,5 @@ include(SITE_PATH . "/includes/header.php");
     </div>
     </div> <!-- End of outer-wrapper which opens in header.php -->
 <?php
-include(SITE_PATH . "/includes/footer.php");
+include SITE_PATH . '/includes/footer.php';
 ?>

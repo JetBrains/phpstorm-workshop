@@ -2,8 +2,8 @@
 /**
  * File Structure Tool Window
  *
- * Displays outline of file: classes, functions (with icons displaying accessibility).
- * Also shows HTML, JavaScript, CSS, ...
+ * Display outline of file: classes, functions (with icons displaying accessibility).
+ * Also show HTML, JavaScript, CSS, ...
  *
  * Alt+7 (Windows/Linux)
  * Command+7 s(Windows/Linux)

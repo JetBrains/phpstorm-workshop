@@ -5,11 +5,11 @@ Navigate to a symbol by (partial) symbol name.
 Ctrl+Alt+Shift+N (Windows/Linux)
 Alt+Command+O (Mac OS X)
 
-1. Navigate to symbol
+1. Navigate to symbol.
    Navigate to the $_name protected variable in Customer.php.
 
-2. Use CamelHumps to navigate
-   Navigate to the getName() function using CamelHumps (type "gN" or "getN")
+2. Use CamelHumps to navigate.
+   Navigate to the getName() function using CamelHumps (type "gN" or "getN").
 
 3. Note that middle matching and wildcards also work when searching symbols.
    Example searches: "ebra" of "celebr*day" for the celebrateBirthday() function.

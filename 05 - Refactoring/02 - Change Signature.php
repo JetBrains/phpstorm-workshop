@@ -25,7 +25,7 @@ function addTwoNumbers($a, $b) {
 $four = addTwoNumbers(2, 2);
 
 // 3. Change the function signature: rename the $name parameter to $firstName add a $lastName parameter.
-//    Specify a default value for the $lastName variable, we want our code to compile
+//    Specify a default value for the $lastName variable, we want our code to compile.
 //    E.g. use '' to set an empty string everywhere sayHello is called.
 //
 //    We can also propagate parameters. The usingSayHello() below uses $name as well, we may want to propagate

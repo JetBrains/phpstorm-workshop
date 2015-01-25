@@ -2,7 +2,7 @@
 /**
  * Bookmarks
  *
- * Set, unset and navigate to bookmarks
+ * Set, unset and navigate to bookmarks.
  *
  * Windows/Linux:
  *   F11 Toggle Bookmark
@@ -20,8 +20,8 @@
  * 2. Navigate to secondFunction() and set a bookmark.
  * 3. Navigate to thirdFunction() and set bookmark with mnemonic, assign it number 3.
  * 4. Show a list of bookmarks and navigate between them.
- * 5. Navigate to the numbered bookmark (Ctrl+3)
- * 6. Remove the bookmark from secondFunction()
+ * 5. Navigate to the numbered bookmark (Ctrl+3).
+ * 6. Remove the bookmark from secondFunction().
  * 7. From the bookmarks list, add a description to one of the bookmarks.
  */
 

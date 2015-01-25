@@ -3,7 +3,7 @@
  * Code Expansion
  *
  * Expand text shortcut using template.
- * Expands into code with variable “hotspots”
+ * Expands into code with variable “hotspots”.
  * Hotspot can be linked to a macro, such as “suggest type of variable”, “suggest name for variable”, “clipboard content”, “new GUID”, etc.
  * Tab to move between hotspots.
  * Template can define end point for caret.

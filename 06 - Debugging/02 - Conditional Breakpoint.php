@@ -13,7 +13,7 @@ namespace Debugging2\JetBrains;
 $output = array();
 for ($i = 0; $i < 5000; $i++) {
     // 1. Place a breakpoint on the following line of code.
-    // 2. Use the context menu on the breakpoint or use the keyboard shortcut, set the condition to: $i == 4355
+    // 2. Use the context menu on the breakpoint or use the keyboard shortcut, set the condition to: $i == 4355.
     $output[] = 'Person ' . $i;
 }
 

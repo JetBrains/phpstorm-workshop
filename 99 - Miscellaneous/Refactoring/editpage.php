@@ -1,8 +1,8 @@
 <?php
-require_once("config.php");
-require_once(SITE_PATH . "/includes/session.php");
-require_once(SITE_PATH . "/includes/connectDB.php");
-include(SITE_PATH . "/includes/header.php");
+require_once 'config.php';
+require_once SITE_PATH . '/includes/session.php';
+require_once SITE_PATH . '/includes/connectDB.php';
+include SITE_PATH . '/includes/header.php';
 confirm_is_admin($session);
 
 $pageId = null;
@@ -82,5 +82,5 @@ if (isset($_GET['id'])) {
     </form>
 </div>
 </div> <!-- End of outer-wrapper which opens in header.php -->
-<?php include(SITE_PATH . "/includes/footer.php"); ?>
+<?php include SITE_PATH . '/includes/footer.php'; ?>
 

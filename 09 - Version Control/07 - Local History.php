@@ -14,7 +14,7 @@ $name = 'Maarten';
 //    Code: $name = ucfirst($name);
 //    Save the file.
 
-// 3. From the VCS Operations popup, Show History (make sure to pick the entry under "Local History")
+// 3. From the VCS Operations popup, Show History (make sure to pick the entry under "Local History").
 //    This opens a new window in which local changes are shown for the current file.
 //    We can see we have changed a line of code and added a line of code.
 // 4. Revert the last change we did from the Local History.

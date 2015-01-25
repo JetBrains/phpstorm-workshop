@@ -11,7 +11,7 @@
 
 namespace Debugging3\JetBrains;
 
-require_once "./Code/Person.php";
+require_once 'Code/Person.php';
 
 use Debugging\JetBrains\Person;
 
@@ -39,5 +39,5 @@ foreach ($fruits as $fruit) {
 // 8. Let's say we wanted to test the code with a different name, without changing code.
 //    From the Debug Tool Window, expand $person and set the _name property to your name using the F2 keyboard shortcut.
 // 9. Continue execution once (F9) and see on the Console that your name is printed.
-// 10. From the Debug Tool Window, use the Evaluate Expression toolbar button (or Alt+F8) to change the name. E.g. evaluate: $person->setName('Mikhail')
+// 10. From the Debug Tool Window, use the Evaluate Expression toolbar button (or Alt+F8) to change the name. E.g. evaluate: $person->setName('Mikhail').
 //     We can also run PHP code in here, for example evaluate $a = 1 + 1. The Evaluate Expression Window will show the result.

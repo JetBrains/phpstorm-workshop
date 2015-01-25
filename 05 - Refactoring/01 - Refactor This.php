@@ -14,7 +14,7 @@ namespace Refactoring1\JetBrains;
 //    Note that the IDe can also search in comments / strings.
 $name = 'Maarten';
 
-// 2. See that the Rename refactoring hs updated all occurrences of the variables in the current scope.
+// 2. See that the Rename refactoring has updated all occurrences of the variables in the current scope.
 echo $name . ' was here.'; // review: isn't this $name variable named wrong?
 
 // 3. The Refactor This menu also works on blocks of code. Select the following lines of code and use Refactor This.

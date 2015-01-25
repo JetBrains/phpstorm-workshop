@@ -8,13 +8,13 @@
 namespace Inspections1\JetBrains;
 
 class Highlights {
-    // 1. An error highlight should be shown in the following function (missing semicolon)
+    // 1. An error highlight should be shown in the following function (missing semicolon).
     public function errorFunction() {
         echo 'First line'
         echo 'Second line';
     }
 
-    // 2. A warning highlight should be shown in the following function (foreach over boolean?)
+    // 2. A warning highlight should be shown in the following function (foreach over boolean?).
     public function warningFunction1() {
         $variable = true;
         foreach ($variable as $item) {
@@ -31,7 +31,7 @@ class Highlights {
         }
     }
 
-    // 4. A warning highlight should be shown in the following function (missing break statement) - this is actually a suggestion
+    // 4. A warning highlight should be shown in the following function (missing break statement) - this is actually a suggestion.
     public function warningFunction3() {
         $variable = 1;
         switch ($variable) {
@@ -42,12 +42,12 @@ class Highlights {
         }
     }
 
-    // 5. Dead code (unused variable)
+    // 5. Dead code (unused variable).
     public function deadCodeFunction1() {
         $variable = true;
     }
 
-    // 6. Dead code (unused variable)
+    // 6. Dead code (unreachable statement).
     public function deadCodeFunction2() {
         return true;
 

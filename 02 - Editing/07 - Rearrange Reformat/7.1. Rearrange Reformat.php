@@ -2,7 +2,7 @@
 /**
  * Rearrange/Reformat Code
  *
- * Rearranges entries in code according to settings. Reformats all code according to code style.
+ * Rearrange entries in code according to settings. Reformat all code according to code style.
  *
  * Ctrl+Alt+L (Windows/Linux)
  * Alt+Command+L (Mac OS X)
@@ -15,8 +15,8 @@ use Editing6;
 
 // 1. The class below is a mess.
 //    - Public/protected/static members are all mixed.
-//    - Brackets are inconsistent
-//    - Indents are inconsistent
+//    - Brackets are inconsistent.
+//    - Indents are inconsistent.
 // 2. Use Code | Rearrange Code menu to reorganize the class below.
 // 3. Use undo and roll back the Rearrange Code action.
 // 4. There are also some unused imports (Editing2 and Editing6). The Code | Optimize Imports menu will solve this.

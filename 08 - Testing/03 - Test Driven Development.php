@@ -25,7 +25,7 @@ namespace Testing\JetBrains;
 //
 //    In other words: if items are in queue, peek() should return true. It should return false if no items are in queue.
 //
-// 2. PhpStorm displays an inspection on the peek() method: Method peek() not found in class Queue
+// 2. PhpStorm displays an inspection on the peek() method: Method peek() not found in class Queue.
 //    Using Alt+Enter, create the method.
 //    Implement the method.
 // 3. Run unit tests and see tests are all passing.

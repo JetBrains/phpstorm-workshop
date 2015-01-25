@@ -10,8 +10,8 @@ class Customer {
     protected $_age;
 
     /**
-     * @param $name string
-     * @param $age int
+     * @param string $name
+     * @param int $age
      */
     function __construct($name, $age)
     {
@@ -57,4 +57,4 @@ class Customer {
     public function celebrateBirthday() {
         echo 'Yay!';
     }
-} 
+}

@@ -2,7 +2,7 @@
 /**
  * Extract Method
  *
- * Extracts a block of code into a method, detecting variables.
+ * Extract a block of code into a method, detecting variables.
  *
  * Ctrl+Alt+M (Windows/Linux)
  * Alt+Command+M (Mac OS X)

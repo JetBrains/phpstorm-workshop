@@ -2,7 +2,7 @@
 /**
  * Find Usages
  *
- * Highlights usages of a given symbol in the current project.
+ * Highlight usages of a given symbol in the current project.
  *
  * Alt+F7 (Windows/Linux/Mac OS X)
  *

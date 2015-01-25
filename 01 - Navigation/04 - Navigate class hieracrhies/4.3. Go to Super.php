@@ -2,7 +2,7 @@
 /**
  * Go to super class / method
  *
- * Navigates to the super class or method.
+ * Navigate to the super class or method.
  *
  * Ctrl+U (Windows/Linux)
  * Command+U (Mac OS X)
@@ -18,7 +18,7 @@ class GoldCustomer extends Customer
     // 3. Bring up the Hierarchy tool window and inspect the class hierarchy.
     //    You can also navigate from the tool window.
     /**
-     * @param $name string
+     * @param string $name
      */
     function __construct($name)
     {

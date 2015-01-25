@@ -2,7 +2,7 @@
 /**
  * Rename
  *
- * Allow you to rename symbols, automatically correcting all references in the code.
+ * Rename symbols, automatically correcting all references in the code.
  *
  * Shift+F6 (Windows/Linux/Mac OS X)
  */
@@ -14,14 +14,14 @@ namespace Refactoring13\JetBrains;
 class Person {
     // ...
 
-    // 2. Rename the sayHello() function to sayGoodbye()
+    // 2. Rename the sayHello() function to sayGoodbye().
     public function sayHello() {
         return 'Hello!';
     }
 
     // 3. Rename the $name parameter to $string. Note that the PHPDoc block is updated as well.
     /**
-     * @param $name string Name of the person.
+     * @param string $name Name of the person.
      */
     public function greet($name) {
 

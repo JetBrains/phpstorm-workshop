@@ -18,4 +18,4 @@ Command+K (Mac OS X)
    in the left gutter, denoting a change in the line of code since the last VCS commit.
    In the Project Tool Window, the file color also changes to denote the file has been changed.
 6. Add a line of text below. Note that the editor now displays green in the left gutter, meaning the line has been added.
-7. Commit all changes again and give the commit a descriptive name
+7. Commit all changes again and give the commit a descriptive name.

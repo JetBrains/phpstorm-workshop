@@ -1,7 +1,7 @@
 /**
  * Extract Parameter
  *
- * Adds a new parameter to a function declaration. Determines the default. Can generate JSDoc.
+ * Add a new parameter to a function declaration. Determine the default. Can generate JSDoc.
  *
  * Ctrl+Alt+P (Windows/Linux)
  * Alt+Command+P (Mac OS X)

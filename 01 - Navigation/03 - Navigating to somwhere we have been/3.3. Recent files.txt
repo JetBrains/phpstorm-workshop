@@ -1,8 +1,8 @@
 Recent files
 
-Show a list of recent files
+Show a list of recent files.
 
 Ctrl+E (Windows/Linux)
 Command+E (Mac OS X)
 
-1. Filter list by typing - middle matching, wildcards and CamelHumps
+1. Filter list by typing - middle matching, wildcards and CamelHumps.

@@ -2,7 +2,7 @@
 /**
  * Extract Variable
  *
- * Puts the result of a selected expression into a variable. The original expression is replaced with the new variable.
+ * Put the result of a selected expression into a variable. The original expression is replaced with the new variable.
  *
  * Ctrl+Alt+V (Windows/Linux)
  * Alt+Command+V (Mac OS X)

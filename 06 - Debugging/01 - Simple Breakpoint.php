@@ -16,7 +16,7 @@ $name = 'Maarten';
 $name = 'Mikhail';
 
 for ($i = 0; $i < 5; $i++) {
-    // 2. Place a breakpoint on the following line of code
+    // 2. Place a breakpoint on the following line of code.
     $name = 'Person ' . $i;
 }
 

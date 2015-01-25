@@ -12,7 +12,7 @@ class Session {
     /**
      * Instantiates a new Session.
      *
-     * @param $store array Store of session data.
+     * @param array $store Store of session data.
      */
     function __construct(&$store)
     {
@@ -22,7 +22,7 @@ class Session {
     /**
      * Checks if a value exists in session.
      *
-     * @param $key string Key of the session item.
+     * @param string $key Key of the session item.
      * @return bool True if item exists, false if otherwise.
      */
     public function has($key) {
@@ -32,7 +32,7 @@ class Session {
     /**
      * Gets a value from session.
      *
-     * @param $key string Key of the session item.
+     * @param string $key Key of the session item.
      * @return mixed|null Session item or null if it does not exist.
      */
     public function get($key) {
@@ -45,8 +45,8 @@ class Session {
     /**
      * Sets a value from session.
      *
-     * @param $key string Key of the session item.
-     * @param $value mixed Value of the session item.
+     * @param string $key Key of the session item.
+     * @param mixed $value Value of the session item.
      * @return Session Fluent interface.
      */
     public function set($key, $value) {
