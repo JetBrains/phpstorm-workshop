@@ -20,4 +20,5 @@ Command+O (Mac OS X)
 5. Filter to only check PHP files by clicking the filter icon.
 
 6. Include non-project classes.
-   Check the "Include non-project classes" checkbox and navigate to ArrayObject (PHP SPL library).
+   Check the "Include non-project classes" checkbox and search for Array.
+   With "Include non-project classes" it's possible to navigate to ArrayObject (PHP SPL library).
