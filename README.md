@@ -8,7 +8,7 @@ We'll also cover a vast amount of keyboard shortcuts to make working with PhpSto
 
 This workshop is self-paced, meaning you can work your way through slides and exercises on your own, whenever and wherever you want. Exercises come as a PhpStorm project in which every file is a new exercise that may contain code and tips to get things done.
 
-## Getting the project
+## Getting the Project
 There are a couple of ways to get started with the PhpStorm workshop materials:
 
 * Create a new project using Composer. Note that you can also create a new project in PhpStorm and use the Composer project type and search for "jetbrains/phpstorm-workshop"
@@ -23,10 +23,13 @@ There are a couple of ways to get started with the PhpStorm workshop materials:
 
     ``wget https://github.com/JetBrains/phpstorm-workshop/archive/master.zip``
 
-## Getting started
+## Getting Started
 There are some things to know about the project:
 
 * The project can be opened as-is in PhpStorm. No settings are included in the project yet, because these are configured when following exercises.
 * All numbered folders contain exercises that you can work on. Simply open the numbered files one by one and follow the comments in the file. Most exercises are self-contained, others build on previous exercises.
 * The PhpStorm Workshop.pptx / PhpStorm Workshop.pdf is a slide deck which summarizes many of the items covered in exercises.
 * The PhpStorm Reference Card.pdf is the PhpStorm keymap. The latest version can always be found on the [PhpStorm website](http://bit.ly/phpstorm-shortcuts).
+
+## Open Source and Contribution
+The workshop is Open Source, licensed under the Apache 2 license. If you would like to contribute to the workshop materials, please feel free to fork the repo and send us a pull request. Or if you have a comment, question, or suggestion for improvements, please [raise an issue](https://github.com/JetBrains/phpstorm-workshop/issues).
