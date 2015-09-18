@@ -2,8 +2,6 @@
 /**
  * Todo
  *
- * Tell the interpreter to pause execution and inspect variables.
- *
  * Alt+6 (Windows/Linux)
  * Command+6 (Mac OS X)
  */
