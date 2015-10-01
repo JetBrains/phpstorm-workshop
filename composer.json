@@ -6,8 +6,11 @@
     "type": "project",
     "authors": [
         {
-            "name": "Maarten Balliauw",
-            "email": "maarten.balliauw@jetbrains.com"
+            "name": "Mikhail Vink",
+            "email": "mikhail.vink@jetbrains.com"
+        },
+        {
+            "name": "Maarten Balliauw"
         }
     ]
 }
