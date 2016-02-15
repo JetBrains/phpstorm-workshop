@@ -11,14 +11,9 @@ namespace Testing\JetBrains;
 //      \08_Testing\
 //    Note that a specific class or method can also be run.
 //    A PHPUnit XML configuration file can also be specified for this specific run configuration.
-// 2. Unless you have PHPUnit installed through PEAR, tests can not be run yet as the PHPUnit framework is not available.
-//
-//    From Project Settings | PHP | PHPUnit, specify that PHPUnit should be loaded from phpunit.phar.
-//    The IDE can automatically download this file.
-//
-//    If you are using Composer, PHPUnit can also be loaded from a custom file. Specify the path to Composer's
-//    Autoload.php if that is the case.
-// 3. Almost there! The Queue class ca not be loaded. To solve this, do one of the following:
+// 2. PhpStorm has already preconfigured PHPUnit configuration for Remote Interpreter in Settings | PHP | PHPUnit so
+//    you don't need to set up anything. 
+// 3. Almost there! The Queue class can not be loaded. To solve this, do one of the following:
 //
 //      Add the line require_once 'Code/Queue.php';
 //
