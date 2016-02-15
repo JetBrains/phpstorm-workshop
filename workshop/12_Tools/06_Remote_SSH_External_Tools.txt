@@ -8,12 +8,9 @@ For example, we may want to run a shell script which flushes the current cache, 
    Check "Show console when standard output changes"
    Program: echo
    Parameters: Hello World
+   Connections settings: Current Vagrant
 2. Run the tool from the Tools | Hello World menu.
    Note that we can select the server to run the tool on.
 3. Assign a keyboard shortcut to the tool. Alt+Shift+H would be a good one.
    Go to IDE Settings | Keymap, search for Hello World.
    Use the context menu to assign a keyboard shortcut.
-
-Note:
-  To store connection settings, project settings | Deployment and add a new server. The server type should be SFTP.
-  After providing connection details, the server will be visible whenever Tools | Start SSH Session... is invoked.
