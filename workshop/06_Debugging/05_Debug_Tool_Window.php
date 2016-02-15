@@ -29,7 +29,7 @@ foreach ($fruits as $fruit) {
 // 3. Use the context menu to debug the current PHP script. This should launch the debugger and break on our first breakpoint in Person.php.
 //    The Debug Tool Window shows us frames on the left, in other words which line of code called into which line of code.
 //    We can see the Person.php file is called into from the current file. In large applications, this allows walking the execution stack.
-// 4. Click the "05_Debug Tool Window.php" entry from the frames list. We can see where the Person constructor is called.
+// 4. Click the "05_Debug_Tool_Window.php" entry from the frames list. We can see where the Person constructor is called.
 // 5. Continue (using the toolbar button or F9).
 // 6. From the Debug Tool Window, we can see all variables in the current scope: $fruit, $fruits, $name, $person and the $_SERVER global.
 //    Expand the $fruits variable and see which values are in there. We should see three values.

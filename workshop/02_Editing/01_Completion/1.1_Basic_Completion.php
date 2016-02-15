@@ -43,7 +43,7 @@ class BasicCompletion {
         //    Use "vlfn" to find the correct function.
         // $this->
 
-        // 10. Try path completion. Include the "01_Simple Breakpoint.php" file by placing the caret inside the quotes
+        // 10. Try path completion. Include the "01_Simple_Breakpoint.php" file by placing the caret inside the quotes
         //     and use he keyboard shortcut.
         require_once '';
     }

@@ -8,7 +8,7 @@
 namespace Testing\JetBrains;
 
 // 1. Create a new Run Configuration based on PHPUnit. Name it "Run tests" and specify the directory to look for tests:
-//      \08-Testing\
+//      \08_Testing\
 //    Note that a specific class or method can also be run.
 //    A PHPUnit XML configuration file can also be specified for this specific run configuration.
 // 2. Unless you have PHPUnit installed through PEAR, tests can not be run yet as the PHPUnit framework is not available.
