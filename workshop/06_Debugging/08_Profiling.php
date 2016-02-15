@@ -15,18 +15,13 @@ use Debugging\JetBrains\FruitRepository;
 use Debugging\JetBrains\Person;
 
 /*
-1. Edit your php.ini and add the following two lines to the Xdebug configuration.
-   Set the output_dir to a temporary path on your machine.
-xdebug.profiler_enable=1
-xdebug.profiler_output_dir="c:\Temp\"
+1. Create run configuration for the current file, for example using the context menu or a run configuration.
+2. Set the following line into Interpreter options:
+-d xdebug.profiler_enable=1 -d xdebug.profiler_output_dir=/var/www
+3. Run the created configuration
+4. After run, use the Tools | Analyze Xdebug Profiler Snapshot... and open the file that was generated inside a project dir
+5. We can now see all calls, which functions are called by other functions, timings, ... and analyze potential performance issues.
 */
-
-// 2. Run the current script, for example using the context menu or a run configuration.
-// 3. After run, use the Tools | Analyze Xdebug Profiler Snapshot... and open the file that was generated in the temporary folder specified in php.ini.
-// 4. We can now see all calls, which functions are called by other functions, timings, ... and analyze potential performance issues.
-// 5. Make sure to remove the profiler configuration again. It can generate a lot of data on your disk!
-
-
 
 
 
