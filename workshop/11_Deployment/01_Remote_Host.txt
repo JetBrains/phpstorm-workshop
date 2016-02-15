@@ -2,14 +2,7 @@ Remote Host
 
 Copy files and folders back and forth between local project and server.
 
-1. Using Search Everywhere, fond the Remote Host tool window.
-2. Add a new Deployment Server. Note that the type of server can be FTP, FTPS, SFTP, Local or Mounted Folder or In Place.
-   This is the method PhpStorm will use to connect to the remote server.
-
-   If you have a server available, add it. If not, add a Local or Mounted Folder and pretend it's a server.
-   The folder to configure can be any folder on your system.
-3. Configure the path to the server. Note that we can also specify a URL to it, which can be useful
-   to run remote unit tests or remote debugging.
-   In the Mappings tab, specify the content root on the server. This can be a different subfolder or just /.
-4. Browse the remote host and copy some files from the current project to the remote server.
+1. Using Search Everywhere, find the Remote Host tool window.
+2. Copy existing vm server and specify "Root path" to be "/home/vagrant" or click "Autodetect"
+3. Browse the remote host and copy some files from the current project to the remote server.
    This can be done using drag and drop, or using the context menu.
