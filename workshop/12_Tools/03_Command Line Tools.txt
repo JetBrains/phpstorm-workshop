@@ -27,7 +27,7 @@ Shift+Command+X (Mac OS X)
 
 
 <?xml version="1.0" encoding="UTF-8"?>
-<framework xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schemas/frameworkDescriptionVersion1.1.3.xsd" name="Custom_hw" invoke="C:\Users\Maarten\Desktop\Workshop\11 - Tools\helloworld.bat" alias="hw" enabled="true" version="2">
+<framework xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schemas/frameworkDescriptionVersion1.1.3.xsd" name="Custom_hw" invoke="C:\Users\Maarten\Desktop\Workshop\11_Tools\helloworld.bat" alias="hw" enabled="true" version="2">
   <help><![CDATA[Hello World]]></help>
     <command>
         <name>to</name>

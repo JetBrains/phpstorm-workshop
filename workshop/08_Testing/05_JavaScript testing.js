@@ -9,7 +9,7 @@
 // 3. Make sure a Karma configuration is created. Either rename karma.conf.js.sample to karma.conf.js or set it up manually.
 //
 //    Manual steps: Open a terminal (Tools | Open Terminal) and initialize karma in the current folder.
-//      cd "08 - Testing"
+//      cd "08_Testing"
 //      karma init
 //
 //    - Select the test framework to use, we'll go with jasmine.

@@ -27,7 +27,7 @@ for ($i = 0; $i < strlen($name); $i++) {
 // 4. The Extract Method refactoring should not update the below code.
 echo 'Name backwards: ' . $nameBackwards;
 
-// 5. From the Project Tool Window, select the current file. Use Refactor This and rename it to "01 - Refactor This - done.php".
+// 5. From the Project Tool Window, select the current file. Use Refactor This and rename it to "01_Refactor This_done.php".
 //    Do not use te Refactor button, instead use Preview to see which files will be affected by the rename.
 //    Note that Code.php will be updated.
 //    From the tool window, click Do Refactor to continue the refactoring.

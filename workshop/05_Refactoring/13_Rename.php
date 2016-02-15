@@ -31,4 +31,4 @@ class Person {
 $person = new Person(); // creates a new Person
 $person->sayHello();
 
-// 4. Rename the current file to "13 - Rename - done.php". Note that all usages of the file will be updated.
+// 4. Rename the current file to "13_Rename_done.php". Note that all usages of the file will be updated.
