@@ -3,9 +3,7 @@ Connecting to a database (server)
 Connecting to MySQL, DB2, Derby, SQL Server, Oracle, PostgreSQL, Sybase, H2, sqlite, Google, ...
 
 1. Open the Database tool window (use Search Everywhere).
-2. Create a new database connection. If you have MySQL installed, use MySQL.
-3. Name the connection and connect to the MySQL server. Download MySQL driver files if they are not downloaded yet.
-   If you have a database in which to run these exercises, enter the database name as well. Otherwise leave the database
-   name blank, we'll create one in a minute.
-4. After saving the connection, expand the nodes in the Database tool window and see which databases, tables, ...
-   you have access to.
+2. Go to configuration
+3. Download MySQL driver files if they are not downloaded yet.
+4. After saving the connection, expand the nodes in the Database tool window and see that you have access to phpstorm
+   database

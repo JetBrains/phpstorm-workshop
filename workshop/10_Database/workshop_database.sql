@@ -1,5 +1,4 @@
-CREATE DATABASE `workshop`;
-USE `workshop`;
+USE `phpstorm`;
 
 CREATE TABLE `country` (
   `country_id` int(11) NOT NULL AUTO_INCREMENT,
