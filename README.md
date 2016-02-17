@@ -8,6 +8,11 @@ We'll also cover a vast amount of keyboard shortcuts to make working with PhpSto
 
 This workshop is self-paced, meaning you can work your way through slides and exercises on your own, whenever and wherever you want. Exercises come as a PhpStorm project in which every file is a new exercise that may contain code and tips to get things done.
 
+## Prerequisites
+
+* Vagrant: 1.8.*+
+* VirtualBox: 5.*+
+
 ## Getting the project
 There are a couple of ways to get started with the PhpStorm workshop materials:
 
@@ -24,9 +29,12 @@ There are a couple of ways to get started with the PhpStorm workshop materials:
     ``wget https://github.com/JetBrains/phpstorm-workshop/archive/master.zip``
 
 ## Getting started
+
+Most exercises require to have Vagrant box running. You may start it using *Tools->Vagrant->Up* inside PhpStorm.
+
 There are some things to know about the project:
 
-* The project can be opened as-is in PhpStorm. No settings are included in the project yet, because these are configured when following exercises.
+* The project can be opened as-is in PhpStorm. We've included configurations for PHP Remote Interpreter, Database, Deployment Server, PHP Web Debug, PHPUnit and Behat.
 * All numbered folders contain exercises that you can work on. Simply open the numbered files one by one and follow the comments in the file. Most exercises are self-contained, others build on previous exercises.
 * The PhpStorm Workshop.pptx / PhpStorm Workshop.pdf is a slide deck which summarizes many of the items covered in exercises.
 * The PhpStorm Reference Card.pdf is the PhpStorm keymap. The latest version can always be found on the [PhpStorm website](http://bit.ly/phpstorm-shortcuts).
