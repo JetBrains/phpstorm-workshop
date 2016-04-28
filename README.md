@@ -12,7 +12,7 @@ This workshop is self-paced, meaning you can work your way through slides and ex
 
 * Vagrant: 1.8.*+
 * VirtualBox: 5.*+
-* PhpStorm 11+
+* PhpStorm 2016.1+
 
 ## Getting the Project
 There are a couple of ways to get started with the PhpStorm workshop materials:
