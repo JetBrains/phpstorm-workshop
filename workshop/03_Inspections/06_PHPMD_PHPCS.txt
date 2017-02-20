@@ -5,7 +5,8 @@ Plug in PHP Mess Detector or PHP Code Sniffer as inspection engines.
 Ctrl+Alt+S (Windows/Linux)
 Command+, (Mac OS X)
 
-1. Open the project settings | php | interpreter and disable "Visible only for this project" checkbox for  PHPCS interpreter
+1. Open the project settings | php | interpreter and disable "Visible only for this project" checkbox for  PHPCS and
+ PHPMD interpreter
 
 PHPCS configuration:
 3. Open the project settings | php | code sniffer, select in Configuration "Interpreter: PHPCS"
