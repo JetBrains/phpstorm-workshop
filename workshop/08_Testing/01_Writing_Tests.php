@@ -21,7 +21,8 @@ namespace Testing\JetBrains;
 //
 //    The created test class will look something like the following:
 //
-//    class QueueTest extends \PHPUnit_Framework_TestCase {
+//    use PHPUnit\Framework\TestCase;
+//    class QueueTest extends TestCase {
 //
 //    }
 //
@@ -30,7 +31,7 @@ namespace Testing\JetBrains;
 //
 //    This is what the class should look like:
 //
-//   class QueueTest extends \PHPUnit_Framework_TestCase {
+//   class QueueTest extends TestCase {
 //       /** @var Queue */
 //       protected $_queue;
 //

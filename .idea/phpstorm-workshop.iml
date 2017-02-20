@@ -7,10 +7,10 @@
     <orderEntry type="module-library">
       <library name="PHARS">
         <CLASSES>
-          <root url="phar://$MODULE_DIR$/workshop/99_Miscellaneous/libs/phpunit-5.2.5.phar/" />
+          <root url="phar://$MODULE_DIR$/workshop/99_Miscellaneous/libs/phpunit-6.0.7.phar/" />
         </CLASSES>
         <SOURCES>
-          <root url="phar://$MODULE_DIR$/workshop/99_Miscellaneous/libs/phpunit-5.2.5.phar/" />
+          <root url="phar://$MODULE_DIR$/workshop/99_Miscellaneous/libs/phpunit-6.0.7.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
