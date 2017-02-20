@@ -6,28 +6,26 @@
       <behat_by_interpreter interpreter_id="e8038bd5-a5f7-4bd5-9b10-cf1c8014f5ea" behat_path="/home/vagrant/.composer/vendor/behat/behat/bin/behat" />
     </behat_settings>
   </component>
-  <component name="BehatInfoCache">
-    <behat_settings>
-      <info name="Interpreter: Remote PHP 7" version="2.5.5" />
-    </behat_settings>
-  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="sftp://vagrant@192.168.56.102:22/usr/bin/php" id="e8038bd5-a5f7-4bd5-9b10-cf1c8014f5ea" name="Remote PHP 7" debugger_id="php.debugger.XDebug">
-        <remote_data WEB_SERVER_CONFIG_ID="a0e508f8-a658-4975-ba82-96d8aae9127a" WEB_SERVER_CONFIG_NAME="vm" HOST="192.168.56.102" PORT="22" ANONYMOUS="false" USERNAME="vagrant" PASSWORD="" PRIVATE_KEY_FILE="C:\Users\Maxim.Kolmakov\PhpstormProjects\untitled12\.vagrant\machines\default\virtualbox\private_key" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="true" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+        <remote_data WEB_SERVER_CONFIG_ID="a0e508f8-a658-4975-ba82-96d8aae9127a" WEB_SERVER_CONFIG_NAME="vm" HOST="192.168.56.102" PORT="22" USERNAME="vagrant" PASSWORD="" PRIVATE_KEY_FILE="C:\Users\Maxim.Kolmakov\PhpstormProjects\untitled12\.vagrant\machines\default\virtualbox\private_key" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="true" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="docker://phpstorm-workshop:latest/php" id="41461187-1b08-4b01-a996-8478f906670a" name="PHP 7.1 with XDebug" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="phpstorm-workshop:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="Remote PHP 7">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="192.168.56.1 7564 22" version="7.0.2-4+deb.sury.org~trusty+1">
-          <additional_php_ini>/etc/php/7.0/cli/conf.d/20-intl.ini, /etc/php/7.0/cli/conf.d/20-json.ini, /etc/php/7.0/cli/conf.d/20-mysqli.ini, /etc/php/7.0/cli/conf.d/20-opcache.ini, /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.0/cli/conf.d/20-readline.ini, /etc/php/7.0/cli/conf.d/zzzz_custom.ini</additional_php_ini>
-          <configuration_file>/etc/php/7.0/cli/php.ini</configuration_file>
+      <interpreter name="PHP 7.1 with XDebug">
+        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.1.1">
+          <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini</additional_php_ini>
+          <configuration_file />
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
-            <configuration_option name="allow_url_include" value="" />
+            <configuration_option name="allow_url_include" value="0" />
             <configuration_option name="arg_separator.input" value="&amp;" />
             <configuration_option name="arg_separator.output" value="&amp;" />
             <configuration_option name="assert.active" value="1" />
@@ -40,45 +38,38 @@
             <configuration_option name="auto_detect_line_endings" value="0" />
             <configuration_option name="auto_globals_jit" value="1" />
             <configuration_option name="auto_prepend_file" value="" />
-            <configuration_option name="bcmath.scale" value="0" />
             <configuration_option name="browscap" value="" />
             <configuration_option name="cli.pager" value="" />
             <configuration_option name="cli.prompt" value="\b \&gt; " />
+            <configuration_option name="curl.cainfo" value="" />
             <configuration_option name="date.default_latitude" value="31.7667" />
             <configuration_option name="date.default_longitude" value="35.2333" />
             <configuration_option name="date.sunrise_zenith" value="90.583333" />
             <configuration_option name="date.sunset_zenith" value="90.583333" />
-            <configuration_option name="date.timezone" value="UTC" />
-            <configuration_option name="dba.default_handler" value="flatfile" />
+            <configuration_option name="date.timezone" value="" />
             <configuration_option name="default_charset" value="UTF-8" />
             <configuration_option name="default_mimetype" value="text/html" />
             <configuration_option name="default_socket_timeout" value="60" />
             <configuration_option name="disable_classes" value="" />
             <configuration_option name="disable_functions" value="" />
             <configuration_option name="display_errors" value="1" />
-            <configuration_option name="display_startup_errors" value="" />
+            <configuration_option name="display_startup_errors" value="0" />
             <configuration_option name="doc_root" value="" />
             <configuration_option name="docref_ext" value="" />
             <configuration_option name="docref_root" value="" />
-            <configuration_option name="enable_dl" value="" />
+            <configuration_option name="enable_dl" value="1" />
             <configuration_option name="enable_post_data_reading" value="1" />
             <configuration_option name="error_append_string" value="" />
             <configuration_option name="error_log" value="" />
             <configuration_option name="error_prepend_string" value="" />
-            <configuration_option name="error_reporting" value="-1" />
-            <configuration_option name="exif.decode_jis_intel" value="JIS" />
-            <configuration_option name="exif.decode_jis_motorola" value="JIS" />
-            <configuration_option name="exif.decode_unicode_intel" value="UCS-2LE" />
-            <configuration_option name="exif.decode_unicode_motorola" value="UCS-2BE" />
-            <configuration_option name="exif.encode_jis" value="" />
-            <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
-            <configuration_option name="exit_on_timeout" value="0" />
+            <configuration_option name="error_reporting" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/lib/php/20151012" />
+            <configuration_option name="extension_dir" value="/usr/local/lib/php/extensions/no-debug-non-zts-20160303" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
             <configuration_option name="from" value="" />
+            <configuration_option name="hard_timeout" value="2" />
             <configuration_option name="highlight.comment" value="#FF8000" />
             <configuration_option name="highlight.default" value="#0000BB" />
             <configuration_option name="highlight.html" value="#000000" />
@@ -88,19 +79,16 @@
             <configuration_option name="iconv.input_encoding" value="" />
             <configuration_option name="iconv.internal_encoding" value="" />
             <configuration_option name="iconv.output_encoding" value="" />
-            <configuration_option name="ignore_repeated_errors" value="" />
-            <configuration_option name="ignore_repeated_source" value="" />
+            <configuration_option name="ignore_repeated_errors" value="0" />
+            <configuration_option name="ignore_repeated_source" value="0" />
             <configuration_option name="ignore_user_abort" value="0" />
             <configuration_option name="implicit_flush" value="1" />
-            <configuration_option name="include_path" value=".:/usr/share/php:" />
+            <configuration_option name="include_path" value=".:/usr/local/lib/php" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
-            <configuration_option name="intl.default_locale" value="" />
-            <configuration_option name="intl.error_level" value="0" />
-            <configuration_option name="intl.use_exceptions" value="0" />
-            <configuration_option name="log_errors" value="1" />
+            <configuration_option name="log_errors" value="0" />
             <configuration_option name="log_errors_max_len" value="1024" />
-            <configuration_option name="mail.add_x_header" value="1" />
+            <configuration_option name="mail.add_x_header" value="0" />
             <configuration_option name="mail.force_extra_parameters" value="" />
             <configuration_option name="mail.log" value="" />
             <configuration_option name="max_execution_time" value="0" />
@@ -118,19 +106,8 @@
             <configuration_option name="mbstring.language" value="neutral" />
             <configuration_option name="mbstring.strict_detection" value="0" />
             <configuration_option name="mbstring.substitute_character" value="" />
-            <configuration_option name="memory_limit" value="-1" />
-            <configuration_option name="mysqli.allow_local_infile" value="1" />
-            <configuration_option name="mysqli.allow_persistent" value="1" />
-            <configuration_option name="mysqli.default_host" value="" />
-            <configuration_option name="mysqli.default_port" value="3306" />
-            <configuration_option name="mysqli.default_pw" value="" />
-            <configuration_option name="mysqli.default_socket" value="" />
-            <configuration_option name="mysqli.default_user" value="" />
-            <configuration_option name="mysqli.max_links" value="-1" />
-            <configuration_option name="mysqli.max_persistent" value="-1" />
-            <configuration_option name="mysqli.reconnect" value="" />
-            <configuration_option name="mysqli.rollback_on_cached_plink" value="0" />
-            <configuration_option name="mysqlnd.collect_memory_statistics" value="" />
+            <configuration_option name="memory_limit" value="128M" />
+            <configuration_option name="mysqlnd.collect_memory_statistics" value="0" />
             <configuration_option name="mysqlnd.collect_statistics" value="1" />
             <configuration_option name="mysqlnd.debug" value="" />
             <configuration_option name="mysqlnd.fetch_data_copy" value="0" />
@@ -141,36 +118,6 @@
             <configuration_option name="mysqlnd.net_read_timeout" value="31536000" />
             <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
             <configuration_option name="mysqlnd.trace_alloc" value="" />
-            <configuration_option name="opcache.blacklist_filename" value="" />
-            <configuration_option name="opcache.consistency_checks" value="0" />
-            <configuration_option name="opcache.dups_fix" value="0" />
-            <configuration_option name="opcache.enable" value="1" />
-            <configuration_option name="opcache.enable_cli" value="0" />
-            <configuration_option name="opcache.enable_file_override" value="0" />
-            <configuration_option name="opcache.error_log" value="" />
-            <configuration_option name="opcache.fast_shutdown" value="0" />
-            <configuration_option name="opcache.file_cache" value="" />
-            <configuration_option name="opcache.file_cache_consistency_checks" value="1" />
-            <configuration_option name="opcache.file_cache_only" value="0" />
-            <configuration_option name="opcache.file_update_protection" value="2" />
-            <configuration_option name="opcache.force_restart_timeout" value="180" />
-            <configuration_option name="opcache.huge_code_pages" value="0" />
-            <configuration_option name="opcache.inherited_hack" value="1" />
-            <configuration_option name="opcache.interned_strings_buffer" value="4" />
-            <configuration_option name="opcache.log_verbosity_level" value="1" />
-            <configuration_option name="opcache.max_accelerated_files" value="2000" />
-            <configuration_option name="opcache.max_file_size" value="0" />
-            <configuration_option name="opcache.max_wasted_percentage" value="5" />
-            <configuration_option name="opcache.memory_consumption" value="64" />
-            <configuration_option name="opcache.optimization_level" value="0xFFFFBFFF" />
-            <configuration_option name="opcache.preferred_memory_model" value="" />
-            <configuration_option name="opcache.protect_memory" value="0" />
-            <configuration_option name="opcache.restrict_api" value="" />
-            <configuration_option name="opcache.revalidate_freq" value="2" />
-            <configuration_option name="opcache.revalidate_path" value="0" />
-            <configuration_option name="opcache.save_comments" value="1" />
-            <configuration_option name="opcache.use_cwd" value="1" />
-            <configuration_option name="opcache.validate_timestamps" value="1" />
             <configuration_option name="open_basedir" value="" />
             <configuration_option name="openssl.cafile" value="" />
             <configuration_option name="openssl.capath" value="" />
@@ -180,7 +127,6 @@
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
             <configuration_option name="pcre.jit" value="1" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
-            <configuration_option name="pdo_mysql.default_socket" value="/var/run/mysqld/mysqld.sock" />
             <configuration_option name="phar.cache_list" value="" />
             <configuration_option name="phar.readonly" value="1" />
             <configuration_option name="phar.require_hash" value="1" />
@@ -191,10 +137,10 @@
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="1" />
             <configuration_option name="report_zend_debug" value="0" />
-            <configuration_option name="request_order" value="GP" />
+            <configuration_option name="request_order" value="" />
             <configuration_option name="sendmail_from" value="" />
-            <configuration_option name="sendmail_path" value="/usr/sbin/sendmail -t -i " />
-            <configuration_option name="serialize_precision" value="17" />
+            <configuration_option name="sendmail_path" value=" -t -i " />
+            <configuration_option name="serialize_precision" value="-1" />
             <configuration_option name="session.auto_start" value="0" />
             <configuration_option name="session.cache_expire" value="180" />
             <configuration_option name="session.cache_limiter" value="nocache" />
@@ -203,19 +149,19 @@
             <configuration_option name="session.cookie_lifetime" value="0" />
             <configuration_option name="session.cookie_path" value="/" />
             <configuration_option name="session.cookie_secure" value="" />
-            <configuration_option name="session.entropy_file" value="/dev/urandom" />
-            <configuration_option name="session.entropy_length" value="32" />
-            <configuration_option name="session.gc_divisor" value="1000" />
+            <configuration_option name="session.gc_divisor" value="100" />
             <configuration_option name="session.gc_maxlifetime" value="1440" />
-            <configuration_option name="session.gc_probability" value="0" />
-            <configuration_option name="session.hash_bits_per_character" value="5" />
-            <configuration_option name="session.hash_function" value="0" />
+            <configuration_option name="session.gc_probability" value="1" />
             <configuration_option name="session.lazy_write" value="1" />
             <configuration_option name="session.name" value="PHPSESSID" />
             <configuration_option name="session.referer_check" value="" />
             <configuration_option name="session.save_handler" value="files" />
-            <configuration_option name="session.save_path" value="/var/lib/php/session" />
+            <configuration_option name="session.save_path" value="" />
             <configuration_option name="session.serialize_handler" value="php" />
+            <configuration_option name="session.sid_bits_per_character" value="4" />
+            <configuration_option name="session.sid_length" value="32" />
+            <configuration_option name="session.trans_sid_hosts" value="" />
+            <configuration_option name="session.trans_sid_tags" value="a=href,area=href,frame=src,form=" />
             <configuration_option name="session.upload_progress.cleanup" value="1" />
             <configuration_option name="session.upload_progress.enabled" value="1" />
             <configuration_option name="session.upload_progress.freq" value="1%" />
@@ -226,25 +172,22 @@
             <configuration_option name="session.use_only_cookies" value="1" />
             <configuration_option name="session.use_strict_mode" value="0" />
             <configuration_option name="session.use_trans_sid" value="0" />
-            <configuration_option name="short_open_tag" value="" />
+            <configuration_option name="short_open_tag" value="1" />
             <configuration_option name="smtp_port" value="25" />
-            <configuration_option name="soap.wsdl_cache" value="1" />
-            <configuration_option name="soap.wsdl_cache_dir" value="/tmp" />
-            <configuration_option name="soap.wsdl_cache_enabled" value="1" />
-            <configuration_option name="soap.wsdl_cache_limit" value="5" />
-            <configuration_option name="soap.wsdl_cache_ttl" value="86400" />
-            <configuration_option name="sql.safe_mode" value="" />
+            <configuration_option name="sql.safe_mode" value="0" />
+            <configuration_option name="sqlite3.extension_dir" value="" />
             <configuration_option name="sys_temp_dir" value="" />
-            <configuration_option name="track_errors" value="" />
+            <configuration_option name="track_errors" value="0" />
             <configuration_option name="unserialize_callback_func" value="" />
             <configuration_option name="upload_max_filesize" value="2M" />
             <configuration_option name="upload_tmp_dir" value="" />
-            <configuration_option name="url_rewriter.tags" value="a=href,area=href,frame=src,input=src,form=fakeentry" />
+            <configuration_option name="url_rewriter.hosts" value="" />
+            <configuration_option name="url_rewriter.tags" value="form=" />
             <configuration_option name="user_agent" value="" />
             <configuration_option name="user_dir" value="" />
             <configuration_option name="user_ini.cache_ttl" value="300" />
             <configuration_option name="user_ini.filename" value=".user.ini" />
-            <configuration_option name="variables_order" value="GPCS" />
+            <configuration_option name="variables_order" value="EGPCS" />
             <configuration_option name="xdebug.auto_trace" value="0" />
             <configuration_option name="xdebug.cli_color" value="0" />
             <configuration_option name="xdebug.collect_assignments" value="0" />
@@ -283,9 +226,9 @@
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
             <configuration_option name="xdebug.remote_addr_header" value="" />
             <configuration_option name="xdebug.remote_autostart" value="0" />
-            <configuration_option name="xdebug.remote_connect_back" value="1" />
+            <configuration_option name="xdebug.remote_connect_back" value="0" />
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
-            <configuration_option name="xdebug.remote_enable" value="1" />
+            <configuration_option name="xdebug.remote_enable" value="0" />
             <configuration_option name="xdebug.remote_handler" value="dbgp" />
             <configuration_option name="xdebug.remote_host" value="localhost" />
             <configuration_option name="xdebug.remote_log" value="" />
@@ -307,17 +250,18 @@
             <configuration_option name="xdebug.var_display_max_depth" value="3" />
             <configuration_option name="xmlrpc_error_number" value="0" />
             <configuration_option name="xmlrpc_errors" value="0" />
-            <configuration_option name="zend.assertions" value="-1" />
+            <configuration_option name="zend.assertions" value="1" />
             <configuration_option name="zend.detect_unicode" value="1" />
             <configuration_option name="zend.enable_gc" value="1" />
             <configuration_option name="zend.multibyte" value="0" />
             <configuration_option name="zend.script_encoding" value="" />
-            <configuration_option name="zlib.output_compression" value="" />
+            <configuration_option name="zend.signal_check" value="0" />
+            <configuration_option name="zlib.output_compression" value="0" />
             <configuration_option name="zlib.output_compression_level" value="-1" />
             <configuration_option name="zlib.output_handler" value="" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.4.0RC4">
+            <debugger_info debugger="xdebug" debugger_version="2.5.0">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -328,45 +272,32 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
-            <extension name="Zend OPcache" />
-            <extension name="bcmath" />
-            <extension name="calendar" />
             <extension name="ctype" />
+            <extension name="curl" />
             <extension name="date" />
-            <extension name="dba" />
             <extension name="dom" />
-            <extension name="exif" />
             <extension name="fileinfo" />
             <extension name="filter" />
             <extension name="ftp" />
-            <extension name="gettext" />
             <extension name="hash" />
             <extension name="iconv" />
-            <extension name="intl" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
-            <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="openssl" />
-            <extension name="pcntl" />
             <extension name="pcre" />
-            <extension name="pdo_mysql" />
+            <extension name="pdo_sqlite" />
             <extension name="posix" />
             <extension name="readline" />
             <extension name="session" />
-            <extension name="soap" />
-            <extension name="sockets" />
+            <extension name="sqlite3" />
             <extension name="standard" />
-            <extension name="sysvmsg" />
-            <extension name="sysvsem" />
-            <extension name="sysvshm" />
             <extension name="tokenizer" />
             <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
-            <extension name="zip" />
             <extension name="zlib" />
           </loaded_extensions>
         </phpinfo>
