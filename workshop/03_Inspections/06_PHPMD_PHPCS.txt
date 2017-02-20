@@ -16,6 +16,6 @@ PHPCS configuration:
 
 PHPMD configuration:
 3. Open the project settings | php | code sniffer, select in Configuration "Interpreter: PHPMD"
-4. Click "..." and make sure that path for PHPCS is "phpmd". Validate installation.
+4. Click "..." and make sure that path for PHPMD is "phpmd". Validate installation.
 5. Apply settings and open project settings | inspections. Enable PHP Mess Detector and set options to validate against.
 6. Run PHP Mess Detector inspections on the current project.
