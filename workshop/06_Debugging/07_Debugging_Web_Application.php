@@ -6,6 +6,7 @@
  */
 
 namespace Debugging7\JetBrains;
+//TODO: Set up for Docker
 
 // 1. Visit http://www.jetbrains.com/phpstorm/marklets/ and generate bookmarklets for your debugger (Zend Debugger or Xdebug).
 //    Drag at least the Start Debugger bookmarklet to the bookmarks bar.

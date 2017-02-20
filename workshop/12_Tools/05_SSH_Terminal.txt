@@ -1,7 +1,7 @@
 SSH Terminal
 
 Connect to a remote SSH server. Provides a full SSH terminal in the IDE.
-
+TODO: Setup for Docker
 1. Use the Tools | Start SSH Session... menu and connect to the Vagrant box.
    Change directory to /var/www and list files. Note it is a shared folder which is the current project in PhpStorm.
 2. You can connect to a SFTP deployment server. Use the Tools | Start SSH Session... menu and select "vm" server.
