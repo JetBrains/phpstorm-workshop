@@ -2,7 +2,6 @@ Remote SSH external tools
 
 Invoke remote commands over SSH without having to manually log in to the remote server.
 For example, we may want to run a shell script which flushes the current cache, or a script which sets up a new virtual machine.
-TODO: Check for Docker
 1. Open IDE Settings | Remote SSH External Tools and add a new tool.
    Name: Hello World External Tool
    Check "Show console when standard output changes"
