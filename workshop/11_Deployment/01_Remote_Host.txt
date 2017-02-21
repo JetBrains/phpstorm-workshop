@@ -1,8 +1,9 @@
 Remote Host
 
 Copy files and folders back and forth between local project and server.
-TODO: Set up for Docker
-1. Using Search Everywhere, find the Remote Host tool window.
-2. Copy existing vm server and specify "Root path" to be "/home/vagrant" or click "Autodetect"
+0. Uncomment the line in docker-compose.yml according to your OS
+1. Start SFTP docker image by running: "docker-compose up" from the "11_Deployment" folder.
+   This will start SFTP server on the port 2022 for which your local (C:\tmp or /tmp) folder will be mapped to /home/jetbrains/upload
+2. Using Search Everywhere, find the Remote Host tool window.
 3. Browse the remote host and copy some files from the current project to the remote server.
    This can be done using drag and drop, or using the context menu.

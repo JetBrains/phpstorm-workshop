@@ -2,11 +2,12 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="a0e508f8-a658-4975-ba82-96d8aae9127a" name="vm" url="http://192.168.56.102">
-        <fileTransfer host="192.168.56.102" port="22" privateKey="$PROJECT_DIR$/.idea/private_key" rootFolder="/var/www" accessType="SFTP" username="vagrant" keyPair="true">
+      <webServer id="a0e508f8-a658-4975-ba82-96d8aae9127a" name="vm" url="http://localhost">
+        <fileTransfer host="localhost" port="2022" rootFolder="/upload" accessType="SFTP" username="vagrant">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
+          <option name="port" value="2022" />
         </fileTransfer>
       </webServer>
     </option>

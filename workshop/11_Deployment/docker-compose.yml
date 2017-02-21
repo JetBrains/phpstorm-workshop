@@ -1,0 +1,12 @@
+version: '2'
+services:
+  sftp:
+    image: atmoz/sftp
+    ports:
+     - "2022:22"
+    volumes:
+#   Please uncomment for Windows
+#     - C:/temp:/home/jetbrains/upload
+#   Please uncomment for macOS/Linux
+#     - /tmp:/home/jetbrains/upload
+    command: jetbrains:jetbrains:1001
