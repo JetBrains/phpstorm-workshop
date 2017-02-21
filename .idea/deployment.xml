@@ -2,6 +2,17 @@
 <project version="4">
   <component name="PublishConfigData" serverName="vm">
     <serverData>
+      <paths name="ssh">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
+            <excludedPath local="true" path="$PROJECT_DIR$/Vagrantfile" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
       <paths name="vm">
         <serverdata>
           <mappings>

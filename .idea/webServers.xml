@@ -10,6 +10,14 @@
           <option name="port" value="2022" />
         </fileTransfer>
       </webServer>
+      <webServer id="08aa5788-60af-41bc-995c-e722882efba4" name="ssh" url="http://localhost">
+        <fileTransfer host="localhost" port="2024" rootFolder="/home/jetbrains" accessType="SFTP" username="vagrant">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="2024" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
