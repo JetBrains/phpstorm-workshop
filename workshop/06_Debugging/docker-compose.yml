@@ -4,6 +4,7 @@ services:
     build: .
     ports:
      - "80:80"
+     - "33056:3306"
     volumes:
       - .:/www
     environment:
