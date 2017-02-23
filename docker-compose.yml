@@ -19,3 +19,9 @@ services:
   #   Please uncomment for macOS/Linux
       - /tmp:/home/jetbrains/upload
     command: jetbrains:jetbrains:1001
+  mysql:
+      image: phpstorm/mysql
+      ports:
+        - "33056:3306"
+      volumes:
+        - ./data:/var/lib/mysql
