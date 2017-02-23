@@ -11,7 +11,7 @@ services:
         #change the line below with your IP address
         XDEBUG_CONFIG: remote_host=192.168.2.108
   sftp:
-    image: atmoz/sftp
+    image: phpstorm/sftp-server
     ports:
       - "2022:22"
     volumes:
@@ -20,12 +20,3 @@ services:
   #   Please uncomment for macOS/Linux
       - /tmp:/home/jetbrains/upload
     command: jetbrains:jetbrains:1001
-  ssh:
-    image: sjourdan/alpine-sshd
-    ports:
-     - "2024:22"
-    volumes:
-      - .:/home/jetbrains/upload
-    environment:
-      USER: jetbrains
-      PASSWORD: jetbrains
