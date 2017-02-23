@@ -1,10 +1,9 @@
 version: '2'
 services:
-  debug_and_database:
-    build: ./06_Debugging/
+  debug:
+    build: phpstorm/php-71-apache-xdebug
     ports:
      - "80:80"
-     - "33056:3306"
     volumes:
       - .:/www
     environment:
