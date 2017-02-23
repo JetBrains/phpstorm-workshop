@@ -17,8 +17,8 @@
       <interpreter home="sftp://vagrant@192.168.56.102:22/usr/bin/php" id="e8038bd5-a5f7-4bd5-9b10-cf1c8014f5ea" name="Remote PHP 7" debugger_id="php.debugger.XDebug">
         <remote_data WEB_SERVER_CONFIG_ID="a0e508f8-a658-4975-ba82-96d8aae9127a" WEB_SERVER_CONFIG_NAME="vm" HOST="192.168.56.102" PORT="22" USERNAME="vagrant" PASSWORD="" PRIVATE_KEY_FILE="C:\Users\Maxim.Kolmakov\PhpstormProjects\untitled12\.vagrant\machines\default\virtualbox\private_key" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="true" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
-      <interpreter home="docker://phpstorm-workshop:latest/php" id="41461187-1b08-4b01-a996-8478f906670a" name="PHP 7.1 with XDebug" debugger_id="php.debugger.XDebug">
-        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="phpstorm-workshop:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="docker://phpstorm/php-71-cli-xdebug:latest/php" id="41461187-1b08-4b01-a996-8478f906670a" name="PHP 7.1 with XDebug" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="phpstorm/php-71-cli-xdebug:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
       <interpreter home="docker://phpunit/phpunit:latest/php" id="d2e4581b-87dd-44d0-9882-2a8b5ba7aa97" name="PHPUnit" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="phpunit/phpunit:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
@@ -756,7 +756,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 7.1 with XDebug">
-        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.1.1">
+        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="7.1.2">
           <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini</additional_php_ini>
           <configuration_file />
           <configuration_options>
@@ -869,7 +869,7 @@
             <configuration_option name="phar.require_hash" value="1" />
             <configuration_option name="post_max_size" value="8M" />
             <configuration_option name="precision" value="14" />
-            <configuration_option name="realpath_cache_size" value="16K" />
+            <configuration_option name="realpath_cache_size" value="4096K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="1" />

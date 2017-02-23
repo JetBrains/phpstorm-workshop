@@ -1,0 +1,31 @@
+version: '2'
+services:
+  debug_and_database:
+    build: ./06_Debugging/
+    ports:
+     - "80:80"
+     - "33056:3306"
+    volumes:
+      - .:/www
+    environment:
+        #change the line below with your IP address
+        XDEBUG_CONFIG: remote_host=192.168.2.108
+  sftp:
+    image: atmoz/sftp
+    ports:
+      - "2022:22"
+    volumes:
+  #   Please uncomment for Windows
+  #     - C:/temp:/home/jetbrains/upload
+  #   Please uncomment for macOS/Linux
+      - /tmp:/home/jetbrains/upload
+    command: jetbrains:jetbrains:1001
+  ssh:
+    image: sjourdan/alpine-sshd
+    ports:
+     - "2024:22"
+    volumes:
+      - .:/home/jetbrains/upload
+    environment:
+      USER: jetbrains
+      PASSWORD: jetbrains

@@ -10,9 +10,8 @@ This workshop is self-paced, meaning you can work your way through slides and ex
 
 ## Prerequisites
 
-* Vagrant: 1.8.*+
-* VirtualBox: 5.*+
-* PhpStorm 2016.1+
+* Docker 1.3.*+
+* PhpStorm 2016.3+
 
 ## Getting the Project
 There are a couple of ways to get started with the PhpStorm workshop materials:
