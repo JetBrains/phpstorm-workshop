@@ -1,11 +1,11 @@
 version: '2'
 services:
   debug:
-    build: phpstorm/php-71-apache-xdebug
+    image: phpstorm/php-71-apache-xdebug
     ports:
      - "80:80"
     volumes:
-      - ./workshop/06_Debugging:/www
+      - ./workshop/06_Debugging:/var/www/html
     environment:
         #change the line below with your IP address
         XDEBUG_CONFIG: remote_host=<your_ip_address>
