@@ -38,12 +38,14 @@ and use the Composer project type and search for "jetbrains/phpstorm-workshop" a
     ``wget https://github.com/JetBrains/phpstorm-workshop/archive/docker.zip``
 
 ## Getting Started
-Most exercises require having Docker containers running. 
+Most exercises not related to Editor require having Docker containers running. 
 
 Before you start you need to:
+
 1. Update `XDEBUG_CONFIG` variable in `docker-compose.yml` with your IP address. That is necessary for Web Debugging.
  
     To get the right IP address that is available from Docker please use one of the following command:
+    
     * Windows:  execute `ipconfig` and copy ip from `DockerNAT` interface from `IPv4 Address` field
     * macOS: execute `ifconfig en0` and copy IP from `inet` field
     * Linux: execute `ifconfig docker0` and copy ip from `inet addr` field
