@@ -12,7 +12,7 @@ namespace Testing\JetBrains;
 //    Note that a specific class or method can also be run.
 //    A PHPUnit XML configuration file can also be specified for this specific run configuration.
 // 2. PhpStorm has already preconfigured PHPUnit configuration for Remote Interpreter in Settings | PHP | PHPUnit so
-//    you don't need to set up anything. 
+//    you just need to change you interpreter in Settings|PHP|CLI Interpreter to PHPUnit.
 // 3. Almost there! The Queue class can not be loaded. To solve this, do one of the following:
 //
 //      Add the line require_once 'Code/Queue.php';
