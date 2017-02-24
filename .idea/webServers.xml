@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="a0e508f8-a658-4975-ba82-96d8aae9127a" name="vm" url="http://localhost">
-        <fileTransfer host="localhost" port="2022" rootFolder="/upload" accessType="SFTP" username="vagrant">
+        <fileTransfer host="localhost" port="2022" rootFolder="/home/jetbrains/upload" accessType="SFTP" username="vagrant">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
