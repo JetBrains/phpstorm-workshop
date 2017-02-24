@@ -5,10 +5,10 @@ services:
     ports:
      - "80:80"
     volumes:
-      - .:/www
+      - ./workshop/06_Debugging:/www
     environment:
         #change the line below with your IP address
-        XDEBUG_CONFIG: remote_host=192.168.2.108
+        XDEBUG_CONFIG: remote_host=<your_ip_address>
   sftp:
     image: phpstorm/sftp-server
     ports:
@@ -17,7 +17,7 @@ services:
   #   Please uncomment for Windows
   #     - C:/temp:/home/jetbrains/upload
   #   Please uncomment for macOS/Linux
-      - /tmp:/home/jetbrains/upload
+  #    - /tmp:/home/jetbrains/upload
     command: jetbrains:jetbrains:1001
   mysql:
       image: phpstorm/mysql
