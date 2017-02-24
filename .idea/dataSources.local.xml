@@ -8,19 +8,10 @@
       </database-info>
       <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
+      <user-name>jetbrains</user-name>
       <introspection-schemas>*</introspection-schemas>
       <resolve-scope>*:phpstorm</resolve-scope>
       <unqualified-resolve-schemas>*:phpstorm</unqualified-resolve-schemas>
-      <ssh-properties>
-        <enabled>false</enabled>
-        <proxy-host>192.168.56.102</proxy-host>
-        <proxy-port>22</proxy-port>
-        <secret-storage>master_key</secret-storage>
-        <user>vagrant</user>
-        <use-password>false</use-password>
-        <private-key-path>$PROJECT_DIR$/.idea/private_key</private-key-path>
-      </ssh-properties>
     </data-source>
   </component>
 </project>
