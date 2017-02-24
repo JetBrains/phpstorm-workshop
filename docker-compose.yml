@@ -7,7 +7,8 @@ services:
     volumes:
       - ./workshop/06_Debugging:/var/www/html
     environment:
-        #change the line below with your IP address
+        #change the line below with your IP address that is visible from Docker
+        #See README for instruction about how to get the right IP address
         XDEBUG_CONFIG: remote_host=<your_ip_address>
   sftp:
     image: phpstorm/sftp-server
