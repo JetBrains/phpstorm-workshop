@@ -16,7 +16,7 @@ Exercises come as a PhpStorm project in which every file is a new task that may 
 
 ## Prerequisites
 
-* Docker 1.13+
+* Docker for Mac, Docker for Windows or Docker (Linux) 1.13+
 * PhpStorm 2016.3+
 
 ## Getting the Project
@@ -41,8 +41,13 @@ and use the Composer project type and search for "jetbrains/phpstorm-workshop" a
 Most exercises not related to Editor require having Docker containers running. 
 
 Before you start you need to:
+1. Open Settings|Build, Execution, Deployment|Docker and enter the following API URL:
 
-1. Update `XDEBUG_CONFIG` variable in `docker-compose.yml` with your IP address. That is necessary for Web Debugging.
+    * Windows:  `tcp://localhost:2375`
+    * Linux, macOS: `unix:///var/run/docker.sock`
+
+
+2. Update `XDEBUG_CONFIG` variable in `docker-compose.yml` with your IP address. That is necessary for Web Debugging.
  
     To get the right IP address that is available from Docker please use one of the following command:
     
@@ -50,8 +55,8 @@ Before you start you need to:
     * macOS: execute `ifconfig en0` and copy IP from `inet` field
     * Linux: execute `ifconfig docker0` and copy ip from `inet addr` field
 
-2. Uncomment an appropriate line for `sftp` service in the same `docker-compose.yml`. That is necessary for Deployment to work correctly.
-3. Start all required Docker containers executing `docker-compose up` inside Terminal.
+3. Uncomment an appropriate line for `sftp` service in the same `docker-compose.yml`. That is necessary for Deployment to work correctly.
+4. Start all required Docker containers executing `docker-compose up` inside Terminal.
 
 There are some things to know about the project:
 
