@@ -3,7 +3,7 @@ services:
   debug:
     image: phpstorm/php-71-apache-xdebug
     ports:
-     - "80:80"
+     - "8081:80"
     volumes:
       - ./workshop/06_Debugging:/var/www/html
     environment:
