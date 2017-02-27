@@ -11,7 +11,8 @@
 namespace Debugging1\JetBrains;
 
 $name = 'Maarten';
-
+// 0. PhpStorm has already preconfigured "PHP 7.1 with XDebug" interpreter with enabled XDebug. Please make sure it's
+// selected in Settings|PHP|CLI Interpreter.
 // 1. Place a breakpoint on the following line of code.
 $name = 'Mikhail';
 
