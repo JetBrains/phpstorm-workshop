@@ -8,11 +8,11 @@
 namespace Testing\JetBrains;
 
 // 1. Create a new Run Configuration based on PHPUnit. Name it "Run tests" and specify the directory to look for tests:
-//      \08_Testing\
+//      workshop/08_Testing/
 //    Note that a specific class or method can also be run.
 //    A PHPUnit XML configuration file can also be specified for this specific run configuration.
 // 2. PhpStorm has already preconfigured PHPUnit configuration for Remote Interpreter in Settings | PHP | PHPUnit so
-//    you just need to change you interpreter in Settings|PHP|CLI Interpreter to PHPUnit.
+//    you just need to change you interpreter in Settings|PHP|CLI Interpreter to Workshop PHPUnit.
 // 3. Almost there! The Queue class can not be loaded. To solve this, do one of the following:
 //
 //      Add the line require_once 'Code/Queue.php';
