@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="QueueTest with Coverage" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <TestRunner class="Testing\JetBrains\QueueTest" file="$PROJECT_DIR$/workshop/08_Testing/QueueTest.php" scope="Class" options="--whitelist Code" />
+    <method />
+  </configuration>
+</component>
