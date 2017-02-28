@@ -1,10 +1,10 @@
 <?php
+
 namespace Testing\JetBrains;
 
-use Testing\JetBrains\Queue;
 use PHPUnit\Framework\TestCase;
 
-class QueueTest extends TestCase {
+class QueueTest extends TestCase
     /** @var Queue */
     protected $_queue;
 
