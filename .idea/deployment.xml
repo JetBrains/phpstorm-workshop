@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="vm">
+  <component name="PublishConfigData" serverName="web_debugging">
     <serverData>
       <paths name="vm">
         <serverdata>
@@ -11,6 +11,13 @@
             <excludedPath local="true" path="$PROJECT_DIR$/.idea" />
             <excludedPath local="true" path="$PROJECT_DIR$/Vagrantfile" />
           </excludedPaths>
+        </serverdata>
+      </paths>
+      <paths name="web_debugging">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/workshop/06_Debugging" web="/" />
+          </mappings>
         </serverdata>
       </paths>
     </serverData>

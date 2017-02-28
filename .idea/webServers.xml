@@ -10,6 +10,9 @@
           <option name="port" value="2022" />
         </fileTransfer>
       </webServer>
+      <webServer id="e24a4f13-fc23-4893-9a7c-b23c1be9335b" name="web_debugging" url="http://localhost:8081">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </project>
