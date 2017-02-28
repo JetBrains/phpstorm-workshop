@@ -13,7 +13,7 @@ class Queue {
         array_push($this->_store, $item);
     }
 
-    public function dequeue() {
+    public function peek() {
         return array_shift($this->_store);
     }
 }

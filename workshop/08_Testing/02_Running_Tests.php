@@ -19,7 +19,7 @@ namespace Testing\JetBrains;
 //
 //      -or-
 //
-//      From the Project Settings | PHP | PHPUnit, set \08_Testing\Code\Bootstrap.php as the default bootstrap file.
+//      From the Project Settings | PHP | PHPUnit, set workshop\08_Testing\Code\Bootstrap.php as the default bootstrap file.
 //      A bootstrap file can be used to run custom PHP code in the unit test runner. Bootstrap.php includes all required files
 //      so that the tests can be run.
 // 4. Execute the Run Configuration.

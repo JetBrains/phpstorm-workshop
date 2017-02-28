@@ -2,9 +2,11 @@
 
 namespace Testing\JetBrains;
 
+require "Code/Queue.php";
+
 use PHPUnit\Framework\TestCase;
 
-class QueueTest extends TestCase
+class QueueTest extends TestCase{
     /** @var Queue */
     protected $_queue;
 
@@ -17,14 +19,14 @@ class QueueTest extends TestCase
         $this->assertEquals(1, $this->_queue->getNumberOfItems());
     }
 
-    public function testPeekReturnsFalseWhenNoItemsInQueue() {
+    public function testPeekReturnsNullWhenNoItemsInQueue() {
         $result = $this->_queue->peek();
-        $this->assertFalse($result);
+        $this->assertNull($result);
     }
 
-    public function testPeekReturnsTrueWhenItemsInQueue() {
+    public function testPeekReturnsItemWhenItemsInQueue() {
         $this->_queue->enqueue('test');
         $result = $this->_queue->peek();
-        $this->assertTrue($result);
+        $this->assertEquals('test',$result);
     }
 }

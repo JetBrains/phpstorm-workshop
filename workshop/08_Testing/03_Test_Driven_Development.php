@@ -10,20 +10,20 @@
 
 namespace Testing\JetBrains;
 
-// 1. In QueueTest.php, add a 2 new tests which tests a currently non-existing method peek():
+// 1. In QueueTest.txt, add a 2 new tests which tests a currently non-existing method peek():
 //
-//    public function testPeekReturnsFalseWhenNoItemsInQueue() {
+//    public function testPeekReturnsNullWhenNoItemsInQueue() {
 //        $result = $this->_queue->peek();
-//        $this->assertFalse($result);
+//        $this->assertNull($result);
 //    }
 //
-//    public function testPeekReturnsTrueWhenItemsInQueue() {
+//    public function testPeekReturnsItemWhenItemsInQueue() {
 //        $this->_queue->enqueue('test');
 //        $result = $this->_queue->peek();
-//        $this->assertTrue($result);
+//        $this->assertEquals('test',$result);
 //    }
 //
-//    In other words: if items are in queue, peek() should return true. It should return false if no items are in queue.
+//    In other words: if items are in queue, peek() should return the item. It should return null if no items are in queue.
 //
 // 2. PhpStorm displays an inspection on the peek() method: Method peek() not found in class Queue.
 //    Using Alt+Enter, create the method.
