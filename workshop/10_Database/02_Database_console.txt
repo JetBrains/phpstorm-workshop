@@ -5,7 +5,7 @@ SQL console with autocompletion, inspections, error highlighting, autocompletion
 Ctrl+Shift+F10 (Windows/Linux)
 Shift+Command+F10 (Mac OS X)
 
-1. Open a database console and copy in the contents of the workshop_database.sql file.
+1. Open a database console for jetbrains database and copy in the contents of the workshop_database.sql file.
 2. We can execute SQL statements by selecting one or multiple. Select all statements in the console and execute
    the statement using the button in the toolbar or Ctrl+Enter (Command+Enter).
 3. Open a new console and try typing the following query. Note the autocompletion on typing "person."

@@ -1,4 +1,4 @@
-USE `phpstorm`;
+USE `jetbrains`;
 
 CREATE TABLE `country` (
   `country_id` int(11) NOT NULL AUTO_INCREMENT,
