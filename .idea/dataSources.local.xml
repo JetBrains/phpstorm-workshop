@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
       <secret-storage>master_key</secret-storage>
       <user-name>jetbrains</user-name>
-      <introspection-schemas>*</introspection-schemas>
+      <introspection-schemas>*:jetbrains</introspection-schemas>
       <resolve-scope>*:phpstorm</resolve-scope>
       <unqualified-resolve-schemas>*:phpstorm</unqualified-resolve-schemas>
     </data-source>

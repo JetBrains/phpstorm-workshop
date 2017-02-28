@@ -3,4 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="PROJECT" dialect="MySQL" />
   </component>
+  <component name="SqlResolveMappings">
+    <file url="PROJECT" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;data-source&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@name&quot;:&quot;9c0a5112-e07b-424f-981f-24be95886f0a&quot;,     &quot;@quoted&quot;:&quot;1&quot;    },    &quot;group&quot;:{     &quot;@kind&quot;:&quot;schema&quot;,     &quot;node&quot;:{      &quot;name&quot;:{       &quot;@name&quot;:&quot;jetbrains&quot;,       &quot;@quoted&quot;:&quot;1&quot;      }     }    }   }  } }}" />
+  </component>
 </project>
