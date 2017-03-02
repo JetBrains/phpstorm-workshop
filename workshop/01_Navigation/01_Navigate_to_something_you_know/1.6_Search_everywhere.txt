@@ -6,7 +6,7 @@ Double shift (Windows/Linux/Mac OS X)
 
 1. Just launching Search Everywhere will display recent files.
 
-2. Navigate to the $_name protected variable in Customer.php.
+2. Navigate to the $_name protected variable in Customer.php (type: _name).
 
 3. Use CamelHumps to navigate.
    Navigate to the CustomerRepository class using CamelHumps (type "CR" or "CusR").
