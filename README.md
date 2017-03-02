@@ -28,6 +28,28 @@ There are a couple of ways to get started with the PhpStorm workshop materials:
 * Download the ZIP
 
     ``wget https://github.com/JetBrains/phpstorm-workshop/archive/master.zip``
+    
+## Docker Version of Workshop
+
+We also have a Docker version of the same tutorial which uses Docker containers instead of Vagrant box. To get it please checkout ``docker`` branch.
+ 
+* Create a new project using Composer. Note that you can also create a new project in PhpStorm 
+and use the Composer project type and search for *jetbrains/phpstorm-workshop* and select *docker* in version field.
+
+    ``php composer.phar create-project jetbrains/phpstorm-workshop docker -s dev``
+
+* Clone the project using GitHub and checkout `docker` branch
+
+    ``git clone https://github.com/JetBrains/phpstorm-workshop.git``
+    
+    ``git checkout docker``
+
+* Download the ZIP
+
+    ``wget https://github.com/JetBrains/phpstorm-workshop/archive/docker.zip``
+
+
+Please then follow instructions in the README file from Docker Workshop.
 
 ## Getting Started
 Most exercises require to have Vagrant box running. You may start it using *Tools->Vagrant->Up* inside PhpStorm.
