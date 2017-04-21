@@ -59,7 +59,6 @@ There are some things to know about the project:
 * The project can be opened as-is in PhpStorm. We've included configurations for PHP Remote Interpreter, Database, Deployment Server, PHP Web Debug, PHPUnit and Behat.
 * All numbered folders contain exercises that you can work on. Simply open the numbered files one by one and follow the comments in the file. Most exercises are self-contained, others build on previous exercises.
 * Some of the excercises are in Markdown format, you can read these files easier (like this one) by toggling the View to *Show Preview Only* in the top right hand corner.
-* The PhpStorm Workshop.pptx / PhpStorm Workshop.pdf is a slide deck which summarizes many of the items covered in exercises.
 * The PhpStorm Reference Card.pdf is the PhpStorm keymap. The latest version can always be found on the [PhpStorm website](http://bit.ly/1Ni0XJ0).
 
 ## Open Source and Contribution
