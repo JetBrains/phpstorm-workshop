@@ -2,13 +2,13 @@
 /**
  * Next Method
  *
- * Alt+Down/Up (Windows/Linux)
- * Control+Down/Up (Mac OS X)
+ * Alt+Down / Alt+Up (Windows/Linux)
+ * Control+Down / Control+Up (Mac OS X)
  *
  * Navigate through methods in a file/class.
  *
- * NOTE: On OSX Mountain Lion and newer, CTRL+Up/Down is overwritten by a
- * system shortcut - you may need to rebind these keys to use the shortcuts.
+ * NOTE: On OSX Mountain Lion and newer, Control+Down / Control+Up is overwritten
+ * by a system shortcut - you may need to rebind these keys to use the shortcuts.
  */
 
 namespace Navigation3\JetBrains;
