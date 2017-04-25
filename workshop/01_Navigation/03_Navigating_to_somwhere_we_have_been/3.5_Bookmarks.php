@@ -2,8 +2,6 @@
 /**
  * Bookmarks
  *
- * Set, unset and navigate to bookmarks.
- *
  * Windows/Linux:
  *   F11 Toggle Bookmark
  *   Ctrl+F11 Toggle Numbered Bookmark (Bookmark with Mnemonic)
@@ -16,6 +14,9 @@
  *   Command+F3 Show bookmarks
  *   Ctrl+0..9 Navigate to numbered bookmark
  *
+ * Set, unset and navigate to bookmarks.
+ *
+ *
  * 1. Navigate to firstFunction() (use Navigate to Symbol or Search Everywhere) and set a bookmark.
  * 2. Navigate to secondFunction() and set a bookmark.
  * 3. Navigate to thirdFunction() and set bookmark with mnemonic, assign it number 3.
@@ -27,16 +28,20 @@
 
 namespace Navigation3\JetBrains;
 
-class Bookmarks {
-    public function firstFunction() {
+class Bookmarks
+{
+    public function firstFunction()
+    {
 
     }
 
-    public function secondFunction() {
+    public function secondFunction()
+    {
 
     }
 
-    public function thirdFunction() {
+    public function thirdFunction()
+    {
 
     }
 }
