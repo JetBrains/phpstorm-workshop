@@ -3,7 +3,7 @@
  * Navigate back and forward
  *
  * Ctrl+Alt+Left/Right (Windows/Linux)
- * Alt+Command+Left/Right (Mac OS X)
+ * Command+[/](Mac OS X)
  *
  * Return the caret to the last navigation point.
  */
