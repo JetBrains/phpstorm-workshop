@@ -2,10 +2,12 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="MySQL - @localhost" uuid="9c0a5112-e07b-424f-981f-24be95886f0a">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
       <secret-storage>master_key</secret-storage>
       <user-name>phpstorm</user-name>
-      <schema-pattern>information_schema.* phpstorm.*</schema-pattern>
-      <default-schemas>phpstorm.*</default-schemas>
+      <introspection-schemas>*:information_schema,phpstorm</introspection-schemas>
+      <resolve-scope>*:phpstorm</resolve-scope>
+      <unqualified-resolve-schemas>*:phpstorm</unqualified-resolve-schemas>
       <ssh-properties>
         <enabled>true</enabled>
         <proxy-host>192.168.56.102</proxy-host>
