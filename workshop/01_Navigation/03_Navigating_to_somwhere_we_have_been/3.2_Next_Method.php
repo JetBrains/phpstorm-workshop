@@ -2,30 +2,34 @@
 /**
  * Next Method
  *
+ * Alt+Down/Up (Windows/Linux)
+ * Control+Down/Up (Mac OS X)
+ *
  * Navigate through methods in a file/class.
  *
- * Alt+Down / Alt+Up (Windows/Linux)
- * Control+Down / Control+Up (Mac OS X)
+ * NOTE: On OSX Mountain Lion and newer, CTRL+Up/Down is overwritten by a
+ * system shortcut - you may need to rebind these keys to use the shortcuts.
  */
 
 namespace Navigation3\JetBrains;
 
-class NextMethod {
+class NextMethod
+{
     // 1. Navigate to thirdFunction() using Next Method.
-    public function firstFunction() {
-
+    public function firstFunction()
+    {
     }
 
-    public function secondFunction() {
-
+    public function secondFunction()
+    {
     }
 
     // 2. Navigate to firstFunction() using Previous Method.
-    public function thirdFunction() {
-
+    public function thirdFunction()
+    {
     }
 
-    public function fourthFunction() {
-
+    public function fourthFunction()
+    {
     }
 }
