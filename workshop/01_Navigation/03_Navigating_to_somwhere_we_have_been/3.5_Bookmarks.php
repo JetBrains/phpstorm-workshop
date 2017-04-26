@@ -32,16 +32,13 @@ class Bookmarks
 {
     public function firstFunction()
     {
-
     }
 
     public function secondFunction()
     {
-
     }
 
     public function thirdFunction()
     {
-
     }
 }

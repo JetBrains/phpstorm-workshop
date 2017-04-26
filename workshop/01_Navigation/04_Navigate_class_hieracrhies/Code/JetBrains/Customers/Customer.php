@@ -1,4 +1,5 @@
 <?php
+
 namespace Navigation4\JetBrains\Customers;
 
 class Customer implements ICustomer
@@ -13,17 +14,9 @@ class Customer implements ICustomer
      * @param string $name
      * @param double $discount
      */
-    function __construct($name, $discount)
+    public function __construct($name, $discount)
     {
         $this->_name = $name;
-        $this->_discount = $discount;
-    }
-
-    /**
-     * @param double $discount
-     */
-    public function setDiscount($discount)
-    {
         $this->_discount = $discount;
     }
 
@@ -36,11 +29,11 @@ class Customer implements ICustomer
     }
 
     /**
-     * @param string $name
+     * @param double $discount
      */
-    public function setName($name)
+    public function setDiscount($discount)
     {
-        $this->_name = $name;
+        $this->_discount = $discount;
     }
 
     /**
@@ -49,5 +42,13 @@ class Customer implements ICustomer
     public function getName()
     {
         return $this->_name;
+    }
+
+    /**
+     * @param string $name
+     */
+    public function setName($name)
+    {
+        $this->_name = $name;
     }
 }

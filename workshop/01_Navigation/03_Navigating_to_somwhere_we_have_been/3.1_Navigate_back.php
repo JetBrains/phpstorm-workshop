@@ -2,8 +2,8 @@
 /**
  * Navigate back and forward
  *
- * Ctrl+Alt+Left/Right (Windows/Linux)
- * Command+[/](Mac OS X)
+ * Ctrl+Alt+Left / Ctrl+Alt+Right (Windows/Linux)
+ * Command+[ / Command+] (Mac OS X)
  *
  * Return the caret to the last navigation point.
  */
