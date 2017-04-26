@@ -9,6 +9,7 @@
  *
  * Ctrl+H Show Hierarchy tool window (Windows/Linux/Mac OS X)
  */
+
 namespace Navigation4\JetBrains\Customers;
 
 // 1. Place the caret on Customer and use the keyboard shortcut to navigate the hierarchy up.

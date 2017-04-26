@@ -1,4 +1,5 @@
 <?php
+
 namespace Navigation4\JetBrains\Customers;
 
 class SilverCustomer extends Customer
