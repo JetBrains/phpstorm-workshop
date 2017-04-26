@@ -1,60 +1,67 @@
 <?php
 /**
- * File Structure Tool Window
- *
- * Display outline of file: classes, functions (with icons displaying accessibility).
- * Also show HTML, JavaScript, CSS, ...
+ * Structure Tool Window
  *
  * Alt+7 (Windows/Linux)
  * Command+7 s(Windows/Linux)
  *
- * Ctrl+F12 for popup (Windows/Linux)
- * Command+F12 for popup (Mac OS X)
+ * Navigate to File Structure
  *
- * 1. Open the File Structure Tool Window.
+ * Ctrl+F12 (Windows/Linux)
+ * Command+F12 (Mac OS X)
+ *
+ * Display outline of file: classes, functions (with icons displaying accessibility).
+ * Also show HTML, JavaScript, CSS, ...
+ *
+ * 1. Open the Structure Tool pane.
  * 2. Using the arrow keys, navigate to fourthFunction().
- *    Enter navigates to function.
- * 3. Open the File Structure Tool Window. Switch to HTML from the title bar.
+ *    (Enter navigates to selected item)
+ * 3. Open the Navigate to File Structure popup. Move to the HTML section.
  *    Navigate to the first paragraph.
  */
 
 namespace Navigation6\JetBrains;
 
-class Class1 {
+class Class1
+{
     /** @var int */
     protected $_classVariable;
 
-    public function firstFunction() {
-
+    static function fourthFunction()
+    {
     }
 
-    private function secondFunction() {
-
+    public function firstFunction()
+    {
     }
 
-    protected function thirdFunction() {
-
+    protected function thirdFunction()
+    {
     }
 
-    static function fourthFunction() {
-
+    private function secondFunction()
+    {
     }
 }
 
-class Class2 {
-    public function firstFunction() {
-
+class Class2
+{
+    public function firstFunction()
+    {
     }
 }
 
 $standardVariable = 1;
-function standardFunction() {
-
+function standardFunction()
+{
 }
+
 ?>
 <html>
 <body>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deserunt ea expedita magni omnis quis temporibus
-    velit vitae. Ex laboriosam nesciunt nisi obcaecati possimus quia repellendus sequi similique soluta voluptas?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis deserunt ea
+    expedita magni omnis quis temporibus
+    velit vitae. Ex laboriosam nesciunt nisi obcaecati possimus quia repellendus
+    sequi similique soluta voluptas?</p>
 </body>
 </html>
