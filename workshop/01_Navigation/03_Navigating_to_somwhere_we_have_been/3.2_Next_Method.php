@@ -7,7 +7,7 @@
  *
  * Navigate through methods in a file/class.
  *
- * NOTE: On OSX Mountain Lion and newer, Control+Down / Control+Up is overwritten
+ * NOTE: On OSX Mountain Lion and newer, Ctrl+Down / Ctrl+Up is overwritten
  * by a system shortcut - you may need to rebind these keys to use the shortcuts.
  */
 
