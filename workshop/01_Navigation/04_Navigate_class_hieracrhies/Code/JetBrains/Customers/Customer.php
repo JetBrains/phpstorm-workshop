@@ -14,7 +14,7 @@ class Customer implements ICustomer
      * @param string $name
      * @param double $discount
      */
-    function __construct($name, $discount)
+    public function __construct($name, $discount)
     {
         $this->_name = $name;
         $this->_discount = $discount;
