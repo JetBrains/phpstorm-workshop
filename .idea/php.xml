@@ -6,15 +6,10 @@
       <behat_by_interpreter interpreter_id="e8038bd5-a5f7-4bd5-9b10-cf1c8014f5ea" behat_path="/home/vagrant/.composer/vendor/behat/behat/bin/behat" />
     </behat_settings>
   </component>
-  <component name="BehatInfoCache">
-    <behat_settings>
-      <info name="Interpreter: Remote PHP 7" version="2.5.5" />
-    </behat_settings>
-  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="sftp://vagrant@192.168.56.102:22/usr/bin/php" id="e8038bd5-a5f7-4bd5-9b10-cf1c8014f5ea" name="Remote PHP 7" debugger_id="php.debugger.XDebug">
-        <remote_data WEB_SERVER_CONFIG_ID="a0e508f8-a658-4975-ba82-96d8aae9127a" WEB_SERVER_CONFIG_NAME="vm" HOST="192.168.56.102" PORT="22" ANONYMOUS="false" USERNAME="vagrant" PASSWORD="" PRIVATE_KEY_FILE="C:\Users\Maxim.Kolmakov\PhpstormProjects\untitled12\.vagrant\machines\default\virtualbox\private_key" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="true" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+        <remote_data WEB_SERVER_CONFIG_ID="a0e508f8-a658-4975-ba82-96d8aae9127a" WEB_SERVER_CONFIG_NAME="vm" HOST="192.168.56.102" PORT="22" USERNAME="vagrant" PASSWORD="" PRIVATE_KEY_FILE="C:\Users\Maxim.Kolmakov\PhpstormProjects\untitled12\.vagrant\machines\default\virtualbox\private_key" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="true" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
