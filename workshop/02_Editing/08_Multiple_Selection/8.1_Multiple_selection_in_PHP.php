@@ -1,6 +1,6 @@
 <?php
 /**
- * Multiple Selection in PHP
+ * Multiple Selections in PHP
  *
  * Create Multiple Cursors
  *
