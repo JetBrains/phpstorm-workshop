@@ -2,21 +2,27 @@
 /**
  * Moving Code
  *
- * Move code or entire statement up/down.
+ * Move Line Up/Down:
  *
- * Move line up/down:
- * Shift+Alt+Up / Down (Windows/Linux/Mac OS X)
+ * Shift+Alt+Up / Shift+Alt+Down (Windows/Linux/Mac OS X)
  *
- * Move statement up/down:
- * Shift+Ctrl+Up / Down (Windows/Linux)
- * Shift+Command+Up / Down (Mac OS X)
+ * Moves a line up or down
+ *
+ * Move Statement Up/Down
+ *
+ * Shift+Ctrl+Up / Shift+Ctrl+Down (Windows/Linux)
+ * Shift+Command+Up / Shift+Command+Down (Mac OS X)
+ *
+ * Moves the entire statement up or down
  */
 
 namespace Editing3\JetBrains;
 
-class MovingCode {
+class MovingCode
+{
     // 1. Order the lines using move line up / down.
-    public function moveLine() {
+    public function moveLine()
+    {
         $numberFive = 5;
         $numberOne = 1;
         $numberThree = 3;
@@ -25,7 +31,8 @@ class MovingCode {
     }
 
     // 2. Order the if statements using move statement up / down.
-    public function moveStatement() {
+    public function moveStatement()
+    {
         if (2 == 2) {
             // ...
             echo 'Number two';
