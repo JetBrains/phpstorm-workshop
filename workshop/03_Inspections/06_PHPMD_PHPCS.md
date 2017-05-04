@@ -1,17 +1,19 @@
 # Configure PHP Mess Detector or PHP Code Sniffer
 
-> ### Plug in PHP Mess Detector or PHP Code Sniffer as inspection engines.
->
+> ### Open Settings Pane
 > Ctrl+Alt+S (Windows/Linux)
 >
 > Command+, (Mac OS X)
-
-> If you're using the Vagrant workshop, you'll need to make sure Vagrant is running, to do this go to the _Tools_ menu
-> and then select _Vagrant | Up_. If prompted, click on the _Vagrantfile_ and the Vagrant machine will come up.
+>
+> Plug in PHP Mess Detector or PHP Code Sniffer as inspection engines.
 
 1. Open the Settings Pane and then _Languages and Frameworks | PHP_, click the _[...]_ next to the 
     interpreter list, and disable the "Visible only for this project" checkbox for _Remote PHP 7_ interpreter
 2. Click "Create" application level copy of this deployment server and then click "OK"
+
+> If you're using the Vagrant workshop, you'll need to make sure Vagrant is running, to do this go to the _Tools_ menu
+> and then select _Vagrant | Up_. If prompted, click on the _Vagrantfile_ and the Vagrant machine will come up.
+
 
 ### PHPCS configuration:
 3. Open the Settings Pane then _Languages and Frameworks | PHP | Code Sniffer_. Select "By default project interpreter".
