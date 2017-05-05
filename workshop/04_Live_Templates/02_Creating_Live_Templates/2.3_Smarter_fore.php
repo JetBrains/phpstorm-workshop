@@ -6,7 +6,7 @@
 namespace LiveTemplates2\JetBrains;
 
 /*
-1. Open the IDE settings | Live Templates and add a new live template.
+1. Open the the Setting Pane then Editor | Live Templates and add a new live template.
    Name the live template "fe" - we will mimic the fore template but make it smarter.
 
    Set the template text to:
@@ -24,9 +24,10 @@ foreach ($ITEMS$ as $ITEM$) {
 
    Save the live template.
 
-2. Test the newly created live template below. Notice how we are making use of the IDE's autocompletion features to make the template smarter.
+2. Test the newly created live template below. Notice how we are making use of the IDE's autocompletion features to make
+       the template smarter.
 */
 
-$numbers = array(1,2,3,4,5,6,7,8,9);
+$numbers = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
 // fe <TAB>
