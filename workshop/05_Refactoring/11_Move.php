@@ -2,9 +2,9 @@
 /**
  * Move
  *
- * Change the location of a file, directory, class or static member.
- *
  * F6 (Windows/Linux/Mac OS X)
+ *
+ * Change the location of a file, directory, class or static member.
  */
 
 namespace Refactoring11\JetBrains;
@@ -13,18 +13,29 @@ namespace Refactoring11\JetBrains;
 // 2. Move the Code directory and all its contents into the MoreCode directory.
 // 3. Move Class1, Class2 and Class3 into separate files.
 
-class Class1 { }
-class Class2 { }
-class Class3 { }
+class Class1
+{
+}
+
+class Class2
+{
+}
+
+class Class3
+{
+}
 
 // 4. Move the static method log() from the Utilities class to the Logger class.
-class Utilities {
-    public static function log($message) {
+class Utilities
+{
+    public static function log($message)
+    {
         echo $message;
     }
 }
 
-class Logger {
+class Logger
+{
 
 }
 
