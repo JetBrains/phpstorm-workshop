@@ -1,17 +1,24 @@
 <?php
 /**
- * Creating Live Templates - Surround template
+ * Creating Live Templates - Surround Template
  *
- * Surround code with a template. A template is only seen as a surround template when the $SELECTION$ variabel is defined.
+ * Surround With
  *
- * Ctrl+Alt+T or Ctrl+Alt+J (Windows/Linux)
- * Alt+Command+T or Alt+Command+J (Mac OS X)
+ * Ctrl+Alt+T (Windows/Linux)
+ * Alt+Command+T (Mac OS X)
+ *
+ * Surround With Live Template
+ *
+ * Ctrl+Alt+J (Windows/Linux)
+ * Alt+Command+J (Mac OS X)
+ *
+ * Surround code with a template. A template is only seen as a surround template when the $SELECTION$ variable is defined.
  */
 
 namespace LiveTemplates3\JetBrains;
 
 /*
-1. Open the IDE settings | Live Templates and add a new live template.
+1. Open the Open the the Setting Pane then Editor | Live Templates and add a new live template.
    Name the live template "trycatch".
 
    Set the template text to:
@@ -26,11 +33,12 @@ try {
    Reformat according to style should be enabled.
 
    In the variables dialog, reorder the variables so TYPE is first. Set its expression to complete().
+   HINT: You can set the default to "Exception" (including quotes) if you want a default exception set.
    Default value for VARIABLENAME can be set to "exception" (including quotes).
 
    Save the live template.
 
-2. Test the newly created live template. Select the line of code below and hit the keyboard shortcut.
+2. Test the newly created live template. Select the line of code below and use Surround With Live Template.
 */
 
 echo "This will throw an exception";

@@ -1,6 +1,6 @@
 <?php
 /**
- * Creating Live Templates
+ * Creating Live Template From Editor
  */
 
 namespace LiveTemplates2\JetBrains;
