@@ -2,19 +2,22 @@
 /**
  * Extract Field
  *
- * Extract an expression into a field.
- *
  * Ctrl+Alt+F (Windows/Linux)
  * Alt+Command+F (Mac OS X)
+ *
+ * Extract an expression into a field.
  */
 
 namespace Refactoring5\JetBrains;
 
-class Greeter {
-    public function greet($name) {
-        // 1. Extract the string 'Hello' into a field named $_greeting so we are able to customize the greeting.
-        //    Use the "Initialize in class constructor" option to generate a constructor.
+class Greeter
+{
+    public function greet($name)
+    {
+        // 1. Extract the string 'Hello' into a field named $greeting so we are able to customize the greeting.
         //    Make it a protected field.
-        return 'Hello' . ', '  . $name;
+        // 2. Undo your last edit, and generate a new field with the constructor setting a default value
+        // HINT: Use the "Class Constructor" option to generate a constructor.
+        return 'Hello' . ', ' . $name;
     }
 }
