@@ -11,21 +11,26 @@ namespace Refactoring12\JetBrains;
 // 2. Push the calculateDiscount() down to Customer. Use Refactor This.
 //    Note that the move will throw a problem detection because calculateDiscount() is used
 //    in calling code and expected on the Person class.
-class Person {
-    protected $_name;
+class Person
+{
+    protected $name;
 
-    public function calculateDiscount($amount) {
+    public function calculateDiscount($amount)
+    {
 
     }
 }
 
-class Customer extends Person {
+class Customer extends Person
+{
 
 }
 
-class SilverCustomer extends Customer {
-    public function getName() {
-        return $this->_name;
+class SilverCustomer extends Customer
+{
+    public function getName()
+    {
+        return $this->name;
     }
 }
 
