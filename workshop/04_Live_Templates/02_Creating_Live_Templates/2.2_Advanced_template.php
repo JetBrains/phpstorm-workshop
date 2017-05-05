@@ -1,15 +1,16 @@
 <?php
 /**
- * Creating Live Templates
+ * Creating Advanced Live Templates
  */
 
 namespace LiveTemplates2\JetBrains;
 
 /*
-1. Open the IDE settings | Live Templates and add a new live template.
+1. Open the Setting Pane then Editor | Live Templates and add a new live template.
    Name the live template "prop".
 
-   Set the template text to the code found in AdvancedTemplate.txt. Note the variables used (And $$ is used to escape PHP's $ sign).
+   Set the template text to the code found in AdvancedTemplate.txt. Note the variables used (And $$ is used to escape
+       PHP's $ sign).
 
    Set the context for the live template to be available in PHP.
    Reformat according to style should be enabled.
@@ -23,11 +24,11 @@ namespace LiveTemplates2\JetBrains;
    Save the live template.
 
 2. Test the newly created live template using "prop".
-   The $CLASS_NAME$ variable is a hotspot.
-   The $END$ variable is a special marker telling the IDE where to locate the cursor after expanding the template.
+   The $TYPE$ and $FIELD_NAME$ variables are hotspots.
 */
 
-class LiveTemplates {
+class LiveTemplates
+{
 
     // prop <TAB>
 
