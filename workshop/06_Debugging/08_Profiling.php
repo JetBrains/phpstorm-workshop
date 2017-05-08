@@ -17,10 +17,13 @@ use Debugging\JetBrains\Person;
 /*
 1. Create run configuration for the current file, for example using the context menu or a run configuration.
 2. Set the following line into Interpreter options:
--d xdebug.profiler_enable=1 -d xdebug.profiler_output_dir=/var/www
+-d xdebug.profiler_enable=1 -d xdebug.profiler_output_dir=/home/vagrant
 3. Run the created configuration
-4. After run, use the Tools | Analyze Xdebug Profiler Snapshot... and open the file that was generated inside a project dir
-5. We can now see all calls, which functions are called by other functions, timings, ... and analyze potential performance issues.
+4. Open Remote Host (View|Tool Windows|Remote Host)
+5. Navigate to /home/vagrant inside Remote Host
+6. D'n'D cachegrind.out.* file into a project dir
+7. Use the Tools | Analyze Xdebug Profiler Snapshot... and open the file that was generated inside a project dir
+8. We can now see all calls, which functions are called by other functions, timings, ... and analyze potential performance issues.
 */
 
 
