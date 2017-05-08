@@ -3,7 +3,6 @@
  * Make Static
  *
  * Make method static.
- *
  */
 
 namespace Refactoring16\JetBrains;
@@ -25,7 +24,7 @@ class Splitter
 }
 
 // 2. Note that calls to Splitter::split() have updated to static calls
-// as well as a new argument with instance have been provided.
+// as well as a new argument with instance being provided.
 $splitter = new Splitter(' ');
 $myArray = $splitter->split('This is a test');
 $myCsvRecord = $splitter->split('PhpStorm JetBrains');

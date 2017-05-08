@@ -2,24 +2,26 @@
 /**
  * Extract Method
  *
- * Extract a block of code into a method, detecting variables.
- *
  * Ctrl+Alt+M (Windows/Linux)
  * Alt+Command+M (Mac OS X)
+ *
+ * Extract a block of code into a method, detecting variables.
  */
 
 namespace Refactoring7\JetBrains;
 
-// 1. Select the following lines of code and use Extract Method.
+// 1. Select the last 3lines of the following code and use Extract Method.
 //    Apply the Extract method refactoring and name it "reverseString". The $name argument can be named $stringToReverse.
-$name = 'Maarten';
+$name = 'Eddie';
 $nameBackwards = '';
 for ($i = 0; $i < strlen($name); $i++) {
     $nameBackwards = substr($name, $i, 1) . $nameBackwards;
 }
 
-class Bootstrap {
-    public function run() {
+class Bootstrap
+{
+    public function run()
+    {
         // 2. Select the following lines of code and extract them into a method called initialize(). Make it a public function.
         //    Note that the IDE detects the $databaseName and $database variable are required and are returned from the function.
 
@@ -39,7 +41,7 @@ class Bootstrap {
 
         // Send out e-mail
         $body = 'The database ' . $databaseName . ' has been created!';
-        $to = 'maarten.balliauw@jetbrains.com';
+        $to = 'frankie.mouse@magrathea.org';
         mail($to, 'Database created', $body);
     }
 }

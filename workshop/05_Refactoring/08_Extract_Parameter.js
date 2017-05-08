@@ -1,13 +1,13 @@
 /**
  * Extract Parameter
  *
- * Add a new parameter to a function declaration. Determine the default. Can generate JSDoc.
- *
  * Ctrl+Alt+P (Windows/Linux)
  * Alt+Command+P (Mac OS X)
+ *
+ * Add a new parameter to a function declaration. Determine the default. Can generate JSDoc.
  */
 
-(function(namespace) {
+(function (namespace) {
     namespace.person = function (name) {
         var _name = name;
 

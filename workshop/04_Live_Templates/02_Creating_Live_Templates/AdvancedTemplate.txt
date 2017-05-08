@@ -1,5 +1,5 @@
 /** @var $TYPE$ */
-protected $$_$FIELD_NAME$;
+protected $$$FIELD_NAME$;
 
 /**
  * Sets the $PROPERTY_NAME$.
@@ -8,7 +8,7 @@ protected $$_$FIELD_NAME$;
  */
 public function set$PROPERTY_NAME$($$$FIELD_NAME$)
 {
-    $this->_$FIELD_NAME$ = $$$FIELD_NAME$;
+    $this->$FIELD_NAME$ = $$$FIELD_NAME$;
 }
 
 /**
@@ -18,5 +18,5 @@ public function set$PROPERTY_NAME$($$$FIELD_NAME$)
  */
 public function get$PROPERTY_NAME$()
 {
-    return $this->_$FIELD_NAME$;
+    return $this->$FIELD_NAME$;
 }

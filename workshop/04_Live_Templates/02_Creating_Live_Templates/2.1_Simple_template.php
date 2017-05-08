@@ -1,12 +1,13 @@
 <?php
 /**
- * Creating Live Templates
+ * Creating Simple Live Templates
  */
 
 namespace LiveTemplates2\JetBrains;
 
 /*
-1. Open the IDE settings | Live Templates and add a new live template.
+1. Open the Setting Pane then Editor | Live Templates and add a new live template.
+   HINT: Click the [+] icon in the right hand side of the live template list
    Name the live template "cls".
 
    Set the template text to:

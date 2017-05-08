@@ -1,11 +1,19 @@
 <?php
 /**
- * Rearrange/Reformat Code
- *
- * Rearrange entries in code according to settings. Reformat all code according to code style.
+ * Reformat Code
  *
  * Ctrl+Alt+L (Windows/Linux)
  * Alt+Command+L (Mac OS X)
+ *
+ * Reformat all code according to code style and optionally rearrange entries in
+ * code according to settings
+ *
+ * Show Reformat Code Dialog
+ *
+ * Shift+Ctrl+Alt+L (Windows/Linux)
+ * Shift+Alt+Command+L (Mac OS X)
+ *
+ * Reformat/rearrange code with the dialog to change settings
  */
 
 namespace Editing7\JetBrains;
@@ -14,17 +22,23 @@ use Editing2;
 use Editing6;
 
 // 1. The class below is a mess.
-//    - Public/protected/static members are all mixed.
-//    - Brackets are inconsistent.
-//    - Indents are inconsistent.
-// 2. Use Code | Rearrange Code menu to reorganize the class below.
-// 3. Use undo and roll back the Rearrange Code action.
-// 4. There are also some unused imports (Editing2 and Editing6). The Code | Optimize Imports menu will solve this.
-// 5. Use undo and roll back the Optimize Imports action.
-// 6. Using the keyboard shortcut, Reformat Code and run both rearrange as well as optimize imports in one go.
-//    Note that if desired, the Reformat Code action can be run on the entire project at once.
-// 7. Open the settings and navigate to Project Settings | Code Style | PHP | Arrangement.
-//    Modify the settings so fields are ordered by visibility and then by name. Rearrange Code to test the new settings.
+//    - Public/protected/static members are all mixed
+//    - Brackets are inconsistent
+//    - Indents are inconsistent
+// 2. Use Code | Rearrange Code in the menu to reorganize the class below.
+// 3. Use Undo to roll back the Rearrange Code action.
+// 4. There are also some unused imports (Editing2 and Editing6).
+//    Use Code | Optimize Imports from the menu to solve this.
+// 5. Use Undo and roll back the Optimize Imports action.
+// 6. Using the keyboard shortcut, use Reformat Code to run both Rearrange Code and
+//    Optimize Imports in one go (you may need to invoke using Show Reformat
+//    Code Dialog)
+//    NOTE: Reformat Code can be run on the entire project at once.
+// 7. Open the settings and navigate to
+//    Project Settings | Code Style | PHP | Arrangement
+//    Modify the settings so fields are ordered by visibility and then by name.
+//    Use Rearrange Code to test the new settings.
+
 class Rearrange {
     protected $_firstProperty;
     public $_secondProperty;

@@ -1,37 +1,43 @@
 <?php
 /**
- * Inspections - Navigation
- *
- * Navigate back and forth between code issues.
+ * Inspections - Navigate to Next Highlighted Error
  *
  * F2 / Shift+F2 (Windows/Linux/Mac OS X)
+ *
+ * Navigate back and forth between code errors.
  */
 
 namespace Inspections3\JetBrains;
 
-// 1. Using the keyboard shortcut, navigate back and forth between issues.
-class Navigation {
-    public function errorFunction() {
+// 1. Using the keyboard shortcut, navigate back and forth between errors.
+
+class Navigation
+{
+    public function errorFunction()
+    {
         echo 'First line'
         echo 'Second line';
     }
 
-    public function warningFunction1() {
+    public function warningFunction1()
+    {
         $variable = true;
-        foreach ($variable as $item) {
+        foreach ($variable ask $item) {
 
         }
     }
 
-    public function warningFunction2() {
+    public function warningFunction2()
+    {
         $variable = 1;
         if ($variable = 2) {
 
         }
     }
 
-    public function warningFunction3() {
-        $variable = 1;
+    public function warningFunction3()
+    {
+        $variable = 1
         switch ($variable) {
             case 1:
                 echo 'Number one';
@@ -40,11 +46,13 @@ class Navigation {
         }
     }
 
-    public function deadCodeFunction1() {
-        $variable = true;
+    public function deadCodeFunction1()
+    {
+        $variable = true; {
     }
 
-    public function deadCodeFunction2() {
+    public function deadCodeFunction2()
+    {
         return true;
 
         if (true) {
@@ -52,8 +60,8 @@ class Navigation {
         }
     }
 
-    //    Suppress the inspection for this statement only.
-    public function spelling() {
+    public function spelling()
+    {
         $mispelled = true;
     }
 }
