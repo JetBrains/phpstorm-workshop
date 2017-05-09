@@ -2,14 +2,15 @@
 /**
  * Exception Breakpoints
  *
- * Break when error, warning, notice or Exception occurs.
- * Note: only works with Xdebug.
- *
  * Ctrl+Shift+F8 (Windows/Linux)
  * Shift+Command+F8 (Mac OS X)
+ *
+ * Break when error, warning, notice or Exception occurs.
+ * Note: only works with Xdebug.
  */
 
 namespace Debugging4\JetBrains;
+
 use Exception;
 
 // 1. Use the keyboard shortcut to view all breakpoints.

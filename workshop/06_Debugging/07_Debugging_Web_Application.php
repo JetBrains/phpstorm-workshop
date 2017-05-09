@@ -7,7 +7,8 @@
 
 namespace Debugging7\JetBrains;
 
-// 1. Visit http://www.jetbrains.com/phpstorm/marklets/ and generate bookmarklets for your debugger (Zend Debugger or Xdebug).
+// 1. Visit https://www.jetbrains.com/phpstorm/marklets/ and generate bookmarklets for your debugger (Zend Debugger or Xdebug).
+//    NOTE: If you are using the Vagrant or Docker Workshop, you'll need Xdebug.
 //    Drag at least the Start Debugger bookmarklet to the bookmarks bar.
 //
 //    If you prefer using a simple browser extension, refer http://confluence.jetbrains.com/display/PhpStorm/Browser+Debugging+Extensions
@@ -17,6 +18,7 @@ namespace Debugging7\JetBrains;
 // 5. In the browser, use the Start Debugger bookmarklet. Click the "Show Greeting" button and note that PhpStorm informs about a new debug connection.
 //    Place some additional breakpoints and see that the Variables view in the Debug Tool Window now holds additional globals ($_COOKIE, $_GET, $_REQUEST).
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>

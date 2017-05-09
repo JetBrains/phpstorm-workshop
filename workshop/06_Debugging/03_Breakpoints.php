@@ -2,15 +2,15 @@
 /**
  * Breakpoints
  *
- * See breakpoints that are specified and configure additional options.
- *
  * Ctrl+Shift+F8 (Windows/Linux)
  * Shift+Command+F8 (Mac OS X)
+ *
+ * See breakpoints that are specified and configure additional options.
  */
 
 namespace Debugging3\JetBrains;
 
-$name = 'Maarten';
+$name = 'Rob McKenna';
 $fruits = array('apple', 'pear', 'lemon');
 $currentFruit = '';
 
