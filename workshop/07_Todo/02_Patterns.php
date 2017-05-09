@@ -2,15 +2,17 @@
 /**
  * Patterns
  *
- * Customize todo patterns to recognize other keywords.
+ * View Settings
  *
  * Ctrl+Alt+S (Windows/Linux)
  * Command+, (Mac OS X)
+ *
+ * Customize todo patterns to recognize other keywords.
  */
 
 namespace Todo2\JetBrains;
 
-// 1. Through the IDE Settings | Todo, add a new pattern: \breview\b.*
+// 1. Through the IDE Settings Editor | TODO, add a new pattern: \breview\b.*
 //    This should make the following comment visible.
 
 // review: check if this line is highlighted and recognized by PhpStorm's todo system.

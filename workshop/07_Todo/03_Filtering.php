@@ -2,16 +2,18 @@
 /**
  * Filtering
  *
- * Filter tasks in the tool window based on pattern.
+ * Open TODO Pane
  *
  * Alt+6 (Windows/Linux)
  * Command+6 (Mac OS X)
+ *
+ * Filter tasks in the tool window based on pattern.
  */
 
 namespace Todo3\JetBrains;
 
 // 1. Open the TODO tool window and make sure the Project scope is selected (show all TODO's in the current project).
-// 2. From the toolbar, click the filter icon and edit filters. Create two new filters:
+// 2. From the toolbar (to the left), click the filter icon and edit filters. Create two new filters:
 //     - Verify (Maarten), selecting the \bverify\[\bMaarten\b\].* pattern.
 //     - Review, selecting the \breview\b.* pattern.
 // 3. From the TODO tool window, set the filter to just show Review comments.
