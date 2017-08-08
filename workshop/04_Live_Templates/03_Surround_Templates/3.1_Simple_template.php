@@ -18,7 +18,7 @@
 namespace LiveTemplates3\JetBrains;
 
 /*
-1. Open the Open the the Setting Pane then Editor | Live Templates and add a new live template.
+1. Open the the Setting Pane then Editor | Live Templates and add a new live template.
    Name the live template "trycatch".
 
    Set the template text to:
