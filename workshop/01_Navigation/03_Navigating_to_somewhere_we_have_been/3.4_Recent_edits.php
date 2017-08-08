@@ -21,7 +21,7 @@ class NavigateRecent
     public function step1()
     {
         // 2. Uncomment the following line.
-        echo 'In step 1.';
+        //echo 'In step 1.';
 
         // 3. Navigate to step2().
         $this->step2();
