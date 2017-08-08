@@ -10,13 +10,14 @@
 
 namespace Todo2\JetBrains;
 
-// 1. Through the IDE Settings | Todo, add a new pattern: \breview\b.*
-//    This should make the following comment visible.
+// 1. Open the Settings Pane then Editor | Todo.
+//    Add a new pattern: \breview\b.*
+//    This should make the following comment highlighted.
 
 // review: check if this line is highlighted and recognized by PhpStorm's todo system.
 
 // 2. Add another pattern which matches code reviews that Maarten has to perform: \bverify\[\bMaarten\b\].*
-//    This should make the following comment visible.
+//    This should make the following comment highlighted.
 
 // verify[Maarten]: check if this line is highlighted and recognized by PhpStorm's todo system.
 

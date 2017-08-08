@@ -20,7 +20,7 @@ use Exception;
 
 // 6. Even with no breakpoint specified, the following should break because we are executing a division by zero, triggering a PHP Warning.
 //    Hover over the breakpoint to see the error type (Warning).
-//    Add a watch for the error_get_last() function. Expanding it will display the message of the warning (Division by zero).
+//    Using the Watches pane, add a watch for the error_get_last() function. Expanding it will display the message of the warning (Division by zero).
 
 $result = 100 / 0;
 
