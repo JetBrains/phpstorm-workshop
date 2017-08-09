@@ -6,7 +6,7 @@ In these materials, you'll learn about many of the features and productivity too
 
 We'll also cover a vast amount of keyboard shortcuts to make working with PhpStorm more efficient. Other IntelliJ IDEA based IDE's use the same keyboard shortcuts, so if you know how to work with PhpStorm, you'll know how to work with WebStorm, RubyMine, PyCharm, IntelliJ IDEA and more. A [cheat sheet is available online](http://bit.ly/1Ni0XJ0) and is also included in the workshop download.
 
-This workshop is self-paced, meaning you can work your way through slides and exercises on your own, whenever and wherever you want. Exercises come as a PhpStorm project in which every file is a new exercise that may contain code and tips to get things done.
+This workshop is self-paced, meaning you can work your way through exercises on your own, whenever and wherever you want. Exercises come as a PhpStorm project in which every file is a new exercise that may contain code and tips to get things done.
 
 ## Prerequisites
 
@@ -15,7 +15,9 @@ This workshop is self-paced, meaning you can work your way through slides and ex
 * PhpStorm 2016.1+
 
 ## Getting the Project
-There are a couple of ways to get started with the PhpStorm workshop materials:
+There are several ways to get started with the PhpStorm workshop materials:
+
+* Create a new PhpStorm Workshop Project in PhpStorm
 
 * Create a new project using Composer. Note that you can also create a new project in PhpStorm and use the Composer project type and search for "jetbrains/phpstorm-workshop"
 
@@ -58,7 +60,7 @@ There are some things to know about the project:
 
 * The project can be opened as-is in PhpStorm. We've included configurations for PHP Remote Interpreter, Database, Deployment Server, PHP Web Debug, PHPUnit and Behat.
 * All numbered folders contain exercises that you can work on. Simply open the numbered files one by one and follow the comments in the file. Most exercises are self-contained, others build on previous exercises.
-* Some of the excercises are in Markdown format, you can read these files easier (like this one) by toggling the View to *Show Preview Only* in the top right hand corner.
+* Some of the exercises are in Markdown format, you can read these files easier (like this one) by toggling the View to *Show Preview Only* in the top right hand corner.
 * The PhpStorm Reference Card.pdf is the PhpStorm keymap. The latest version can always be found on the [PhpStorm website](http://bit.ly/1Ni0XJ0).
 
 ## Open Source and Contribution
