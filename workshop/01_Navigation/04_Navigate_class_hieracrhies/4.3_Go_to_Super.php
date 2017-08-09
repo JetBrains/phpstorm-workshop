@@ -13,7 +13,7 @@
 
 namespace Navigation4\JetBrains\Customers;
 
-// 1. Place the caret on Customer and use Navigate to Super Class to navigate up
+// 1. Place the caret on Customer and use Navigate to Super Method to navigate up
 // the hierarchy.
 class GoldCustomer extends Customer
 {

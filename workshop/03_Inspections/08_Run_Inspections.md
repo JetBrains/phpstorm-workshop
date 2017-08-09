@@ -2,8 +2,8 @@
 
 > ### Go to Next/Previous Problem
 > 
-> Ctrl+Alt+Up / Down (Windows/Linux)
-> Alt+Command+Up / Down (Mac OS X)
+> * Ctrl+Alt+Up / Down (Windows/Linux)
+> * Alt+Command+Up / Down (Mac OS X)
 
 > Run an inspection profile and get results for the entire project (or scope).
 

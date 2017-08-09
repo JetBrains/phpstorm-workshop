@@ -34,9 +34,9 @@ namespace Testing\JetBrains;
 //       }
 //   }
 //
-//    Note: the Code | Comment With Line Comment menu may be handy if you are copy/pasting the above code.
+//    Note: the Code | Comment With Line Comment menu may be handy if you are copying/pasting the above code.
 //
-// 4. Add a first test, verifying the enqueue() method. This can be done using Alt+Insert / Command+N.
+// 4. Add the first test, verifying the enqueue() method. This can be done using Alt+Insert / Command+N.
 //
 //  public function testEnqueueIncreasesItemCount() {
 //      $this->_queue->enqueue('test');
