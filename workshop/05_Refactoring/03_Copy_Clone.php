@@ -2,7 +2,7 @@
 /**
  * Copy/Clone
  *
- * F5 (copy), Shift+F5 (clone) (Windows/Linux/Mac OS X)
+ * F5 (copy) (Windows/Linux/Mac OS X)
  *
  *
  * Copy a class, file or directory to another directory or clone it within the same directory.
@@ -15,6 +15,6 @@ namespace Refactoring3\JetBrains;
 //    HINT: Alt+1/Command+1, arrow keys, F5
 
 // 2. Clone the current file and name it "03_Copy_Clone_(cloned).php".
-//    Use the Shift+F5 keyboard shortcut from within the editor.
+//    Use the F5 keyboard shortcut from within the editor.
 
-// 2. Copy the current file to the Code directory. Drag/drop it using Ctrl key pressed.
+// 3. Copy the current file to the Code directory. Drag/drop it using Ctrl key pressed.

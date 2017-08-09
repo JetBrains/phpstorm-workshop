@@ -35,30 +35,32 @@ use Editing6;
 //    Code Dialog)
 //    NOTE: Reformat Code can be run on the entire project at once.
 // 7. Open the settings and navigate to
-//    Project Settings | Code Style | PHP | Arrangement
-//    Modify the settings so fields are ordered by visibility and then by name.
+//    Editor | Code Style | PHP
+//    On the Arrangement tab, modify the settings so that fields are ordered by visibility and then by name.
 //    Use Rearrange Code to test the new settings.
 
-class Rearrange {
+class Rearrange
+{
     protected $_firstProperty;
     public $_secondProperty;
     public static $_thirdProperty;
     protected $_fourthProperty;
 
-    public function firstFunction() {
-        for ($i = 0; $i < 10; $i ++)
-                    {
+    public function firstFunction()
+    {
+        for ($i = 0; $i < 10; $i++) {
             echo 'Test';
         }
     }
 
-    public function setFirstProperty($firstProperty) {
-            $this->_firstProperty = $firstProperty;
+    public function setFirstProperty($firstProperty)
+    {
+        $this->_firstProperty = $firstProperty;
     }
 
     public function getFirstProperty()
     {
-                    return $this->_firstProperty;
+        return $this->_firstProperty;
     }
 
     public function setSecondProperty($secondProperty)

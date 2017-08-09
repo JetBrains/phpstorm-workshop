@@ -31,7 +31,7 @@ $four = addTwoNumbers(2, 2);
 //
 //    We can also propagate parameters. The usingSayHello() below uses $name as well, we may want to propagate
 //    the new $lastName variable (update the variable names and parameters used where the function is called).
-//    Do this from the refactor window's toolbar on the right.
+//    In the refactor window, use the Propagate Parameters toolbar button.
 //
 //    Preview the refactoring and apply it when satisfied.
 function sayHello($name)
