@@ -10,7 +10,7 @@
 
 namespace Refactoring7\JetBrains;
 
-// 1. Select the last 3lines of the following code and use Extract Method.
+// 1. Select the last 3 lines of the following code and use Extract Method.
 //    Apply the Extract method refactoring and name it "reverseString". The $name argument can be named $stringToReverse.
 $name = 'Eddie';
 $nameBackwards = '';

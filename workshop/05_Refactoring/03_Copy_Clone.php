@@ -14,7 +14,4 @@ namespace Refactoring3\JetBrains;
 //    Do this from the Project Tool Window and do not touch the mouse.
 //    HINT: Alt+1/Command+1, arrow keys, F5
 
-// 2. Clone the current file and name it "03_Copy_Clone_(cloned).php".
-//    Use the Shift+F5 keyboard shortcut from within the editor.
-
 // 2. Copy the current file to the Code directory. Drag/drop it using Ctrl key pressed.
