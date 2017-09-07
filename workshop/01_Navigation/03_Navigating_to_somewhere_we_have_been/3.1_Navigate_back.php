@@ -17,7 +17,7 @@ class NavigateBack
         $navigateTo = new NavigateTo();
 
         // 1. Navigate to destination().
-        // 3. Navigate forward using the keyboard shortcut.
+        // 3. Navigate Forward using the keyboard shortcut.
         $navigateTo->destination();
     }
 }
@@ -26,6 +26,6 @@ class NavigateTo
 {
     public function destination()
     {
-        // 2. Now navigate back using the keyboard shortcut.
+        // 2. Now Navigate Back using the keyboard shortcut.
     }
 }

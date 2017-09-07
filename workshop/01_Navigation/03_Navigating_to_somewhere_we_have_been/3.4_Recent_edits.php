@@ -21,7 +21,7 @@ class NavigateRecent
     public function step1()
     {
         // 2. Uncomment the following line.
-        // echo 'In step 1.';
+        //echo 'In step 1.';
 
         // 3. Navigate to step2().
         $this->step2();
@@ -29,6 +29,6 @@ class NavigateRecent
 
     public function step2()
     {
-        // 4. Navigate back to where we last edited using the keyboard shortcut.
+        // 4. Navigate back to where we last edited using Last Edit Location.
     }
 }

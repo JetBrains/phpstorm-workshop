@@ -26,7 +26,7 @@ foreach ($people as $person) {
 
 
     // 2. We can solve this!
-    //    Find the $people = array(); (line 17) and add a PHPDoc comment above:
+    //    Find the $people = array(); (line 19) and add a PHPDoc comment above:
     //        /** @var $people Person[] */
     //    This tells PhpStorm the array contains Person objects.
     //    Type $person-> and see for yourself that we now have completion.
