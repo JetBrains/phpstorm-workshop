@@ -1,6 +1,7 @@
-[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)[![Latest Stable Version](https://poser.pugx.org/jetbrains/phpstorm-workshop/v/stable.png)](https://packagist.org/packages/jetbrains/phpstorm-workshop) [![Total Downloads](https://poser.pugx.org/jetbrains/phpstorm-workshop/downloads.png)](https://packagist.org/packages/jetbrains/phpstorm-workshop) [![Latest Unstable Version](https://poser.pugx.org/jetbrains/phpstorm-workshop/v/unstable.png)](https://packagist.org/packages/jetbrains/phpstorm-workshop) [![License](https://poser.pugx.org/jetbrains/phpstorm-workshop/license.png)](https://packagist.org/packages/jetbrains/phpstorm-workshop)
-
 # PhpStorm Workshop
+[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![Total Downloads](https://poser.pugx.org/jetbrains/phpstorm-workshop/downloads.png)](https://packagist.org/packages/jetbrains/phpstorm-workshop) 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 
 In these materials, you'll learn about many of the features and productivity tools available in [PhpStorm](http://www.jetbrains.com/phpstorm) IDE. Examples are navigation, editing, inspections, live templates, refactoring, tools like Composer and the REST client and many more things. It's virtually impossible to cover every option and feature in PhpStorm, but we're providing a number of practical exercises on how we can do our daily work as a PHP developer.
 
