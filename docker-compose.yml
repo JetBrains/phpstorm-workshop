@@ -7,17 +7,17 @@ services:
     volumes:
       - ./workshop/06_Debugging:/var/www/html
     environment:
-        #change the line below with your IP address that is visible from Docker
-        #See README for instruction about how to get the right IP address
-        XDEBUG_CONFIG: remote_host=<your_ip_address>
+        #For Windows and macOS, replace the line below with `host.docker.internal`, which will automatically resolve to the internal address of the host Docker is running on.
+        #For Linux, replace the line below with your hostname, which you can obtain by executing `hostname` in Terminal.
+        XDEBUG_CONFIG: remote_host=<host.docker.internal or your hostname>
   sftp:
     image: phpstorm/sftp-server
     ports:
       - "2022:22"
     volumes:
-  #   Please uncomment for Windows
+  #   Uncomment for Windows
   #     - C:/temp:/home/jetbrains/upload
-  #   Please uncomment for macOS/Linux
+  #   Uncomment for macOS/Linux
   #    - /tmp:/home/jetbrains/upload
     command: jetbrains:jetbrains:1001
   mysql:
