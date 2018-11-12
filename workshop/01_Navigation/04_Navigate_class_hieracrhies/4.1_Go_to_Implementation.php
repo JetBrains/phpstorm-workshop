@@ -3,7 +3,7 @@
  * Navigate to Implementation
  *
  * Ctrl+Alt+B (Windows/Linux)
- * Alt+Command+B (Mac OS X
+ * Alt+Command+B (macOS
  *
  * Navigate to the implementation of a given class.
  */

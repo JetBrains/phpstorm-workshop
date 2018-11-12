@@ -4,7 +4,7 @@
  *
  * Show Intention Actions (aka Quickfixes)
  *
- * Alt+Enter (Windows/Linux/Mac OS X)
+ * Alt+Enter (Windows/Linux/macOS)
  *
  * Let the IDE figure out possible actions from context and execute them
  */

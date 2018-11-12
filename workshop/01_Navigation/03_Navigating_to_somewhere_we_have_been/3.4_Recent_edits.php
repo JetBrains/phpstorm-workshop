@@ -3,7 +3,7 @@
  * Navigate to Last Edit Location.
  *
  * Ctrl+Shift+Backspace (Windows/Linux)
- * Shift+Command+Delete (Mac OS X)
+ * Shift+Command+Delete (macOS)
  *
  * Navigate back to where code was last edited.
  */

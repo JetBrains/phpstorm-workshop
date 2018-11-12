@@ -2,10 +2,10 @@
 /**
  * Basic Completion With Import
  *
- * Ctrl+Space (Windows/Linux/Mac OS X)
+ * Ctrl+Space (Windows/Linux/macOS)
  *
  * Ctrl+Shift+Enter to complete statement (Windows/Linux)
- * Shift+Command+Enter to complete statement (Mac OS X)
+ * Shift+Command+Enter to complete statement (macOS)
  *
  * When you use basic completion with classes or functions from outside this
  * namespace, the `use` statements are added automatically.

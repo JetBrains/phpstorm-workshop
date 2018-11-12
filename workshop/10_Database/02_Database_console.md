@@ -3,7 +3,7 @@
 SQL console with autocompletion, inspections, error highlighting, autocompletion on joins, ...
 
 > * Ctrl+Shift+F10 (Windows/Linux)
-> * Shift+Command+F10 (Mac OS X)
+> * Shift+Command+F10 (macOS)
 
 1. Open the database console for jetbrains database and copy in the contents of the workshop_database.sql file into it.
 2. We can execute SQL statements by selecting one or multiple. Select all statements in the console and execute

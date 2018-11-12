@@ -5,7 +5,7 @@
  * Writing tests first, outlining expected results, after which the method under test gets implemented.
  *
  * Alt+Insert (Windows/Linux)
- * Command+N (Mac OS X)
+ * Command+N (macOS)
  */
 
 namespace Testing\JetBrains;

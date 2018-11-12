@@ -5,7 +5,7 @@
  * Tell the interpreter to pause execution and inspect variables, only when a specific condition is true.
  *
  * Ctrl+Shift+F8 (Windows/Linux)
- * Shift+Command+F8 (Mac OS X)
+ * Shift+Command+F8 (macOS)
  */
 
 namespace Debugging2\JetBrains;

@@ -5,7 +5,7 @@
  * Navigate to the declaration of a symbol.
  *
  * Ctrl+Click or Ctrl+B (Windows/Linux)
- * Command+Click or Command+B (Mac OS X)
+ * Command+Click or Command+B (macOS)
  */
 
 namespace Navigation2\JetBrains;

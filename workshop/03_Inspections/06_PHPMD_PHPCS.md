@@ -2,7 +2,7 @@
 
 > ### Open Settings Pane
 > * Ctrl+Alt+S (Windows/Linux)
-> * Command+, (Mac OS X)
+> * Command+, (macOS)
 >
 
 Plug in PHP Mess Detector or PHP Code Sniffer as inspection engines.

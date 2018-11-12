@@ -4,14 +4,14 @@
  *
  * Move Line Up/Down:
  *
- * Shift+Alt+Up / Shift+Alt+Down (Windows/Linux/Mac OS X)
+ * Shift+Alt+Up / Shift+Alt+Down (Windows/Linux/macOS)
  *
  * Moves a line up or down
  *
  * Move Statement Up/Down
  *
  * Shift+Ctrl+Up / Shift+Ctrl+Down (Windows/Linux)
- * Shift+Command+Up / Shift+Command+Down (Mac OS X)
+ * Shift+Command+Up / Shift+Command+Down (macOS)
  *
  * Moves the entire statement up or down
  */

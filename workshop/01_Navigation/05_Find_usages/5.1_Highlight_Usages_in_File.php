@@ -3,7 +3,7 @@
  * Highlight Usages in File
  *
  * Ctrl+Shift+F7 (Windows/Linux)
- * Shift+Command+F7 (Mac OS X)
+ * Shift+Command+F7 (macOS)
  *
  * Highlight usages of a given symbol in the current file.
  */

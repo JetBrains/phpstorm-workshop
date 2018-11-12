@@ -2,7 +2,7 @@
 /**
  * Inspections - Quickfixes
  *
- * Alt+Enter (Windows/Linux/Mac OS X)
+ * Alt+Enter (Windows/Linux/macOS)
  *
  * Highlights provide a Quick Fix action to help remove the warning
  */

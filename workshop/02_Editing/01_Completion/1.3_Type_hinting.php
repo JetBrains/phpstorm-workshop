@@ -7,7 +7,7 @@
  * Quick Documentation
  *
  * Ctrl+Q (Windows/Linux)
- * F1 (Mac OS X)
+ * F1 (macOS)
  *
  * View quick documentation information about the variable, class or method
  */

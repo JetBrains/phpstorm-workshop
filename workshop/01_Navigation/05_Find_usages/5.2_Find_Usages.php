@@ -2,12 +2,12 @@
 /**
  * Find Usages
  *
- * Alt+F7 (Windows/Linux/Mac OS X)
+ * Alt+F7 (Windows/Linux/macOS)
  *
  * Show Usages (uses popup)
  *
  * Ctrl+Alt+F7 (Windows/Linux)
- * Alt+Command+F7 (Mac OS X)
+ * Alt+Command+F7 (macOS)
  *
  * Highlight usages of a given symbol in the current project.
  */

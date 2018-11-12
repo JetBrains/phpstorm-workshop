@@ -2,7 +2,7 @@
 /**
  * Move Static Member
  *
- * F6 (Windows/Linux/Mac OS X)
+ * F6 (Windows/Linux/macOS)
  *
  * Move static fields and methods to another type.
  */

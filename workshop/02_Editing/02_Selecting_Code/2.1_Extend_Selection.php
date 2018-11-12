@@ -3,7 +3,7 @@
  * Extend and Shrink Selection
  *
  * Ctrl+W / Ctrl+Shift+W (Windows/Linux)
- * Alt+Up / Alt+Down (Mac OS X)
+ * Alt+Up / Alt+Down (macOS)
  *
  * Extend (or Shrink) the selection to the next logical boundary
  */

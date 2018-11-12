@@ -3,7 +3,7 @@
  * Generate Code
  *
  * Alt+Insert (Windows/Linux)
- * Command+N (Mac OS X)
+ * Command+N (macOS)
  *
  * Generate Code (class members, constructor, PHPDoc docblock comments, fields etc)
  */

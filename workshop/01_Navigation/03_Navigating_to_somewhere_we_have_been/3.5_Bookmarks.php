@@ -8,7 +8,7 @@
  *   Shift+F11 Show bookmarks
  *   Ctrl+0..9 Navigate to numbered bookmark
  *
- * Mac OS X:
+ * macOS:
  *   F3 Toggle Bookmark
  *   Alt+F3 Toggle Numbered Bookmark (Bookmark with Mnemonic)
  *   Command+F3 Show bookmarks

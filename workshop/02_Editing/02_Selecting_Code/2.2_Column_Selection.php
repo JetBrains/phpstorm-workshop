@@ -3,7 +3,7 @@
  * Column Selection Mode
  *
  * Alt+Shift+Insert (Windows/Linux)
- * Shift+Command+8 (Mac OS X)
+ * Shift+Command+8 (macOS)
  *
  * Toggle column selection (allows editing multiple lines in one go)
  */

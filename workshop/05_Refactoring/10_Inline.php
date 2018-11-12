@@ -3,7 +3,7 @@
  * Inline
  *
  * Ctrl+Alt+N (Windows/Linux)
- * Alt+Command+N (Mac OS X)
+ * Alt+Command+N (macOS)
  *
  * Replace redundant variables, functions, or methods with the full expression. It is the opposite of the Extract refactoring.
  */

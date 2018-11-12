@@ -2,7 +2,7 @@
 /**
  * Code Expansion
  *
- * Tab (Windows/Linux/Mac OS X)
+ * Tab (Windows/Linux/macOS)
  *
  * Expand text shortcut using template.
  * Expands into code with variable “hotspots”.

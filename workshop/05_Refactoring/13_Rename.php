@@ -2,7 +2,7 @@
 /**
  * Rename
  *
- * Shift+F6 (Windows/Linux/Mac OS X)
+ * Shift+F6 (Windows/Linux/macOS)
  *
  * Rename symbols, automatically correcting all references in the code.
  */

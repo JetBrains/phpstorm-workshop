@@ -3,7 +3,7 @@
  * Extract Constant
  *
  * Ctrl+Alt+C (Windows/Linux)
- * Alt+Command+C (Mac OS X)
+ * Alt+Command+C (macOS)
  *
  * Extract a constant to make code cleaner and more maintainable.
  */

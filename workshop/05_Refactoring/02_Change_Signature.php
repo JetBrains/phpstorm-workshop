@@ -3,7 +3,7 @@
  * Change Signature
  *
  * Ctrl+F6 (Windows/Linux)
- * Command+F6 (Mac OS X)
+ * Command+F6 (macOS)
  *
  * You can use this refactoring to:
  *  - Change the function name

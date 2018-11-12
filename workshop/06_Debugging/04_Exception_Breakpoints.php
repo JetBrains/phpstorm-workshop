@@ -6,7 +6,7 @@
  * Note: only works with Xdebug.
  *
  * Ctrl+Shift+F8 (Windows/Linux)
- * Shift+Command+F8 (Mac OS X)
+ * Shift+Command+F8 (macOS)
  */
 
 namespace Debugging4\JetBrains;

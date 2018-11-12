@@ -3,7 +3,7 @@
 Create a new table in the database. Specify column options, default values, primary key, ...
 
 > * Alt+Insert (Windows/Linux)
-> * Command+N (Mac OS X)
+> * Command+N (macOS)
 
 1. Create a new table named `attendee`. Use the dialog to generate a table which looks like this:
 

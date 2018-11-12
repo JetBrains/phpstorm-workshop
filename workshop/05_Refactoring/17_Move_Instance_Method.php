@@ -5,7 +5,7 @@ namespace Refactoring17\Jetbrains;
 /**
  * Move Instance Method
  *
- * F6 (Windows/Linux/Mac OS X)
+ * F6 (Windows/Linux/macOS)
  *
  * Move an instance method to a parameter class or to a field class.
  */

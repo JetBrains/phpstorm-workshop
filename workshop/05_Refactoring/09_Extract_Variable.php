@@ -3,7 +3,7 @@
  * Extract Variable
  *
  * Ctrl+Alt+V (Windows/Linux)
- * Alt+Command+V (Mac OS X)
+ * Alt+Command+V (macOS)
  *
  * Put the result of a selected expression into a variable. The original expression is replaced with the new variable.
  */

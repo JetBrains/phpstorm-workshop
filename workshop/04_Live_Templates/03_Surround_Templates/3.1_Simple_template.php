@@ -5,12 +5,12 @@
  * Surround With
  *
  * Ctrl+Alt+T (Windows/Linux)
- * Alt+Command+T (Mac OS X)
+ * Alt+Command+T (macOS)
  *
  * Surround With Live Template
  *
  * Ctrl+Alt+J (Windows/Linux)
- * Alt+Command+J (Mac OS X)
+ * Alt+Command+J (macOS)
  *
  * Surround code with a template. A template is only seen as a surround template when the $SELECTION$ variable is defined.
  */

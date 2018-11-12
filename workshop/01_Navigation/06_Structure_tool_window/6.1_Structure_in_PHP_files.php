@@ -8,7 +8,7 @@
  * Navigate to File Structure
  *
  * Ctrl+F12 (Windows/Linux)
- * Command+F12 (Mac OS X)
+ * Command+F12 (macOS)
  *
  * Display outline of file: classes, functions (with icons displaying accessibility).
  * Also show HTML, JavaScript, CSS, ...

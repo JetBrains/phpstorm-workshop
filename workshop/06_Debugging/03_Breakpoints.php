@@ -5,7 +5,7 @@
  * See breakpoints that are specified and configure additional options.
  *
  * Ctrl+Shift+F8 (Windows/Linux)
- * Shift+Command+F8 (Mac OS X)
+ * Shift+Command+F8 (macOS)
  */
 
 namespace Debugging3\JetBrains;

@@ -30,7 +30,7 @@ class Highlights
 
     // 3. Use the settings (Editor | Inspections | PHP | Probable bugs) and enable the "Assignment in condition" inspection.
     //    This will warn us that we have missed an = in the if statement below.
-    // HINT: You can access the settings using Ctrl+Alt+S (Windows/Linux) Command+, (Mac OS X)
+    // HINT: You can access the settings using Ctrl+Alt+S (Windows/Linux) Command+, (macOS)
     public function warningFunction2()
     {
         $variable = 1;

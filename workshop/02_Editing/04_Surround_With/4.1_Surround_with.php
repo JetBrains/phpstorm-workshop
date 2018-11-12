@@ -3,7 +3,7 @@
  * Surround With
  *
  * Ctrl+Alt+T (Windows/Linux)
- * Alt+Command+T (Mac OS X)
+ * Alt+Command+T (macOS)
  *
  * Show Intention Actions
  *

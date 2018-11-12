@@ -2,7 +2,7 @@
 
 Edit records in a table: insert, update, delete, ...
 
-> F4 (Windows/Linux/Mac OS X)
+> F4 (Windows/Linux/macOS)
 
 1. Select the _person_ table in the _Database_ tool window and launch the _Table Editor_.
 2. All records in the table are shown. Double-clicking a cell allows editing.

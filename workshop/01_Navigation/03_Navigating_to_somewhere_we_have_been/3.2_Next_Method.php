@@ -3,7 +3,7 @@
  * Next Method
  *
  * Alt+Down / Alt+Up (Windows/Linux)
- * Ctrl+Down / Ctrl+Up (Mac OS X)
+ * Ctrl+Down / Ctrl+Up (macOS)
  *
  * Navigate through methods in a file/class.
  *

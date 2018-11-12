@@ -5,7 +5,7 @@
  * Create new file, select PHPUnit test.
  *
  * Alt+Insert or Ctrl+Shift+T (Go to Test) (Windows/Linux)
- * Command+N or Command+Shift+T (Go to Test) (Mac OS X)
+ * Command+N or Command+Shift+T (Go to Test) (macOS)
  */
 
 namespace Testing\JetBrains;

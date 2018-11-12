@@ -4,7 +4,7 @@ Invoke command line tools shipped with frameworks and libraries. Composer, Zend 
 Symfony Console-based, Drush or roll your own. Autocompletion support. Not meant to be a full console/terminal!
 
 > * Ctrl+Shift+X (Windows/Linux)
-> * Shift+Command+X (Mac OS X)
+> * Shift+Command+X (macOS)
 
 
 1. We can use Command Line Tools for working with Composer (and other tools).

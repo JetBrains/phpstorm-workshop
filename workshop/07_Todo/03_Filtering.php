@@ -5,7 +5,7 @@
  * Filter tasks in the tool window based on pattern.
  *
  * Alt+6 (Windows/Linux)
- * Command+6 (Mac OS X)
+ * Command+6 (macOS)
  */
 
 namespace Todo3\JetBrains;

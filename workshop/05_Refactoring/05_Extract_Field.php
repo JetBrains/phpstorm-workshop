@@ -3,7 +3,7 @@
  * Extract Field
  *
  * Ctrl+Alt+F (Windows/Linux)
- * Alt+Command+F (Mac OS X)
+ * Alt+Command+F (macOS)
  *
  * Extract an expression into a field.
  */

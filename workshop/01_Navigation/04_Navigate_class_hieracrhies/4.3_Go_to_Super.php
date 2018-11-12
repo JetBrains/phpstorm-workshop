@@ -3,9 +3,9 @@
  * Navigate to super class/method
  *
  * Ctrl+U (Windows/Linux)
- * Command+U (Mac OS X)
+ * Command+U (macOS)
  *
- * Ctrl+H Show Hierarchy tool window (Windows/Linux/Mac OS X)
+ * Ctrl+H Show Hierarchy tool window (Windows/Linux/macOS)
  *
  * Navigate to the super class or method
  * (traverse backwards up the class hierarchy)

@@ -3,7 +3,7 @@
  * Extract Parameter
  *
  * Ctrl+Alt+P (Windows/Linux)
- * Alt+Command+P (Mac OS X)
+ * Alt+Command+P (macOS)
  *
  * Add a new parameter to a function declaration. Determine the default. Can generate PHPDoc.
  */

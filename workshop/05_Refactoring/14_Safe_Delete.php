@@ -3,7 +3,7 @@
  * Safe Delete
  *
  * Alt+Delete (Windows/Linux)
- * Command+Delete (Mac OS X)
+ * Command+Delete (macOS)
  *
  * Safely remove code or symbols.
  */

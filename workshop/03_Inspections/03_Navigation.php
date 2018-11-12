@@ -2,7 +2,7 @@
 /**
  * Inspections - Navigate to Next Highlighted Error
  *
- * F2 / Shift+F2 (Windows/Linux/Mac OS X)
+ * F2 / Shift+F2 (Windows/Linux/macOS)
  *
  * Navigate back and forth between code errors.
  */

@@ -3,7 +3,7 @@
  * Refactor This
  *
  * Ctrl+Shift+Alt+T (Windows/Linux)
- * Ctrl+T (Mac OS X)
+ * Ctrl+T (macOS)
  *
  * Refactor symbol or code fragment in Project View, Structure Tool Window, Editor or UML Class Diagram.
  */

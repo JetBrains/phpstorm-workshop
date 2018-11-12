@@ -1,12 +1,12 @@
 # Committing Changes
 
-Committing a changeset is persisting it as a logical operation in the VCS, with a comment, author, etc.
+Committing a changelist is persisting it as a logical operation in the VCS, with a comment, author, etc.
 
 > Ctrl+K (Windows/Linux)
 >
-> Command+K (Mac OS X)
+> Command+K (macOS)
 
-1. Commit the current changeset to the Git repository using Commit Changes.
+1. Commit the current changelist to the Git repository using Commit Changes.
 2. The list on top shows changed, added and deleted files.
    Set the commit message to something describing the logical change.
    In this case this can be "Initial commit" but for a typical change to the code base it would be a bug or issue

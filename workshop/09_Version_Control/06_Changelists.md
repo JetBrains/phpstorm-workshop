@@ -3,7 +3,7 @@
 Work on multiple logical changes at the same time.
 
 > * Alt+9 (Windows/Linux)
-> * Command+9 (Mac OS X)
+> * Command+9 (macOS)
 
 1. Make some changes to an arbitrary file in the project.
 2. Using the keyboard shortcut, open the Version Control view. Make sure you are on the Local Changes tab.

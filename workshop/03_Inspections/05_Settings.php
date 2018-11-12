@@ -3,7 +3,7 @@
  * Inspections - Settings
  *
  * Ctrl+Alt+S (Windows/Linux)
- * Command+, (Mac OS X)
+ * Command+, (macOS)
  *
  * Enable/disable inspections, see examples and documentation.
  */

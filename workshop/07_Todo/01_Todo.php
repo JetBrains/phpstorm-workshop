@@ -3,7 +3,7 @@
  * Todo
  *
  * Alt+6 (Windows/Linux)
- * Command+6 (Mac OS X)
+ * Command+6 (macOS)
  */
 
 namespace Todo1\JetBrains;

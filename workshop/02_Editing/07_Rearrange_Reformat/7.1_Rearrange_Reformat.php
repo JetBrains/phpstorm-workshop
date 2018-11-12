@@ -3,7 +3,7 @@
  * Reformat Code
  *
  * Ctrl+Alt+L (Windows/Linux)
- * Alt+Command+L (Mac OS X)
+ * Alt+Command+L (macOS)
  *
  * Reformat all code according to code style and optionally rearrange entries in
  * code according to settings
@@ -11,7 +11,7 @@
  * Show Reformat Code Dialog
  *
  * Shift+Ctrl+Alt+L (Windows/Linux)
- * Shift+Alt+Command+L (Mac OS X)
+ * Shift+Alt+Command+L (macOS)
  *
  * Reformat/rearrange code with the dialog to change settings
  */

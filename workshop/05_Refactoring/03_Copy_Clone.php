@@ -2,7 +2,7 @@
 /**
  * Copy/Clone
  *
- * F5 (copy) (Windows/Linux/Mac OS X)
+ * F5 (copy) (Windows/Linux/macOS)
  *
  *
  * Copy a class, file or directory to another directory or clone it within the same directory.

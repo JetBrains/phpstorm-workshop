@@ -6,7 +6,7 @@
  * Allows running code / modifying variable value.
  *
  * Alt+5 (Alt+F8 evaluate expression) (Windows/Linux)
- * Command+5 (Alt+F8 evaluate expression) (Mac OS X)
+ * Command+5 (Alt+F8 evaluate expression) (macOS)
  */
 
 namespace Debugging3\JetBrains;

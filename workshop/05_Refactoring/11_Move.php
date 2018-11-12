@@ -2,7 +2,7 @@
 /**
  * Move
  *
- * F6 (Windows/Linux/Mac OS X)
+ * F6 (Windows/Linux/macOS)
  *
  * Change the location of a file, directory, class or static member.
  */

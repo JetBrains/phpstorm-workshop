@@ -2,10 +2,10 @@
 /**
  * Basic Completion
  *
- * Ctrl+Space (Windows/Linux/Mac OS X)
+ * Ctrl+Space (Windows/Linux/macOS)
  *
  * Ctrl+Shift+Enter to complete statement (Windows/Linux)
- * Shift+Command+Enter to complete statement (Mac OS X)
+ * Shift+Command+Enter to complete statement (macOS)
  *
  * Basic (code) completion for the name of any class, method or variable.
  */

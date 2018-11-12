@@ -5,7 +5,7 @@
  * Customize todo patterns to recognize other keywords.
  *
  * Ctrl+Alt+S (Windows/Linux)
- * Command+, (Mac OS X)
+ * Command+, (macOS)
  */
 
 namespace Todo2\JetBrains;
