@@ -2,7 +2,7 @@
 /**
  * Local history
  *
- * Undo on steroids. Display changes made between commits, revert local changes, ...
+ * Undo on steroids. Display changes made between commits, revert local changes, and more.
  */
 
 namespace VersionControl\JetBrains;
@@ -12,7 +12,6 @@ $name = 'Maarten';
 
 // 2. Make sure the $name variable has an uppercase first character.
 //    Code: $name = ucfirst($name);
-//    Save the file.
 
 // 3. From the VCS Operations popup, choose Show History under Local History.
 //    This opens a new window in which local changes are shown for the current file.
