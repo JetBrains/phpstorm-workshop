@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Behat">
-    <behat_settings>
-      <BehatSettings behat_path="$PROJECT_DIR$" />
-      <behat_by_interpreter interpreter_id="e8038bd5-a5f7-4bd5-9b10-cf1c8014f5ea" behat_path="/home/vagrant/.composer/vendor/behat/behat/bin/behat" />
-    </behat_settings>
-  </component>
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="docker://denisura/phpcs/php" id="07ece059-95d4-463b-bb2c-4e95bdf8240b" name="PHPCS" debugger_id="php.debugger.XDebug">
@@ -15,13 +9,16 @@
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="denisura/phpmd" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
       <interpreter home="sftp://vagrant@192.168.56.102:22/usr/bin/php" id="e8038bd5-a5f7-4bd5-9b10-cf1c8014f5ea" name="Remote PHP 7" debugger_id="php.debugger.XDebug">
-        <remote_data WEB_SERVER_CONFIG_ID="a0e508f8-a658-4975-ba82-96d8aae9127a" WEB_SERVER_CONFIG_NAME="vm" HOST="192.168.56.102" PORT="22" USERNAME="vagrant" PASSWORD="" PRIVATE_KEY_FILE="C:\Users\Maxim.Kolmakov\PhpstormProjects\untitled12\.vagrant\machines\default\virtualbox\private_key" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="true" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+        <remote_data WEB_SERVER_CONFIG_ID="a0e508f8-a658-4975-ba82-96d8aae9127a" WEB_SERVER_CONFIG_NAME="vm" WEB_SERVER_CREDENTIALS_ID="sftp://vagrant@192.168.56.102:22" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
       <interpreter home="docker://phpstorm/php-71-cli-xdebug:latest/php" id="41461187-1b08-4b01-a996-8478f906670a" name="PHP 7.1 with XDebug" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="phpstorm/php-71-cli-xdebug:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
       <interpreter home="docker://phpunit/phpunit:latest/php" id="d2e4581b-87dd-44d0-9882-2a8b5ba7aa97" name="PHPUnit" debugger_id="php.debugger.XDebug">
         <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="phpunit/phpunit:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      </interpreter>
+      <interpreter home="docker://docksal/behat/php" id="81151d9b-b5c1-4e1e-9b26-c50081eaeb4b" name="PHP Behat" debugger_id="php.debugger.XDebug">
+        <remote_data DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="docksal/behat" DOCKER_REMOTE_PROJECT_PATH="/opt/project" INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
@@ -550,6 +547,202 @@
           </loaded_extensions>
         </phpinfo>
       </interpreter>
+      <interpreter name="PHP Behat">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7" path_separator=":" version="7.0.11">
+          <additional_php_ini>/etc/php7/conf.d/00_ctype.ini, /etc/php7/conf.d/00_curl.ini, /etc/php7/conf.d/00_json.ini, /etc/php7/conf.d/00_mbstring.ini, /etc/php7/conf.d/00_mcrypt.ini, /etc/php7/conf.d/00_opcache.ini, /etc/php7/conf.d/00_openssl.ini, /etc/php7/conf.d/00_xml.ini, /etc/php7/conf.d/00_zip.ini, /etc/php7/conf.d/00_zlib.ini, /etc/php7/conf.d/01_dom.ini, /etc/php7/conf.d/01_phar.ini, /etc/php7/conf.d/01_xmlreader.ini</additional_php_ini>
+          <configuration_file>/etc/php7/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="SMTP" value="localhost" />
+            <configuration_option name="allow_url_fopen" value="1" />
+            <configuration_option name="allow_url_include" value="" />
+            <configuration_option name="arg_separator.input" value="&amp;" />
+            <configuration_option name="arg_separator.output" value="&amp;" />
+            <configuration_option name="assert.active" value="1" />
+            <configuration_option name="assert.bail" value="0" />
+            <configuration_option name="assert.callback" value="" />
+            <configuration_option name="assert.exception" value="0" />
+            <configuration_option name="assert.quiet_eval" value="0" />
+            <configuration_option name="assert.warning" value="1" />
+            <configuration_option name="auto_append_file" value="" />
+            <configuration_option name="auto_detect_line_endings" value="0" />
+            <configuration_option name="auto_globals_jit" value="1" />
+            <configuration_option name="auto_prepend_file" value="" />
+            <configuration_option name="browscap" value="" />
+            <configuration_option name="curl.cainfo" value="" />
+            <configuration_option name="date.default_latitude" value="31.7667" />
+            <configuration_option name="date.default_longitude" value="35.2333" />
+            <configuration_option name="date.sunrise_zenith" value="90.583333" />
+            <configuration_option name="date.sunset_zenith" value="90.583333" />
+            <configuration_option name="date.timezone" value="" />
+            <configuration_option name="default_charset" value="UTF-8" />
+            <configuration_option name="default_mimetype" value="text/html" />
+            <configuration_option name="default_socket_timeout" value="60" />
+            <configuration_option name="disable_classes" value="" />
+            <configuration_option name="disable_functions" value="" />
+            <configuration_option name="display_errors" value="" />
+            <configuration_option name="display_startup_errors" value="" />
+            <configuration_option name="doc_root" value="" />
+            <configuration_option name="docref_ext" value="" />
+            <configuration_option name="docref_root" value="" />
+            <configuration_option name="enable_dl" value="" />
+            <configuration_option name="enable_post_data_reading" value="1" />
+            <configuration_option name="error_append_string" value="" />
+            <configuration_option name="error_log" value="" />
+            <configuration_option name="error_prepend_string" value="" />
+            <configuration_option name="error_reporting" value="22527" />
+            <configuration_option name="exit_on_timeout" value="0" />
+            <configuration_option name="expose_php" value="1" />
+            <configuration_option name="extension_dir" value="/usr/lib/php7/modules" />
+            <configuration_option name="file_uploads" value="1" />
+            <configuration_option name="filter.default" value="unsafe_raw" />
+            <configuration_option name="filter.default_flags" value="" />
+            <configuration_option name="from" value="" />
+            <configuration_option name="highlight.comment" value="#FF8000" />
+            <configuration_option name="highlight.default" value="#0000BB" />
+            <configuration_option name="highlight.html" value="#000000" />
+            <configuration_option name="highlight.keyword" value="#007700" />
+            <configuration_option name="highlight.string" value="#DD0000" />
+            <configuration_option name="html_errors" value="0" />
+            <configuration_option name="ignore_repeated_errors" value="" />
+            <configuration_option name="ignore_repeated_source" value="" />
+            <configuration_option name="ignore_user_abort" value="0" />
+            <configuration_option name="implicit_flush" value="1" />
+            <configuration_option name="include_path" value=".:" />
+            <configuration_option name="input_encoding" value="" />
+            <configuration_option name="internal_encoding" value="" />
+            <configuration_option name="log_errors" value="1" />
+            <configuration_option name="log_errors_max_len" value="1024" />
+            <configuration_option name="mail.add_x_header" value="1" />
+            <configuration_option name="mail.force_extra_parameters" value="" />
+            <configuration_option name="mail.log" value="" />
+            <configuration_option name="max_execution_time" value="0" />
+            <configuration_option name="max_file_uploads" value="20" />
+            <configuration_option name="max_input_nesting_level" value="64" />
+            <configuration_option name="max_input_time" value="-1" />
+            <configuration_option name="max_input_vars" value="1000" />
+            <configuration_option name="mbstring.detect_order" value="" />
+            <configuration_option name="mbstring.encoding_translation" value="0" />
+            <configuration_option name="mbstring.func_overload" value="0" />
+            <configuration_option name="mbstring.http_input" value="" />
+            <configuration_option name="mbstring.http_output" value="" />
+            <configuration_option name="mbstring.http_output_conv_mimetypes" value="^(text/|application/xhtml\+xml)" />
+            <configuration_option name="mbstring.internal_encoding" value="" />
+            <configuration_option name="mbstring.language" value="neutral" />
+            <configuration_option name="mbstring.strict_detection" value="0" />
+            <configuration_option name="mbstring.substitute_character" value="" />
+            <configuration_option name="mcrypt.algorithms_dir" value="" />
+            <configuration_option name="mcrypt.modes_dir" value="" />
+            <configuration_option name="memory_limit" value="128M" />
+            <configuration_option name="opcache.blacklist_filename" value="" />
+            <configuration_option name="opcache.consistency_checks" value="0" />
+            <configuration_option name="opcache.dups_fix" value="0" />
+            <configuration_option name="opcache.enable" value="1" />
+            <configuration_option name="opcache.enable_cli" value="0" />
+            <configuration_option name="opcache.enable_file_override" value="0" />
+            <configuration_option name="opcache.error_log" value="" />
+            <configuration_option name="opcache.fast_shutdown" value="0" />
+            <configuration_option name="opcache.file_cache" value="" />
+            <configuration_option name="opcache.file_cache_consistency_checks" value="1" />
+            <configuration_option name="opcache.file_cache_only" value="0" />
+            <configuration_option name="opcache.file_update_protection" value="2" />
+            <configuration_option name="opcache.force_restart_timeout" value="180" />
+            <configuration_option name="opcache.huge_code_pages" value="0" />
+            <configuration_option name="opcache.inherited_hack" value="1" />
+            <configuration_option name="opcache.interned_strings_buffer" value="4" />
+            <configuration_option name="opcache.lockfile_path" value="/tmp" />
+            <configuration_option name="opcache.log_verbosity_level" value="1" />
+            <configuration_option name="opcache.max_accelerated_files" value="2000" />
+            <configuration_option name="opcache.max_file_size" value="0" />
+            <configuration_option name="opcache.max_wasted_percentage" value="5" />
+            <configuration_option name="opcache.memory_consumption" value="64" />
+            <configuration_option name="opcache.optimization_level" value="0x7FFFBFFF" />
+            <configuration_option name="opcache.preferred_memory_model" value="" />
+            <configuration_option name="opcache.protect_memory" value="0" />
+            <configuration_option name="opcache.restrict_api" value="" />
+            <configuration_option name="opcache.revalidate_freq" value="2" />
+            <configuration_option name="opcache.revalidate_path" value="0" />
+            <configuration_option name="opcache.save_comments" value="1" />
+            <configuration_option name="opcache.use_cwd" value="1" />
+            <configuration_option name="opcache.validate_timestamps" value="1" />
+            <configuration_option name="open_basedir" value="" />
+            <configuration_option name="openssl.cafile" value="" />
+            <configuration_option name="openssl.capath" value="" />
+            <configuration_option name="output_buffering" value="0" />
+            <configuration_option name="output_encoding" value="" />
+            <configuration_option name="output_handler" value="" />
+            <configuration_option name="pcre.backtrack_limit" value="1000000" />
+            <configuration_option name="pcre.jit" value="1" />
+            <configuration_option name="pcre.recursion_limit" value="100000" />
+            <configuration_option name="phar.cache_list" value="" />
+            <configuration_option name="phar.readonly" value="1" />
+            <configuration_option name="phar.require_hash" value="1" />
+            <configuration_option name="post_max_size" value="8M" />
+            <configuration_option name="precision" value="14" />
+            <configuration_option name="realpath_cache_size" value="16K" />
+            <configuration_option name="realpath_cache_ttl" value="120" />
+            <configuration_option name="register_argc_argv" value="1" />
+            <configuration_option name="report_memleaks" value="1" />
+            <configuration_option name="report_zend_debug" value="0" />
+            <configuration_option name="request_order" value="GP" />
+            <configuration_option name="sendmail_from" value="" />
+            <configuration_option name="sendmail_path" value="/usr/sbin/sendmail -t -i " />
+            <configuration_option name="serialize_precision" value="17" />
+            <configuration_option name="short_open_tag" value="" />
+            <configuration_option name="smtp_port" value="25" />
+            <configuration_option name="sql.safe_mode" value="" />
+            <configuration_option name="sys_temp_dir" value="" />
+            <configuration_option name="track_errors" value="" />
+            <configuration_option name="unserialize_callback_func" value="" />
+            <configuration_option name="upload_max_filesize" value="2M" />
+            <configuration_option name="upload_tmp_dir" value="" />
+            <configuration_option name="url_rewriter.tags" value="a=href,area=href,frame=src,input=src,form=fakeentry" />
+            <configuration_option name="user_agent" value="" />
+            <configuration_option name="user_dir" value="" />
+            <configuration_option name="user_ini.cache_ttl" value="300" />
+            <configuration_option name="user_ini.filename" value=".user.ini" />
+            <configuration_option name="variables_order" value="GPCS" />
+            <configuration_option name="xmlrpc_error_number" value="0" />
+            <configuration_option name="xmlrpc_errors" value="0" />
+            <configuration_option name="zend.assertions" value="-1" />
+            <configuration_option name="zend.detect_unicode" value="1" />
+            <configuration_option name="zend.enable_gc" value="1" />
+            <configuration_option name="zend.multibyte" value="0" />
+            <configuration_option name="zend.script_encoding" value="" />
+            <configuration_option name="zlib.output_compression" value="" />
+            <configuration_option name="zlib.output_compression_level" value="-1" />
+            <configuration_option name="zlib.output_handler" value="" />
+          </configuration_options>
+          <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="hash" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mcrypt" />
+            <extension name="openssl" />
+            <extension name="pcre" />
+            <extension name="standard" />
+            <extension name="tokenizer" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
       <interpreter name="PHPMD">
         <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="5.6.2">
           <additional_php_ini>/usr/local/etc/php/conf.d/ext-bz2.ini</additional_php_ini>
@@ -1041,6 +1234,7 @@
       </interpreter>
     </phpInfoCache>
   </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
   <component name="PhpUnit">
     <phpunit_settings>
       <PhpUnitSettings />
