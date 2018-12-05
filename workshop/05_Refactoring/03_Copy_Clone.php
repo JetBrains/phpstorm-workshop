@@ -1,11 +1,11 @@
 <?php
 /**
- * Copy/Clone
+ * Copy
  *
  * F5 (copy) (Windows/Linux/macOS)
  *
  *
- * Copy a class, file or directory to another directory or clone it within the same directory.
+ * Copy a class, file or directory to another directory.
  */
 
 namespace Refactoring3\JetBrains;
