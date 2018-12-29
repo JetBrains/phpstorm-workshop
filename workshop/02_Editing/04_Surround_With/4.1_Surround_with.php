@@ -10,7 +10,9 @@
  * Alt+Enter (Windows/Linux/Mac OSX)
  *
  * Wrap the selected text with relevant content (e.g. try/catch or if statement)
+ *
  * NOTE: You can also invoke contextual surrounds using Show Intention Actions
+ * NOTE: On Ubuntu, Ctrl+Alt+T is overwritten by a system shortcut - you may need to rebind these keys to use the shortcuts.
  */
 
 namespace Editing4\JetBrains;

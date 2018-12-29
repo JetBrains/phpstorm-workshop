@@ -13,6 +13,8 @@
  * Alt+Command+J (macOS)
  *
  * Surround code with a template. A template is only seen as a surround template when the $SELECTION$ variable is defined.
+ *
+ * NOTE: On Ubuntu, Ctrl+Alt+T is overwritten by a system shortcut - you may need to rebind these keys to use the shortcuts.
  */
 
 namespace LiveTemplates3\JetBrains;
