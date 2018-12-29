@@ -11,7 +11,7 @@
  *
  * Highlight usages of a given symbol in the current project.
  *
- * NOTE: On Ubuntu 18.04 and newer, Alt+F7 is overwritten
+ * NOTE: On Ubuntu, Alt+F7 is overwritten
  * by a system shortcut - you may need to rebind these keys to use the shortcuts.
  */
 
