@@ -6,6 +6,7 @@ Create new project using Composer project type. Use the Command Line Tools.
 1. Initialize Composer in the current directory. In the _Project_ tool window,
    use the context menu to choose the _Composer | Init Composer_ action.
    Let the IDE download `Composer.phar` to a folder on disk.
+   > _Please note that as of March 2019 you would need a local PHP interpreter installed to use composer. Composer over remote PHP interpreter [isn't supported](https://youtrack.jetbrains.com/issue/WI-23544) yet._  
 2. A `composer.json` file is generated and the _Add dependency_ option appears in the the Composer context menu.
 3. Add a dependency on `phpoffice/phpexcel`. Install the `dev-master` version.
 4. Note the `vendor` folder has been added to the project, in which Composer generated the `autoload.php` file.
