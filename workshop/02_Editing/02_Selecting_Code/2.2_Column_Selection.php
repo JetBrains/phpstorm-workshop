@@ -6,6 +6,8 @@
  * Shift+Command+8 (macOS)
  *
  * Toggle column selection (allows editing multiple lines in one go)
+ *
+ * You can also press Shift+Alt and drag the mouse to perform column selection without entering the Column Selection Mode.
  */
 
 namespace Editing2\JetBrains;

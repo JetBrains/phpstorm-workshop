@@ -35,7 +35,7 @@
 //    move all resources to just one line.
 // 5. Hit Escape to revert back to one cursor and add `array(` at the beginning of
 //    all lines and `);` at the end. We now have an array declaration.
-// 6. Hold Alt and drag the mouse from the number 6 in front to the // 1..
+// 6. Hold Shift+Alt and drag the mouse from the number 6 in front to the // 1..
 //    Note how the multiple selection now selected a block of text we can work with
 //    and added multiple cursors.
 
