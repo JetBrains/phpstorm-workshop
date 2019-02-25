@@ -21,8 +21,8 @@ namespace LiveTemplates1\JetBrains;
 class CodeExpansion
 {
     // 2. Create a protected function firstFunction().
-    //    Type prof and hit TAB. Enter firstFunction in the first hotspot and hit TAB again.
-    //    We could accept arguments or choose to have none. Hit TAB again to move the caret to the function body.
+    //    Type prof and press TAB. Enter firstFunction in the first hotspot and press TAB again.
+    //    We could accept arguments or choose to have none. Press TAB again to move the caret to the function body.
 
     // prof <TAB>
 
@@ -34,9 +34,9 @@ class CodeExpansion
     {
         $numbers = array(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
-        // 4. Loop over the $numbers array. Type "fore" and hit TAB.
-        //    In the first hotspot, enter $numbers and hit TAB again.
-        //    In the second hotspot, accept the default variable name and hit TAB to move to the loop body.
+        // 4. Loop over the $numbers array. Type "fore" and press TAB.
+        //    In the first hotspot, enter $numbers and press TAB again.
+        //    In the second hotspot, accept the default variable name and press TAB to move to the loop body.
 
         // fore <TAB>
 

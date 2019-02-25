@@ -18,8 +18,8 @@
 
 namespace Editing7\JetBrains;
 
-use Editing2;
-use Editing6;
+use Editing2\JetBrains;
+use Editing6\JetBrains\Person;
 
 // 1. The class below is a mess.
 //    - Public/protected/static members are all mixed
@@ -27,7 +27,7 @@ use Editing6;
 //    - Indents are inconsistent
 // 2. Use Code | Rearrange Code in the menu to reorganize the class below.
 // 3. Use Undo to roll back the Rearrange Code action.
-// 4. There are also some unused imports (Editing2 and Editing6).
+// 4. There are also some unused imports (Editing2\JetBrains and Editing6\JetBrains\Person).
 //    Use Code | Optimize Imports from the menu to solve this.
 // 5. Use Undo and roll back the Optimize Imports action.
 // 6. Using the keyboard shortcut, use Reformat Code to run both Rearrange Code and

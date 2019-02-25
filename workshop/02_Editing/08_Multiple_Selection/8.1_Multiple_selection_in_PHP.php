@@ -28,12 +28,12 @@
 // 3. Release Alt and start typing. Text should now appear at every cursor. Use
 //    backspace to remove all `*`. Add `'` at the start of each line.
 //    Move the cursors to the end of the line and add `',`.
-// 4. Hit Escape to revert back to one cursor. Select the | in the first line.
+// 4. Press Escape to revert back to one cursor. Select the | in the first line.
 //    Use Select Next Occurrence to select all | characters and have a cursor there.
 //    Remove the character and replace it with `', '`.
 //    Move the cursors to the end of the line and press the delete key. This will
 //    move all resources to just one line.
-// 5. Hit Escape to revert back to one cursor and add `array(` at the beginning of
+// 5. Press Escape to revert back to one cursor and add `array(` at the beginning of
 //    all lines and `);` at the end. We now have an array declaration.
 // 6. Hold Shift+Alt and drag the mouse from the number 6 in front to the // 1..
 //    Note how the multiple selection now selected a block of text we can work with

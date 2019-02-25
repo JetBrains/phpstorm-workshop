@@ -25,7 +25,7 @@ class SurroundWith
         echo 'This may be throwing an Exception. Riiiight!';
     }
 
-    // 2. Place the caret on the $items[0] element. Hit Alt+Enter to surround with an if(!empty(....)) check.
+    // 2. Place the caret on the $items[0] element. Press Alt+Enter to surround with an if(!empty(....)) check.
     public function division($items)
     {
         return $items[0] / $items[1];
