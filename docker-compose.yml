@@ -10,6 +10,11 @@ services:
         #For Windows and macOS, replace the line below with `host.docker.internal`, which will automatically resolve to the internal address of the host Docker is running on.
         #For Linux, replace the line below with your hostname, which you can obtain by executing `hostname` in Terminal.
         XDEBUG_CONFIG: remote_host=<host.docker.internal or your hostname>
+
+        #For macOS, if you use a local Homebrew php-fpm installation, port `9000` (which is the default debugging port) may become occupied. PhpStorm will remain silent on starting listening for incoming connections. If this is the case, in the Settings | Languages & Frameworks | PHP | Debug, set the Debug port to 9001, and use the following configuration line instead.
+
+        #XDEBUG_CONFIG: remote_host=host.docker.internal, remote_port=9001
+
   sftp:
     image: phpstorm/sftp-server
     ports:
@@ -18,7 +23,7 @@ services:
   #   Uncomment for Windows
   #     - C:/temp:/home/jetbrains/upload
   #   Uncomment for macOS/Linux
-  #    - /tmp:/home/jetbrains/upload
+      - /tmp:/home/jetbrains/upload
     command: jetbrains:jetbrains:1001
   mysql:
       image: phpstorm/mysql
