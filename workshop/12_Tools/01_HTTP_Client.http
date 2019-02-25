@@ -1,0 +1,63 @@
+# The built-in HTTP client serves for testing web API's. You can compose and execute HTTP requests directly in the code editor, and store them in the .http or .rest files.
+
+
+# 1. Let's run our first request.
+# Press Alt+Enter on the request line and select "Run httpbin.org". You can also click the Run button in the editor gutter.
+GET https://httpbin.org/get
+
+###
+
+# Notice the "###" above: it marks the end of the request and we use it to separate multiple requests in a file.
+
+
+# 2. The following web service requires authentication.
+# Provide the basic Authorization header below the request line as follows: "Authorization: Basic user passwd"
+GET https://httpbin.org/basic-auth/user/passwd
+
+###
+
+
+# 3. To provide the request body, separate it with a blank line. Then, either type it in place or read it from a file by providing it as "< myFile".
+# In the following request, choose the body to be read from "SampleRequestBody.json".
+POST https://httpbin.org/post
+Content-Type: application/json
+
+<
+
+###
+
+
+# 4. Executing the following request will return what is passed to it.
+GET https://httpbin.org/anything
+Content-Type: application/json
+
+{
+  "value": "Correct Value"
+}
+
+###
+
+# Let us make sure that it works as intended. To do this, we use a response handler script that examines the received response. Scripts are prepended with > and enclosed in {% %}.
+# Execute the request and examine the results on the Console and Tests tabs below. Then correct the test condition in the response handler script so that the test runs successfully.
+GET https://httpbin.org/anything
+Content-Type: application/json
+
+{
+  "value": "Correct Value"
+}
+> {%
+client.test(
+    "Request executed successfully",
+    function (){
+        var receivedValue = response.body.json.value;
+        //Test condition
+        client.assert(receivedValue === "Some Value", "Invalid value received")
+    });
+ %}
+
+###
+
+
+# 5. What's next? Hover the mouse pointer over the upper-right corner of the editor and notice the two buttons:
+# - Requests History will show you the log of the 50 recently run requests. From there, you can re-run requests, open responses in the editor, and compare them.
+# - Requests Collection contains a selection of composed requests. Use it to further explore the HTTP Client capabilities.
