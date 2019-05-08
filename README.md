@@ -31,7 +31,7 @@ There are several ways to get started with the PhpStorm workshop materials:
 
 * Download the ZIP
 
-    `wget https://github.com/JetBrains/phpstorm-workshop/archive/master.zip`
+    `wget https://github.com/JetBrains/phpstorm-workshop/archive/docker.zip`
     
 ## Getting Started
 
