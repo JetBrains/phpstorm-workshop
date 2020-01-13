@@ -5,7 +5,7 @@ services:
     ports:
      - "8081:80"
     volumes:
-      - ./workshop/06_Debugging:/var/www/html
+      - ./workshop/07_Debugging:/var/www/html
     environment:
         #For Windows and macOS, replace the line below with `host.docker.internal`, which will automatically resolve to the internal address of the host Docker is running on.
         #For Linux, replace the line below with your hostname, which you can obtain by executing `hostname` in Terminal.
