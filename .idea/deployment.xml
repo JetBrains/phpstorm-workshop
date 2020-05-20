@@ -16,7 +16,7 @@
       <paths name="web_debugging">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$/workshop/06_Debugging" web="/" />
+            <mapping local="$PROJECT_DIR$/workshop/07_Debugging" web="/" />
           </mappings>
         </serverdata>
       </paths>
