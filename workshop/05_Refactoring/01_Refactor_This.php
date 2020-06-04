@@ -29,5 +29,5 @@ echo 'Name backwards: ' . $nameBackwards;
 
 // 5. From the Project Tool Pane, select the current file. Use Refactor This and rename it to "01_Refactor_This_done.php".
 //    Do not use te Refactor button, instead use Preview to see which files will be affected by the rename.
-//    Notice that Code.php will be updated, and also the file name in this comment block in excercise 03_Copy_Clone
+//    Notice that Code.php will be updated, and also the file name in this comment block in exercise 03_Copy_Clone
 //    From the tool window, click Do Refactor to continue the refactoring.
