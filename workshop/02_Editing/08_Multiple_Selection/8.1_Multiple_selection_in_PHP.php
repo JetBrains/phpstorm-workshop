@@ -44,4 +44,4 @@ PhpStorm Resources
 * Blog | http://blog.jetbrains.com/phpstorm
 * Twitter | http://twitter.com/phpstorm
 * Video tutorials | http://www.jetbrains.com/phpstorm/documentation/phpstorm-video-tutorials.jsp
-* Tutorials | http://confluence.jetbrains.com/display/PhpStorm/Tutorials
+* Help | https://www.jetbrains.com/help/phpstorm
