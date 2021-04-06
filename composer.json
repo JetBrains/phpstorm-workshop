@@ -9,5 +9,8 @@
             "name": "Maksim Kolmakov",
             "email": "maxim.kolmakov@jetbrains.com"
         }
-    ]
+    ],
+    "require": {
+        "php": "^8.0.1"
+    }
 }

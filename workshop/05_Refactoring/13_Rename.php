@@ -18,7 +18,7 @@ class Person
     // ...
 
     // 3. Rename the sayHello() function to sayGoodbye().
-    public function sayHello()
+    public function sayHello(): string
     {
         return 'Hello!';
     }
