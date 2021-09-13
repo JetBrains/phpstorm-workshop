@@ -63,7 +63,7 @@ class BasicCompletion
         //    Type "vlfn" to find the correct function.
         // $this->
 
-        // 10. Try path completion. Include the "Code/01_Simple_Include.php" file
+        // 10. Try path completion. Include the "Code/01_Basic_Include.php" file
         //     by placing the caret after Code/ and using basic completion.
         require_once 'Code/';
 
