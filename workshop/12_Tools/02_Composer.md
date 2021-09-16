@@ -5,7 +5,7 @@ PhpStorm integrates with the Composer dependency manager, which lets you declare
 1. Initialize Composer in the project.
     1. In the _Project_ tool window, right-click `composer.json` and select _Composer | Init Composer_ from the context menu. 
     2. In the dialog that opens, select _Remote Interpreter_. Then, in the CLI interpreter field, choose `composer:latest`. This will use a preconfigured Docker Composer image, and no further configuration will be required.
-    3. Alternatively, you can choose to download `composer.phar` to a folder on disk, and set up Composer execution manually under _Settings/Preferences | Languages & Frameworks | PHP | Composer_.
+    3. Alternatively, you can choose to download `composer.phar` to a folder on disk, and set up Composer execution manually under _Settings/Preferences | PHP | Composer_.
      
 2. Let's add a project dependency. Right-click `composer.json` and select _Composer | Manage dependencies_ from the context menu.
 3. Add a dependency on `phpoffice/phpexcel`. Install the `dev-master` version.
