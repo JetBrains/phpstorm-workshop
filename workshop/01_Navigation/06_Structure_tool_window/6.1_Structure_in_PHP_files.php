@@ -3,7 +3,7 @@
  * Structure Tool Window
  *
  * Alt+7 (Windows/Linux)
- * Command+7 s(Windows/Linux)
+ * Command+7 (macOS)
  *
  * Navigate to File Structure
  *
