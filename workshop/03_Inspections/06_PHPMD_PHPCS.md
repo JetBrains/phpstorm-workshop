@@ -5,26 +5,23 @@
 > * Command+, (macOS)
 >
 
-Plug in PHP Mess Detector or PHP Code Sniffer as inspection engines.
-
-1. Open the Settings Pane and then _PHP_, click the _[...]_ next to the 
-    interpreter list, and disable the "Visible only for this project" checkbox for _PHPCS_ and _PHPMD_ interpreter
-
 
 ### PHPCS configuration:
-2. Open the Settings Pane then _PHP | Code Sniffer_. 
-3. Click _[...]_ next to _Configuration_. 
-4. Click _+_ and select "PHPCS".
-5. Enter `phpcs` as the path for PHPCS. Validate installation.
-6. Apply settings and open the Settings Pane then _Editor | Inspections_. Enable PHP Code Sniffer and set the code standard 
-   to PSR-2.
-7. Run PHP Code Sniffer Inspections on the current project.
+1. Open the Settings Pane then _PHP | Quality Tools | PHP_CodeSniffer_. 
+2. Click _[...]_ next to _Configuration_. 
+3. Click _+_ and select "PHPCS".
+4. Enter `phpcs` as the path for PHPCS. Validate installation.
+5. Apply settings and click on the tumbler next to _Configuration_ to enable PHP Code Sniffer and set the coding standard 
+   to PSR2.
+6. Run PHP Code Sniffer Inspections on the current project. Use Command+Option+Shift+I (macOS) or
+   Ctrl+Alt+Shift+I (Windows/Linux) shortcut and type 'PHP_CodeSniffer validation'.
 
 ### PHPMD configuration:
-8. Open the Settings Pane then _PHP | Mess Detector_. 
-9. Click _[...]_ next to _Configuration_.
-10. Click _+_ and select "PHPCS". 
-11. Enter `phpmd` as the path for PHPMD. Validate installation.
-12.  Apply settings and open the Settings Pane then _Editor | Inspections_. Enable PHP Mess Detector and enable all the 
-    rules to validate against.
-13. Run PHP Mess Detector inspections on the current project.
+7. Open the Settings Pane then _PHP | Quality Tools | Mess Detector_. 
+8. Click _[...]_ next to _Configuration_.
+9. Click _+_ and select "PHPMD". 
+10. Enter `phpmd` as the path for PHPMD. Validate installation.
+11. Apply settings and click on the tumbler next to _Configuration_ to enable PHP Mess Detector and enable all the 
+    options to validate against.
+11. Run PHP Mess Detector inspections on the current project. Use Command+Option+Shift+I (macOS) or
+    Ctrl+Alt+Shift+I (Windows/Linux) shortcut and type 'PHP Mess Detector validation'.
