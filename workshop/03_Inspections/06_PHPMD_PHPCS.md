@@ -23,5 +23,5 @@
 10. Enter `phpmd` as the path for PHPMD. Validate installation.
 11. Apply settings and click on the tumbler next to _Configuration_ to enable PHP Mess Detector and enable all the 
     options to validate against.
-11. Run PHP Mess Detector inspections on the current project. Use Command+Option+Shift+I (macOS) or
+12. Run PHP Mess Detector inspections on the current project. Use Command+Option+Shift+I (macOS) or
     Ctrl+Alt+Shift+I (Windows/Linux) shortcut and type 'PHP Mess Detector validation'.
